@@ -29,11 +29,11 @@ Step 3: Enter required property values appropriate to your environment:
        ii.alfresco_admin_password : Enter the password for alfresco application login
 	 
 	
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/Alfresco-Service-50/Service-Property-new.jpg) 
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/Alfresco-Service/Service-Property-new.jpg) 
 
 ##Blueprint Canvas diagram for your reference: 
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/Alfresco-Service-50/Blueprint1-new1.jpg)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/Alfresco-Service/Blueprint1-new1.jpg)
 
 ###Ready to go for deployment
 
@@ -41,4 +41,4 @@ Step 3: Enter required property values appropriate to your environment:
 
 Verify deployment by accessing URL: http://< WebPortal IP >:8080/alfresco 
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/Alfresco-Service-50/Smoke-Test.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/Alfresco-Service/Smoke-Test.png)
