@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Alfresco-4.1.5-service.xml",                
+				"exportedFileReadme":"Alfresco-4.1.5-service.xml.readme",                
+				"importSectionHeader":"Alfresco-4.1.5-service",                
+				"exportedWithAppDVersion":5.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"Alfresco-4.1.5-service.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"Alfresco-4.1.5-service.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 

@@ -1,0 +1,2620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns33:export-package
+    xmlns:ns48="http://www.vmware.com/darwin/api/v2/beans/properties"
+    xmlns:ns33="http://www.vmware.com/darwin/schema/beans/exim"
+    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/deployment"
+    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/security/ldap"
+    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/deployment/environment"
+    xmlns:ns37="http://www.vmware.com/darwin/api/v2/beans/cloud"
+    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/rollback/profile"
+    xmlns:ns47="http://www.vmware.com/darwin/schema/beans/storage"
+    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/security"
+    xmlns:ns30="http://www.vmware.com/darwin/schema/beans/ssl"
+    xmlns:ns43="http://www.vmware.com/darwin/schema/beans/monitor"
+    xmlns:ns29="http://www.vmware.com/darwin/schema/beans/networking"
+    xmlns:ns32="http://www.vmware.com/darwin/schema/beans/api"
+    xmlns:ns39="http://www.vmware.com/darwin/api/v2/beans/catalog"
+    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/policy"
+    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/csp/cafe"
+    xmlns:ns36="http://www.vmware.com/darwin/api/v2/beans/certificate"
+    xmlns:ns31="http://www.vmware.com/darwin/schema/beans/notification"
+    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/solution"
+    xmlns:ns2="http://www.vmware.com/darwin/schema/beans/response"
+    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/driver/location"
+    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
+    xmlns:ns38="http://www.vmware.com/darwin/api/v2/beans/deployment/profile"
+    xmlns:ns46="http://www.vmware.com/darwin/api/v2/beans/application"
+    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/application"
+    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/deployment/system"
+    xmlns:ns34="http://www.vmware.com/darwin/api/v2/beans"
+    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/props"
+    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/update/profile"
+    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/cloud/provider"
+    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/entity"
+    xmlns:ns45="http://www.vmware.com/darwin/api/v2/beans/security"
+    xmlns:ns28="http://www.vmware.com/darwin/schema/beans/security/user"
+    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/profile/base"
+    xmlns:ns49="http://www.vmware.com/darwin/schema/beans/exim/vsxclient"
+    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/deployment/profile"
+    xmlns:ns41="http://www.vmware.com/darwin/schema/beans/exim/marketplace"
+    xmlns:ns12="http://www.vmware.com/darwin/schema/beans/blueprint"
+    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/scripts"
+    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/teardown/profile"
+    xmlns:ns35="http://www.vmware.com/darwin/api/v2/beans/update/profile"
+    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/flow"
+    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/metatag"
+    xmlns:ns42="http://www.vmware.com/darwin/api/v2/beans/csp"
+    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/physical/template"
+    xmlns:ns44="http://www.vmware.com/darwin/api/v2/beans/deployment"
+    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns40="http://www.vmware.com/darwin/schema/beans/license">
+    <errors>false</errors>
+    <application-director-version>vCloud Application Director CLI BUILD [6.0.0-1413557]</application-director-version>
+    <service-versions>
+        <id>0</id>
+        <inactive>false</inactive>
+        <lock-version>0</lock-version>
+        <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+        <last-update-user>admin</last-update-user>
+        <created>2013-11-15T05:56:30+00:00</created>
+        <create-user>admin</create-user>
+        <name>Alfresco</name>
+        <description>Content management Server</description>
+        <group-membership>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-15T05:56:30+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <owner-group>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:24+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Default</name>
+                <description>The Default vCloud Application Director group.</description>
+                <name-message-key>group.default.name</name-message-key>
+                <description-message-key>group.default.description</description-message-key>
+            </owner-group>
+            <global>false</global>
+        </group-membership>
+        <revision>0</revision>
+        <major>4</major>
+        <minor>1</minor>
+        <micro>5</micro>
+        <qualifier></qualifier>
+        <dynamically-installable>true</dynamically-installable>
+        <auto-bind-properties>false</auto-bind-properties>
+        <icon-name></icon-name>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Alfresco admin password</description>
+            <key>alfresco_admin_password</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[vmware]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[vmware]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Path to the directory where Alfresco tomcat bundle gets installed. This is to be left empty and is used internally by the lifecycle scripts.</description>
+            <key>ALFRESCO_TOMCAT_HOME</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Timeout time in seconds to wait for tomcat server to startup successfully. (default: 2400sec=40 minutes).</description>
+            <key>tomcat_startup_timeout_time</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[2400]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[2400]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"The MySQL database name to be used by Alfresco. This should have been created on the Mysql server. Required if mysql_integration=yes"</description>
+            <key>mysql_db_name</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[alfresco]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[alfresco]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"Path to the directory where alfresco bundle gets installed. This is to be left empty and is used internally by the lifecycle scripts."</description>
+            <key>ALFRESCO_HOME</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description></description>
+            <key>global_conf</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Content</name>
+                <description>Content (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"Alfresco installer download url. E.g : ftp://10.44.50.7/AppDirector/applications/alfresco/alfresco-enterprise-4.0.1-installer-linux-x64.bin"</description>
+            <key>installer_url</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Content</name>
+                <description>Content (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[http://10.99.133.62/software/Deployment_Software/alfresco-enterprise-4.1.5-installer-linux-x64.bin]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[http://10.99.133.62/software/Deployment_Software/alfresco-enterprise-4.1.5-installer-linux-x64.bin]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"MySQL database password. This should have been set on the Mysql server. Required if mysql_integration=yes"</description>
+            <key>mysql_db_password</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[alfresco]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[alfresco]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"MySQL database server IP. Required if mysql_integration=yes Default : localhost"</description>
+            <key>mysql_server_ip</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[127.0.0.1]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[127.0.0.1]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"MySQL database user name. This is the user which has all privilleges on database used by Alfresco This should have been created on the Mysql server. Required if mysql_integration=yes"</description>
+            <key>mysql_db_username</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[alfresco]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[alfresco]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"Select if Alfresco should use MySQL as the database. &lt;yes|no&gt; Default : no"</description>
+            <key>mysql_integration</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[no]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[no]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"The MySQL database driver Alfresco should use. (org.gjt.mm.mysql.Driver) Required if mysql_integration=yes"</description>
+            <key>mysql_db_driver</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[org.gjt.mm.mysql.Driver]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[org.gjt.mm.mysql.Driver]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"Select if Liferay integration is required. &lt;yes|no&gt; default : no"</description>
+            <key>liferay_integration</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[no]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[no]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>"MySQL JAVA connector download url. (mysql-connector-java-5.0.8.tar.gz) Required if mysql_integration=yes e.g : ftp://10.44.50.7/AppDirector/applications/LifeRay/mysql-connector-java-5.0.8.tar.gz"</description>
+            <key>mysql_connector</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Content</name>
+                <description>Content (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[http://10.99.133.62/software/Deployment_Software/mysql-connector-java-5.0.8.tar.gz]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns5:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-19T10:13:57+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[http://10.99.133.62/software/Deployment_Software/mysql-connector-java-5.0.8.tar.gz]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns5:bound-prop>
+        </props>
+        <meta-tag>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:55+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-07T19:43:23+00:00</created>
+            <create-user>SYSTEM</create-user>
+            <name>Other</name>
+            <description>Miscellaneous</description>
+            <meta-tag-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Server Type</name>
+                <description>Server type, primarily used for organizing data.</description>
+                <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
+                <user-managed-type>true</user-managed-type>
+            </meta-tag-type>
+        </meta-tag>
+        <service>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-15T05:56:30+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:30+00:00</created>
+            <create-user>admin</create-user>
+            <name>Alfresco</name>
+            <description>This solution provides automated installation and configuration for Alfresco Enterprise 4.1.5 (Standalone Configuration) as a service.</description>
+            <revision>0</revision>
+            <group-membership>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-15T05:56:30+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-15T05:56:30+00:00</created>
+                <create-user>admin</create-user>
+                <owner-group>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:24+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Default</name>
+                    <description>The Default vCloud Application Director group.</description>
+                    <name-message-key>group.default.name</name-message-key>
+                    <description-message-key>group.default.description</description-message-key>
+                </owner-group>
+                <global>false</global>
+            </group-membership>
+            <icon-name></icon-name>
+        </service>
+        <os-versions>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:55+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:28+00:00</created>
+            <create-user>admin</create-user>
+            <name>CentOS64</name>
+            <description>CentOS 5.6 64bit</description>
+            <revision>0</revision>
+            <major>5</major>
+            <minor>6</minor>
+            <micro>0</micro>
+            <qualifier></qualifier>
+            <dynamically-installable>false</dynamically-installable>
+            <auto-bind-properties>false</auto-bind-properties>
+            <operating-system>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-18T08:44:05+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-07T19:43:24+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>CentOS64</name>
+                <description>CentOS 64bit</description>
+                <revision>0</revision>
+                <icon-name>centos</icon-name>
+                <os-family-meta-tag>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Linux</name>
+                    <description>Linux based operating systems.</description>
+                    <meta-tag-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>OS Family</name>
+                        <description>Operating System (OS) Family.</description>
+                        <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                        <user-managed-type>false</user-managed-type>
+                    </meta-tag-type>
+                    <os-family>LINUX</os-family>
+                </os-family-meta-tag>
+                <hardware-architecture-meta-tag>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>x86_64</name>
+                    <description>x86_64</description>
+                    <meta-tag-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Hardware Architecture</name>
+                        <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                        <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                        <user-managed-type>false</user-managed-type>
+                    </meta-tag-type>
+                    <hardware-architecture>X86_64</hardware-architecture>
+                </hardware-architecture-meta-tag>
+            </operating-system>
+        </os-versions>
+        <ns9:component-version-script>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-19T10:13:57+00:00</created>
+            <create-user>admin</create-user>
+            <description></description>
+            <script>#!/bin/bash
+#################################################################################################
+# NAME
+# install.sh
+#
+# LAST MODIFIED
+# 27-June-2012
+#
+# SYNOPSIS
+#
+# DESCRIPTION
+# This script installs Alfresco Enterprise Bundle. This Script is written only for Alfresco Enterprise 4.0.1
+# bundle
+#
+# ENVIRONMENT
+# Following environment variables are needed by this script:
+# 1. global_conf : This is the path to the file https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+# on the appdirector server
+# LICENSE
+#
+# AUTHOR
+# Ankur Goel
+# Persistent Systems Limited
+#################################################################################################
+# Enables checking of all commands. If a command exits with an error(non-zero status)
+# and the caller does not check such error, the script aborts immediately
+set -e
+set -x
+
+# Import Global conf
+. $global_conf
+
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+#- Check validity of OS
+if [ "x$OS" = "x" ] ; then
+echo "Unknown OS"
+exit 1
+elif [ $OS != 'CentOS' ] ; then
+echo "This OS is not supported"
+exit 1
+fi
+
+# Validate Mandatory Arguments
+if [ "x$alfresco_admin_password" = "x" ] ; then
+echo "Mandatory Property 'alfresco_admin_password' is not defined "
+exit 1
+fi
+if [ "x$installer_url" = "x" ] ; then
+echo "Mandatory Property 'installer_url' is not defined "
+exit 1
+fi
+
+# Validate Mandatory Arguments for MySql integration
+mysql_integration=${mysql_integration:-"no"}
+#mandatory_args = ( mysql_db_name mysql_db_username mysql_db_password mysql_connector mysql_db_driver mysql_server_ip )
+if [ $mysql_integration == "yes" ] ; then
+error_message=""
+if [ "x$mysql_db_name" = "x" ] ; then
+error_message="$error_message\nMandatory Property 'mysql_db_name' is not defined for mysql integration"
+fi
+if [ "x$mysql_db_username" = "x" ] ; then
+error_message="$error_message\nMandatory Property 'mysql_db_username' is not defined for mysql integration"
+fi
+if [ "x$mysql_db_password" = "x" ] ; then
+error_message="$error_message\nMandatory Property 'mysql_db_password' is not defined for mysql integration "
+fi
+if [ "x$mysql_db_driver" = "x" ] ; then
+error_message="$error_message\nMandatory Property 'mysql_db_driver' is not defined for mysql integration "
+fi
+if [ "x$mysql_connector" = "x" ] ; then
+error_message="$error_message\nMandatory Property 'mysql_connector' is not defined for mysql integration "
+fi
+if [ "x$mysql_server_ip" = "x" ] ; then
+error_message="$error_message\nMandatory Property 'mysql_server_ip' is not defined for mysql integration "
+fi
+if [ "x$error_message" != "x" ] ; then
+echo -e $error_message
+exit 1
+fi
+fi
+
+# Install the application
+if [ ! -f $installer_url ] ; then # Check if Alfresco Installer file exists
+    echo "Application installer not found."
+    exit 1
+else
+echo "Setting execute permissions for installer"
+    chmod +x $installer_url
+
+    echo "Installing Alfresco Enterprise"
+    if [ $mysql_integration == "yes" ] ; then
+echo "MySQL integration enabled for alfresco"
+        echo "Installing Alfresco with MySQL integration enabled"
+        jdbc_url="jdbc:mysql://$mysql_server_ip/$mysql_db_name?useUnicode=yes&amp;characterEncoding=UTF-8"
+        install_command="$installer_url --mode unattended --alfresco_admin_password $alfresco_admin_password --disable-components postgres --jdbc_url $jdbc_url --jdbc_database $mysql_db_name --jdbc_username $mysql_db_username --jdbc_password $mysql_db_password --jdbc_driver $mysql_db_driver "
+    else
+install_command="$installer_url --mode unattended --alfresco_admin_password $alfresco_admin_password"
+    fi
+echo "Installation Started at `date`"
+    echo "Executing command '$install_command' to install alfresco"
+    $install_command
+    echo "Installation completed at `date`"
+    
+    # Set properties required by other lifecycle stages
+    ALFRESCO_HOME=/opt/alfresco-4.1.5
+    ALFRESCO_TOMCAT_HOME=$ALFRESCO_HOME/tomcat
+
+    # allow non tty sessions
+    #sed -i 's/Defaults requiretty/#Defaults requiretty/g' /etc/sudoers
+fi</script>
+            <embedded>true</embedded>
+            <script-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Bash Script</name>
+                <description>Bash shell script.</description>
+                <name-message-key>type.script.bash.name</name-message-key>
+                <description-message-key>type.script.bash.description</description-message-key>
+                <supported-os-details>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:24+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <os-family>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Linux</name>
+                        <description>Linux based operating systems.</description>
+                        <meta-tag-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>OS Family</name>
+                            <description>Operating System (OS) Family.</description>
+                            <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                            <user-managed-type>false</user-managed-type>
+                        </meta-tag-type>
+                        <os-family>LINUX</os-family>
+                    </os-family>
+                    <supports-array-props>true</supports-array-props>
+                    <supports-output-props>true</supports-output-props>
+                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                    <exec-script-extension>sh</exec-script-extension>
+                    <file-extension>sh</file-extension>
+                </supported-os-details>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <expression>$&lt;property-name&gt;</expression>
+                </script-type-expression>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Content</name>
+                        <description>Content (java.lang.String).</description>
+                    </prop-type>
+                    <expression>$&lt;property-name&gt;</expression>
+                </script-type-expression>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Array</name>
+                        <description>Array</description>
+                    </prop-type>
+                    <expression>${&lt;property-name&gt;[@]}</expression>
+                </script-type-expression>
+            </script-type>
+            <component-lifecycle-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:24+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>INSTALL</name>
+                <description>Install lifecycle on a component.</description>
+                <name-message-key>type.lifecycle.install.name</name-message-key>
+                <description-message-key>type.lifecycle.install.description</description-message-key>
+            </component-lifecycle-type>
+            <reboot-after>false</reboot-after>
+        </ns9:component-version-script>
+        <ns9:component-version-script>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-19T10:13:57+00:00</created>
+            <create-user>admin</create-user>
+            <description></description>
+            <script>#!/bin/bash
+#################################################################################################
+# NAME
+# start.sh
+#
+# LAST MODIFIED
+# 27-June-2012
+#
+# SYNOPSIS
+#
+# DESCRIPTION
+# This script installs Alfresco Enterprise Bundle
+#
+# USAGE
+# Following environment variables are needed by this script:
+# 1. global_conf : This is the path to the file https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+# on the appdirector server
+# LICENSE
+#
+# AUTHOR
+# Ankur Goel
+# Persistent Systems Limited
+#################################################################################################
+# Enables checking of all commands. If a command exits with an error(non-zero status)
+# and the caller does not check such error, the script aborts immediately
+set -e
+set -x
+
+# set -u, will exit your script if you try to use an uninitialised variable
+set -u
+
+# Import Global conf
+. $global_conf
+
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+#Environment variable
+ALFRESCO_HOME=/opt/alfresco-4.1.5
+ALFRESCO_TOMCAT_HOME=$ALFRESCO_HOME/tomcat
+
+# start the alfresco service
+/etc/init.d/alfresco start
+
+# Check alfresco tomcat startup
+echo "Checking alfresco tomcat startup...."
+# Wait for tomcat server to start completely
+tomcat_startup_timeout_time=${tomcat_startup_timeout_time:-2400} ;#default value 2400 seconds ,40 minutes
+interval=60 ;# 30 seconds interval between lookups
+tomcat_log=$ALFRESCO_TOMCAT_HOME/logs/catalina.out
+touch $tomcat_log ;# Create the log file in case it is not created
+no_of_lines=$(wc -l $tomcat_log | awk '{print $1}');# Get number of lines in tomcat log file
+t1=`date +%s` ;# Capture current time in seconds since 1970-01-01 00:00:00 UTC
+while [ 1 ]
+do
+sleep $interval ; # sleep for sometime before checking Server startup message
+    t2=`date +%s`; #Capture current time in seconds since 1970-01-01 00:00:00 UTC
+    echo "Checking Alfresco tomcat startup after $[$t2-$t1] seconds..."
+    if [ $[$t2-$t1] -ge $tomcat_startup_timeout_time ] ; then
+echo "Tomcat server did not start even after $timeout_time seconds"
+        echo "Please see the logs '$tomcat_log' to find the root cause"
+        exit 1
+    fi
+
+    # Check server staartup message in log file. If found then come out of while loop
+    if tail -n +$[$no_of_lines + 1] $tomcat_log | grep -n "Server startup in" &gt;&gt; /dev/null ; then
+echo "Tomcat server startup completed"
+        break ;#Server startup completed
+    fi
+done
+
+# If we come here then tomcat is successfully started.
+# There are chances Alfresco may not have started.
+# Make sure Alfresco is really really running.
+echo "Checking java process running status"
+if ! ps -ef | grep java | grep alfresco ; then
+echo "Tomcat server stopped after starting up successfully."
+    echo "Please see the logs '$tomcat_log' to find the root cause"
+    exit 1
+fi
+
+echo "Alfresco service started successfully...."</script>
+            <embedded>true</embedded>
+            <script-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Bash Script</name>
+                <description>Bash shell script.</description>
+                <name-message-key>type.script.bash.name</name-message-key>
+                <description-message-key>type.script.bash.description</description-message-key>
+                <supported-os-details>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:24+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <os-family>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Linux</name>
+                        <description>Linux based operating systems.</description>
+                        <meta-tag-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>OS Family</name>
+                            <description>Operating System (OS) Family.</description>
+                            <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                            <user-managed-type>false</user-managed-type>
+                        </meta-tag-type>
+                        <os-family>LINUX</os-family>
+                    </os-family>
+                    <supports-array-props>true</supports-array-props>
+                    <supports-output-props>true</supports-output-props>
+                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                    <exec-script-extension>sh</exec-script-extension>
+                    <file-extension>sh</file-extension>
+                </supported-os-details>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <expression>$&lt;property-name&gt;</expression>
+                </script-type-expression>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Content</name>
+                        <description>Content (java.lang.String).</description>
+                    </prop-type>
+                    <expression>$&lt;property-name&gt;</expression>
+                </script-type-expression>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Array</name>
+                        <description>Array</description>
+                    </prop-type>
+                    <expression>${&lt;property-name&gt;[@]}</expression>
+                </script-type-expression>
+            </script-type>
+            <component-lifecycle-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:24+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>START</name>
+                <description>Start lifecycle on a component.</description>
+                <name-message-key>type.lifecycle.start.name</name-message-key>
+                <description-message-key>type.lifecycle.start.description</description-message-key>
+            </component-lifecycle-type>
+            <reboot-after>false</reboot-after>
+        </ns9:component-version-script>
+        <ns9:component-version-script>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-19T10:13:57+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-19T10:13:57+00:00</created>
+            <create-user>admin</create-user>
+            <description></description>
+            <script>#!/bin/bash
+#################################################################################################
+# NAME
+# configure.sh
+#
+# LAST MODIFIED
+# 27-June-2012
+#
+# SYNOPSIS
+#
+# DESCRIPTION
+# This script installs Alfresco Enterprise Bundle
+# with optional liferay integration
+#
+# USAGE
+# Following environment variables are needed by this script:
+# 1. global_conf : This is the path to the file https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+# on the appdirector server
+# LICENSE
+#
+# AUTHOR
+# Ankur Goel
+# Persistent Systems Limited
+#################################################################################################
+# Enables checking of all commands. If a command exits with an error(non-zero status)
+# and the caller does not check such error, the script aborts immediately
+set -e
+set -x
+
+# Import Global conf
+. $global_conf
+
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# Set properties required by other lifecycle stages
+ALFRESCO_HOME=/opt/alfresco-4.1.5
+ALFRESCO_TOMCAT_HOME=$ALFRESCO_HOME/tomcat
+
+# Update host file
+address=`ifconfig |grep "inet addr" |grep -v "127.0.0.1" |awk '{print $2;}' |awk -F':' '{print $2;}'`
+echo $address `hostname`&gt;&gt;/etc/hosts
+echo "hosts file updated"
+
+# Integrate with liferay if enabled
+liferay_integration=${liferay_integration:-"no"} ;
+if [ "$liferay_integration" == "yes" ] ; then
+echo "Liferay integration enabled"
+    alfresco_properties_file=$ALFRESCO_TOMCAT_HOME/shared/classes/alfresco-global.properties
+    echo "" &gt;&gt; $alfresco_properties_file
+    echo "authentication.chain=alfrescoNtlm1:alfrescoNtlm,external1:external" &gt;&gt; $alfresco_properties_file
+    echo "external.authentication.proxyUserName=" &gt;&gt; $alfresco_properties_file
+    mkdir -p $ALFRESCO_TOMCAT_HOME/webapps/integration
+    cp $ALFRESCO_TOMCAT_HOME/webapps/share.war $ALFRESCO_TOMCAT_HOME/webapps/integration
+    echo "share.war available at http://&lt;alfresco IP&gt;:8080/integration/share.war"
+fi
+
+#Integrate with MySQL if enabled
+mysql_integration=${mysql_integration:-"no"} ;
+if [ $mysql_integration == "yes" ] ; then
+echo "MySQL intregration enabled"
+    #Configuring alfresco for Mysql JDBC driver
+    mysql_connector_jar=`tar -tzf $mysql_connector | grep -e "mysql-connector-java.*bin\.jar$"` ;
+    tar -xzf $mysql_connector $mysql_connector_jar ;
+    cp $mysql_connector_jar $ALFRESCO_TOMCAT_HOME/lib
+fi</script>
+            <embedded>true</embedded>
+            <script-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Bash Script</name>
+                <description>Bash shell script.</description>
+                <name-message-key>type.script.bash.name</name-message-key>
+                <description-message-key>type.script.bash.description</description-message-key>
+                <supported-os-details>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:24+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <os-family>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Linux</name>
+                        <description>Linux based operating systems.</description>
+                        <meta-tag-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>OS Family</name>
+                            <description>Operating System (OS) Family.</description>
+                            <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                            <user-managed-type>false</user-managed-type>
+                        </meta-tag-type>
+                        <os-family>LINUX</os-family>
+                    </os-family>
+                    <supports-array-props>true</supports-array-props>
+                    <supports-output-props>true</supports-output-props>
+                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                    <exec-script-extension>sh</exec-script-extension>
+                    <file-extension>sh</file-extension>
+                </supported-os-details>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <expression>$&lt;property-name&gt;</expression>
+                </script-type-expression>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Content</name>
+                        <description>Content (java.lang.String).</description>
+                    </prop-type>
+                    <expression>$&lt;property-name&gt;</expression>
+                </script-type-expression>
+                <script-type-expression>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Array</name>
+                        <description>Array</description>
+                    </prop-type>
+                    <expression>${&lt;property-name&gt;[@]}</expression>
+                </script-type-expression>
+            </script-type>
+            <component-lifecycle-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:24+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:24+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>CONFIGURE</name>
+                <description>Configure lifecycle on a component.</description>
+                <name-message-key>type.lifecycle.configure.name</name-message-key>
+                <description-message-key>type.lifecycle.configure.description</description-message-key>
+            </component-lifecycle-type>
+            <reboot-after>false</reboot-after>
+        </ns9:component-version-script>
+    </service-versions>
+</ns33:export-package>
