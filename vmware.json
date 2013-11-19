@@ -5,7 +5,7 @@
 		},        
 		"applications":{            
 			"applicationDirectorWebImport":{                
-				"exportFileName":"Oracle-WebLogic-Server 12c-Non-Clustered-Service.xml",                
+				"exportFileName":"Oracle-WebLogic-Server-12c-Non-Clustered-Service.xml",                
 				"exportedFileReadme":"Oracle-WebLogic-Server 12c-Non-Clustered-Service.xml.readme",                
 				"importSectionHeader":"Oracle-WebLogic-Server 12c-Non-Clustered-Service",                
 				"exportedWithAppDVersion":5.0,                
