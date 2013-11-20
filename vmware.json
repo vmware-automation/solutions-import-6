@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"JBoss-App-Server-7-DC-Configuration-50.xml",                
+				"exportedFileReadme":"JBoss-App-Server-7-DC-Configuration-50.xml.readme",                
+				"importSectionHeader":"JBoss-App-Server-7-DC-Configuration-Blueprint",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"JBoss-App-Server-7-DC-Configuration-50.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"JBoss-App-Server-7-DC-Configuration-50.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
