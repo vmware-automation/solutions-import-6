@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Clustered-Apache-Hadoop-0.20.203.xml",                
+				"exportedFileReadme":"appd-Clustere-Apache-Hadoop-0.20.203.xml.readme",                
+				"importSectionHeader":"appd-Clustere-Apache-Hadoop-0.20.203",                
+				"exportedWithAppDVersion":5.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"appd-Clustere-Apache-Hadoop-0.20.203.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"appd-Clustere-Apache-Hadoop-0.20.203.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
