@@ -1,0 +1,15 @@
+{
+    "vmware":{
+        "config":{
+            "version":1.0
+        },
+        "applications":{
+            "applicationDirectorWebImport":{
+                "exportFileName":"Oracle_RAC_11.2.xml",
+                "exportedFileReadme":"Oracle_RAC_11.2.readme",
+                "importSectionHeader":"Oracle RAC 11.2 for RHEL 6.1",
+                "exportedWithAppDVersion":6.0
+            }
+        }
+    }
+}
