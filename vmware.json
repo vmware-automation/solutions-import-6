@@ -1,0 +1,20 @@
+{
+    "vmware":{
+        "config":{
+            "version":1.0
+        },
+        "applications":{
+            "applicationDirectorWebImport":{
+                "exportFileName":"BitNami-Jenkins-64bit-blueprint.xml",
+                "exportedFileReadme":"BitNami-Jenkins-64bit-blueprint.xml.readme",
+                "importSectionHeader":"BitNami Jenkins",
+                "exportedWithAppDVersion":6.0,
+                "optional":{
+                    "nextStepsMarkdownFile":"BitNami-Jenkins-64bit-blueprint.xml.md",
+                    "enableConsoleLogging":true,
+                    "exportedFileErrorReadme":"import-error.readme"
+                }
+            }
+        }
+    }
+}

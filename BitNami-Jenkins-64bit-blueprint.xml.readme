@@ -1,0 +1,3 @@
+Jenkins, previously known as Hudson, is an open source continuous integration server. Built with Java, it provides over 400 plugins to support building and testing virtually any project.
+
+For instructions on creating this solution in vFabric Application Director 1.0, visit http://bitnami.org/vmware/jenkins
