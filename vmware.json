@@ -8,7 +8,7 @@
 				"exportFileName":"Oracle-WebLogic-Server-12c-Non-Clustered-Service.xml",                
 				"exportedFileReadme":"Oracle-WebLogic-Server 12c-Non-Clustered-Service.xml.readme",                
 				"importSectionHeader":"Oracle-WebLogic-Server 12c-Non-Clustered-Service",                
-				"exportedWithAppDVersion":5.0,                
+				"exportedWithAppDVersion":6.0,                
 				"optional":{                    
 					"nextStepsMarkdownFile":"Oracle-WebLogic-Server 12c-Non-Clustered-Service.xml.md",                    
 					"enableConsoleLogging":true,                    
