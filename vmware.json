@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"IBM-DB2-10.1-On-Linux.xml",                
+				"exportedFileReadme":"IBM-DB2-10.1-On-Linux.xml.readme",                
+				"importSectionHeader":"IBM-DB2-10.1-On-Linux",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"IBM-DB2-10.1-On-Linux.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"IBM-DB2-10.1-On-Linux.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
