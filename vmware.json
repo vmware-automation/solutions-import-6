@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml",                
+				"exportedFileReadme":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.readme",                
+				"importSectionHeader":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
