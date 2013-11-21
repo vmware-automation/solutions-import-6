@@ -1,0 +1,6 @@
+WSO2 ESB is a production grade open source ESB solution based on the lightweight Apache Synapse ESB with highest performance, lowest footprint, and most interoperable SOA and integration middl eware today.
+Relying on our innovative Carbon technology, the ESB delivers a smooth start-to-finish project experience that you cannot find anywhere else. 
+The feature rich and standards compliant WSO2 ESB delivers high performance within a lean footprint.
+For example, a deployed WSO2 ESB often fits within a 160 MB memory space. 
+WSO2 ESB supports service mediation, message mediation, load balancing, clustering and many more enterprise integration techniques. 
+It also supports a range of application and transport level protocols such as HTTP, JMS, Mail, VFS and FIX.

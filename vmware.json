@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"WSO2-ESB-4.0.3-for-Linux-Blueprint-by-InterraIT.xml",                
+				"exportedFileReadme":"WSO2-ESB-4.0.3-for-Linux-Blueprint-by-InterraIT.xml.readme",                
+				"importSectionHeader":"WSO2-ESB-4.0.3-for-Linux-Blueprint-by-InterraIT",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"WSO2-ESB-4.0.3-for-Linux-Blueprint-by-InterraIT.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"WSO2-ESB-4.0.3-for-Linux-Blueprint-by-InterraIT.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
