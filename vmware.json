@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Zend-Framework-for-Linux-Blueprint.xml",                
+				"exportedFileReadme":"Zend-Framework-for-Linux-Blueprint-50.xml.readme",                
+				"importSectionHeader":"Zend Framework for Linux (Blueprint) by InterraIT",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"Zend-Framework-for-Linux-Blueprint-50.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"Zend-Framework-for-Linux-Blueprint-50.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
