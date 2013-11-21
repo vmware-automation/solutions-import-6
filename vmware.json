@@ -1,0 +1,15 @@
+{
+    "vmware":{
+        "config":{
+            "version":1.0
+        },
+        "applications":{
+            "applicationDirectorWebImport":{
+                "exportFileName":"SharepointServer2010.xml",
+                "exportedFileReadme":"SharepointServer2010.readme",
+                "importSectionHeader":"Sharepoint Server 2010",
+                "exportedWithAppDVersion":6.0
+            }
+        }
+    }
+}
