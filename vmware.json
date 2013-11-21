@@ -1,0 +1,20 @@
+{
+    "vmware":{
+        "config":{
+            "version":1.0
+        },
+        "applications":{
+            "applicationDirectorWebImport":{
+                "exportFileName":"BitNami-LimeSurvey-64bit-blueprint.xml",
+                "exportedFileReadme":"BitNami-LimeSurvey-64bit-blueprint.xml.readme",
+                "importSectionHeader":"BitNami LimeSurvey",
+                "exportedWithAppDVersion":6.0,
+                "optional":{
+                    "nextStepsMarkdownFile":"BitNami-LimeSurvey-64bit-blueprint.xml.md",
+                    "enableConsoleLogging":true,
+                    "exportedFileErrorReadme":"import-error.readme"
+                }
+            }
+        }
+    }
+}
