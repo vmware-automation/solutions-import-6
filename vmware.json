@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Liferay-OpenLDAP-Application-Blueprint.xml",                
+				"exportedFileReadme":"Liferay-OpenLDAP-Application-Blueprint.xml.readme",                
+				"importSectionHeader":"Liferay-OpenLDAP-Application-Blueprint",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"Liferay-OpenLDAP-Application-Blueprint.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"Liferay-OpenLDAP-Application-Blueprint.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
