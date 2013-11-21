@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Oracle-Database-11g-Service.xml",                
+				"exportedFileReadme":"Oracle-Database-11g-Service.xml.readme",                
+				"importSectionHeader":"Oracle-Database-11g-Service",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"Oracle-Database-11g-Service.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"Oracle-Database-11g-Service.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
