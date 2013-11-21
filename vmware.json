@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"VMware-vFabric-RabbitMQ2.8-Service.xml",                
+				"exportedFileReadme":"VMware-vFabric-RabbitMQ2.8-Service.xml.readme",                
+				"importSectionHeader":"VMware-vFabric-RabbitMQ2.8-Service",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"VMware-vFabric-RabbitMQ2.8-Service.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"VMware-vFabric-RabbitMQ2.8-Service.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
