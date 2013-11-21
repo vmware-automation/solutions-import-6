@@ -1,0 +1,3 @@
+MediaWiki is a wiki package originally written for Wikipedia. It is now used by several other projects of the non-profit Wikimedia Foundation and by many other wikis. MediaWiki was designed to be run on a large server farm for a website that gets millions of hits per day.
+
+For instructions on creating this solution in vFabric Application Director 1.0, visit http://bitnami.org/vmware/mediawiki
