@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"JBoss-Application-Server7-Service.xml",                
+				"exportedFileReadme":"JBoss-Application-Server7-Service.xml.readme",                
+				"importSectionHeader":"JBoss-Application-Server7-Service",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"JBoss-Application-Server7-Service.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"JBoss-Application-Server7-Service.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 

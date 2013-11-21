@@ -1,0 +1,5 @@
+This solution provides automated installation and configuration for JBoss 7 Application Service (Standalone Configuration) as a service.The software code has been completely rewritten for JBoss AS 7 Major changes visible to the user are the inability to define resources like JMS destinations and datasources inside archives (war/ear), the way datasources are defined,
+a much smaller size (less than half of JBoss AS 6) and a 10-fold reduction in startup time.
+
+    
+ 
