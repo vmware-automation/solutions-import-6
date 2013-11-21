@@ -1,0 +1,20 @@
+{
+    "vmware":{
+        "config":{
+            "version":1.0
+        },
+        "applications":{
+            "applicationDirectorWebImport":{
+                "exportFileName":"BitNami-Subversion-64bit-blueprint.xml",
+                "exportedFileReadme":"BitNami-Subversion-64bit-blueprint.xml.readme",
+                "importSectionHeader":"BitNami Subversion",
+                "exportedWithAppDVersion":6.0,
+                "optional":{
+                    "nextStepsMarkdownFile":"BitNami-Subversion-64bit-blueprint.xml.md",
+                    "enableConsoleLogging":true,
+                    "exportedFileErrorReadme":"import-error.readme"
+                }
+            }
+        }
+    }
+}
