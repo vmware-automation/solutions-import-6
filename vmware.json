@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Virtual-Machine-System-Report-Custom-task.xml",                
+				"exportedFileReadme":"Virtual-Machine-System-Report-Custom-task.xml.readme",                
+				"importSectionHeader":"Virtual-Machine-System-Report-Custom-task",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"Virtual-Machine-System-Report-Custom-task.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"Virtual-Machine-System-Report-Custom-task.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 

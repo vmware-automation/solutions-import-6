@@ -1,0 +1,10 @@
+ystem Report is a script task for vFabric Application Director that can be added to an execution flow in vFabric Application Director on a deployment to create a report of the software and services installed in the machine.Once this task in added and the application is deployed, the repost can be seen by looking at the deployment execution flow.
+
+The report includes the following:
+
+    List of open and listening TCP ports
+    Running process list
+    List of installed packages
+    List of users on the local system
+    Disk mounts
+    Memory usage
