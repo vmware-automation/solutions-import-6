@@ -5,7 +5,7 @@
 		},        
 		"applications":{            
 			"applicationDirectorWebImport":{                
-				"exportFileName":"IBM-Websphere-Application-Server-8.0-Non-Clustered-Service.xml",                
+				"exportFileName":"IBM-Websphere-App-Server-8_0-Non-Clustered-Service.xml",                
 				"exportedFileReadme":"IBM-Websphere-Application-Server-8.0-Non-Clustered-Service.xml.readme",                
 				"importSectionHeader":"IBM-Websphere-Application-Server-8.0-Non-Clustered-Service",                
 				"exportedWithAppDVersion":6.0,                
