@@ -8,7 +8,7 @@
                 "exportFileName":"BitNami-Gallery-64bit-blueprint.xml",
                 "exportedFileReadme":"BitNami-Gallery-64bit-blueprint.xml.readme",
                 "importSectionHeader":"BitNami Gallery",
-                "exportedWithAppDVersion":5.0,
+                "exportedWithAppDVersion":6.0,
                 "optional":{
                     "nextStepsMarkdownFile":"BitNami-Gallery-64bit-blueprint.xml.md",
                     "enableConsoleLogging":true,
