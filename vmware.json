@@ -8,7 +8,7 @@
                 "exportFileName":"Alfresco-4_0_e-Service-BitNami.xml",
                 "exportedFileReadme":"BitNami-Alfresco-64bit-blueprint.xml.readme",
                 "importSectionHeader":"BitNami Alfresco",
-                "exportedWithAppDVersion":5.0,
+                "exportedWithAppDVersion":6.0,
                 "optional":{
                     "nextStepsMarkdownFile":"BitNami-Alfresco-64bit-blueprint.xml.md",
                     "enableConsoleLogging":true,
