@@ -53,7 +53,7 @@
         <id>0</id>
         <inactive>false</inactive>
         <lock-version>0</lock-version>
-        <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+        <last-updated>2013-11-22T10:07:29+00:00</last-updated>
         <last-update-user>admin</last-update-user>
         <created>2013-11-20T10:58:41+00:00</created>
         <create-user>admin</create-user>
@@ -95,811 +95,7 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Virtual Server listens on this port</description>
-            <key>Stingray_VS_Port</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[80]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[80]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>URL to probe the backend appservers health status</description>
-            <key>Stingray_Monitor_URL</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[/index.html]]></value>
-            <readonly>false</readonly>
-            <overridable>true</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[/index.html]]></value>
-                <overridable>true</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>URL to download the Stingray Software</description>
-            <key>Stingray_Download_URL</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[http://10.99.133.62/software/Deployment_Software/Stingray/stingray/]]></value>
-            <readonly>false</readonly>
-            <overridable>true</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[http://10.99.133.62/software/Deployment_Software/Stingray/stingray/]]></value>
-                <overridable>true</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Stingray Pool Name</description>
-            <key>Stingray_Pool</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[App_Pool]]></value>
-            <readonly>false</readonly>
-            <overridable>true</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[App_Pool]]></value>
-                <overridable>true</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Persistence Method applied to pool</description>
-            <key>Stingray_Persistence_Method</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[j2ee]]></value>
-            <readonly>false</readonly>
-            <overridable>true</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[j2ee]]></value>
-                <overridable>true</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Name of the Virtual Server</description>
-            <key>Stingray_VS_Name</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[App_VS]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[App_VS]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Name of the license file</description>
-            <key>Stingray_License_File</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>false</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Name of Stingray Virtual Server Certificate</description>
-            <key>Stingray_VS_Name_Cert</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[App_VS_Cert]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[App_VS_Cert]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Load balancing algorithm</description>
-            <key>Stingray_LB_Method</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[round robin]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[round robin]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>IP addresses of Backend Nodes</description>
-            <key>Stingray_Node_IPs</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>Array</name>
-                <description>Array</description>
-            </prop-type>
-            <required>false</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <meta-tags>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>IP Address</name>
-                <description>IP Address.</description>
-                <meta-tag-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Property Descriptor</name>
-                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
-                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
-                    <user-managed-type>true</user-managed-type>
-                </meta-tag-type>
-            </meta-tags>
-            <value><![CDATA[]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Health Monitor name for the pool</description>
-            <key>Stingray_Pool_Monitor</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>false</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[App_Pool_Monitor]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[App_Pool_Monitor]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>Enable Offloading of SSL traffic onto Stingray Traffic Manager</description>
-            <key>Stingray_SSL_Offload_Enable</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2013-11-07T19:43:23+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[No]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns4:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[No]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns4:bound-prop>
-        </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-20T10:58:41+00:00</created>
             <create-user>admin</create-user>
@@ -939,9 +135,9 @@
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
-                <created>2013-11-20T10:58:41+00:00</created>
+                <created>2013-11-22T10:07:28+00:00</created>
                 <create-user>admin</create-user>
                 <bind-lifecycle-type>
                     <id>0</id>
@@ -956,6 +152,810 @@
                     <lifecycle-order>1</lifecycle-order>
                 </bind-lifecycle-type>
                 <value><![CDATA[8080]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Load balancing algorithm</description>
+            <key>Stingray_LB_Method</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[round robin]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[round robin]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>IP addresses of Backend Nodes</description>
+            <key>Stingray_Node_IPs</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>Array</name>
+                <description>Array</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <meta-tags>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>IP Address</name>
+                <description>IP Address.</description>
+                <meta-tag-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Property Descriptor</name>
+                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
+                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
+                    <user-managed-type>true</user-managed-type>
+                </meta-tag-type>
+            </meta-tags>
+            <value><![CDATA[]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Health Monitor name for the pool</description>
+            <key>Stingray_Pool_Monitor</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[App_Pool_Monitor]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[App_Pool_Monitor]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Virtual Server listens on this port</description>
+            <key>Stingray_VS_Port</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[80]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[80]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>URL to probe the backend appservers health status</description>
+            <key>Stingray_Monitor_URL</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[/index.html]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[/index.html]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>URL to download the Stingray Software</description>
+            <key>Stingray_Download_URL</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[http://10.99.133.62/software/Deployment_Software/Stingray/stingray/]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[http://10.99.133.62/software/Deployment_Software/Stingray/stingray/]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Stingray Pool Name</description>
+            <key>Stingray_Pool</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[App_Pool]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[App_Pool]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Persistence Method applied to pool</description>
+            <key>Stingray_Persistence_Method</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[j2ee]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[j2ee]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Enable Offloading of SSL traffic onto Stingray Traffic Manager</description>
+            <key>Stingray_SSL_Offload_Enable</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[No]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:28+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:28+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[No]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Name of the Virtual Server</description>
+            <key>Stingray_VS_Name</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[App_VS]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:29+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[App_VS]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Name of the license file</description>
+            <key>Stingray_License_File</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>false</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:29+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[]]></value>
+                <overridable>false</overridable>
+                <expression>false</expression>
+            </ns4:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-20T10:58:41+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>Name of Stingray Virtual Server Certificate</description>
+            <key>Stingray_VS_Name_Cert</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-07T19:43:23+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[App_VS_Cert]]></value>
+            <readonly>false</readonly>
+            <overridable>false</overridable>
+            <expression>false</expression>
+            <ns4:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-22T10:07:29+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-22T10:07:29+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[App_VS_Cert]]></value>
                 <overridable>false</overridable>
                 <expression>false</expression>
             </ns4:bound-prop>
@@ -988,7 +988,7 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:28+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-07T19:43:23+00:00</created>
             <create-user>SYSTEM</create-user>
@@ -1050,7 +1050,7 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2011-11-22T19:59:18+00:00</created>
             <create-user>SYSTEM</create-user>
@@ -1131,7 +1131,7 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:40+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-18T08:44:05+00:00</created>
             <create-user>admin</create-user>
@@ -1212,7 +1212,88 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:26+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-11-15T05:56:28+00:00</created>
+            <create-user>admin</create-user>
+            <name>CentOS64</name>
+            <description>CentOS 5.6 64bit</description>
+            <revision>0</revision>
+            <major>5</major>
+            <minor>6</minor>
+            <micro>0</micro>
+            <qualifier></qualifier>
+            <dynamically-installable>false</dynamically-installable>
+            <auto-bind-properties>false</auto-bind-properties>
+            <operating-system>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-18T08:44:05+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-11-07T19:43:24+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>CentOS64</name>
+                <description>CentOS 64bit</description>
+                <revision>0</revision>
+                <icon-name>centos</icon-name>
+                <os-family-meta-tag>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Linux</name>
+                    <description>Linux based operating systems.</description>
+                    <meta-tag-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>OS Family</name>
+                        <description>Operating System (OS) Family.</description>
+                        <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                        <user-managed-type>false</user-managed-type>
+                    </meta-tag-type>
+                    <os-family>LINUX</os-family>
+                </os-family-meta-tag>
+                <hardware-architecture-meta-tag>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-07T19:43:23+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>x86_64</name>
+                    <description>x86_64</description>
+                    <meta-tag-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-07T19:43:23+00:00</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>Hardware Architecture</name>
+                        <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                        <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                        <user-managed-type>false</user-managed-type>
+                    </meta-tag-type>
+                    <hardware-architecture>X86_64</hardware-architecture>
+                </hardware-architecture-meta-tag>
+            </operating-system>
+        </os-versions>
+        <os-versions>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-18T07:44:55+00:00</created>
             <create-user>admin</create-user>
@@ -1294,88 +1375,7 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:40+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-11-15T05:56:28+00:00</created>
-            <create-user>admin</create-user>
-            <name>CentOS64</name>
-            <description>CentOS 5.6 64bit</description>
-            <revision>0</revision>
-            <major>5</major>
-            <minor>6</minor>
-            <micro>0</micro>
-            <qualifier></qualifier>
-            <dynamically-installable>false</dynamically-installable>
-            <auto-bind-properties>false</auto-bind-properties>
-            <operating-system>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-11-18T08:44:05+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-11-07T19:43:24+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>CentOS64</name>
-                <description>CentOS 64bit</description>
-                <revision>0</revision>
-                <icon-name>centos</icon-name>
-                <os-family-meta-tag>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Linux</name>
-                    <description>Linux based operating systems.</description>
-                    <meta-tag-type>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2013-11-07T19:43:23+00:00</created>
-                        <create-user>SYSTEM</create-user>
-                        <name>OS Family</name>
-                        <description>Operating System (OS) Family.</description>
-                        <meta-tag-enum>OS_FAMILY</meta-tag-enum>
-                        <user-managed-type>false</user-managed-type>
-                    </meta-tag-type>
-                    <os-family>LINUX</os-family>
-                </os-family-meta-tag>
-                <hardware-architecture-meta-tag>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2013-11-07T19:43:23+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>x86_64</name>
-                    <description>x86_64</description>
-                    <meta-tag-type>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2013-11-07T19:43:23+00:00</created>
-                        <create-user>SYSTEM</create-user>
-                        <name>Hardware Architecture</name>
-                        <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
-                        <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
-                        <user-managed-type>false</user-managed-type>
-                    </meta-tag-type>
-                    <hardware-architecture>X86_64</hardware-architecture>
-                </hardware-architecture-meta-tag>
-            </operating-system>
-        </os-versions>
-        <os-versions>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-18T10:22:57+00:00</created>
             <create-user>admin</create-user>
@@ -1456,7 +1456,7 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-18T10:22:57+00:00</created>
             <create-user>admin</create-user>
@@ -1538,7 +1538,7 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-18T10:22:57+00:00</created>
             <create-user>admin</create-user>
@@ -1619,7 +1619,7 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:27+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-11-18T10:22:57+00:00</created>
             <create-user>admin</create-user>
@@ -1700,9 +1700,9 @@ Accelerate applications by up to 4x by using web content optimization (WCO)</des
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
+            <created>2013-11-22T10:07:29+00:00</created>
             <create-user>admin</create-user>
             <description></description>
             <script>#!/bin/bash
@@ -2249,9 +2249,9 @@ exit $APPDRETURNSTATUS
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-20T10:58:41+00:00</last-updated>
+            <last-updated>2013-11-22T10:07:29+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-11-20T10:58:41+00:00</created>
+            <created>2013-11-22T10:07:29+00:00</created>
             <create-user>admin</create-user>
             <description></description>
             <script>#!/bin/bash
