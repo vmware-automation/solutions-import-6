@@ -1,0 +1,1 @@
+requirejs(["config"],function(config){requirejs(["domReady!"],function(doc){requirejs(["entry"])})});

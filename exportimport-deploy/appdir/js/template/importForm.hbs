@@ -1,0 +1,58 @@
+{{!
+  author: samueldoyle
+  model: model/importForm
+}}
+<div class="offset1 span6">
+    <form class="form-horizontal" id="importForm">
+        <div class="control-group">
+            <div class="x-form-item">
+                <label class="x-form-item-label-top" for="appDirHost">
+                    {{hostLabel}}
+                    <span class="x-darwin-required-field">*</span>
+                </label>
+
+                <div>
+                    <input id="appDirHost" class="required hostOrIP" style="width: 380px;"
+                           type="text"
+                           placeholder="{{hostPlaceHolderValue}}"
+                           data-validation-regex-regex="{{hostValidationRegex}}"
+                           data-validation-regex-message="{{hostValidationRegexErrorMsg}}"
+                            />
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="x-form-item">
+                <label class="x-form-item-label-top" for="bpExportFN">
+                    {{fileLabel}}
+                    <span class="x-darwin-required-field">*</span>
+                </label>
+
+                <div class="x-form-item-body">
+                    <input type="text" id="bpExportFN" disabled="" class="x-form-text"
+                           style="width: 380px;">
+                </div>
+            </div>
+        </div>
+                <div id="bottomWrapper">
+                    <hr style="border-width:2px" />
+                    <p class="text-info text-left">
+                        {{authPromptText}}
+                    </p>
+
+                    <div id="actionButtons" class="control-group" style="margin-top: 30px;">
+                        <div class="slanted-button-bar">
+                            <div id="importButton" class="is-last is-default x-btn-slanted-medium">
+                                <button type="submit">{{importButtonText}}</button>
+                            </div>
+                            <div id="viewImportFileButton" class="x-btn-slanted-medium">
+                                <button>{{downloadButtonText}}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </form>
+</div>
+<!--    <div id="eximData" class="hidden">
+        <span id="eximep" type="data" data-value="{{importEP}}"></span>
+    </div>-->
