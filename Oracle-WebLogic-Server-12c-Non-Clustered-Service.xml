@@ -2,60 +2,60 @@
 <ns33:export-package
     xmlns:ns48="http://www.vmware.com/darwin/api/v2/beans/properties"
     xmlns:ns33="http://www.vmware.com/darwin/schema/beans/exim"
-    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/deployment"
-    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/security/ldap"
-    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/deployment/environment"
+    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/deployment"
+    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/security/ldap"
+    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/deployment/environment"
     xmlns:ns37="http://www.vmware.com/darwin/api/v2/beans/cloud"
-    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/rollback/profile"
+    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/rollback/profile"
     xmlns:ns47="http://www.vmware.com/darwin/schema/beans/storage"
-    xmlns:ns2="http://www.vmware.com/darwin/schema/beans/security"
-    xmlns:ns29="http://www.vmware.com/darwin/schema/beans/ssl"
+    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/security"
+    xmlns:ns30="http://www.vmware.com/darwin/schema/beans/ssl"
     xmlns:ns43="http://www.vmware.com/darwin/schema/beans/monitor"
-    xmlns:ns28="http://www.vmware.com/darwin/schema/beans/networking"
+    xmlns:ns29="http://www.vmware.com/darwin/schema/beans/networking"
     xmlns:ns32="http://www.vmware.com/darwin/schema/beans/api"
     xmlns:ns39="http://www.vmware.com/darwin/api/v2/beans/catalog"
-    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/policy"
-    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/csp/cafe"
+    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/policy"
+    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/csp/cafe"
     xmlns:ns36="http://www.vmware.com/darwin/api/v2/beans/certificate"
     xmlns:ns31="http://www.vmware.com/darwin/schema/beans/notification"
-    xmlns:ns12="http://www.vmware.com/darwin/schema/beans/solution"
-    xmlns:ns30="http://www.vmware.com/darwin/schema/beans/response"
-    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/driver/location"
-    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
+    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/solution"
+    xmlns:ns2="http://www.vmware.com/darwin/schema/beans/response"
+    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/driver/location"
+    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
     xmlns:ns38="http://www.vmware.com/darwin/api/v2/beans/deployment/profile"
     xmlns:ns46="http://www.vmware.com/darwin/api/v2/beans/application"
-    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/application"
-    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/deployment/system"
+    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/application"
+    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/deployment/system"
     xmlns:ns34="http://www.vmware.com/darwin/api/v2/beans"
-    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/props"
-    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/update/profile"
-    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/cloud/provider"
-    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/entity"
+    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/props"
+    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/update/profile"
+    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/cloud/provider"
+    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/entity"
     xmlns:ns45="http://www.vmware.com/darwin/api/v2/beans/security"
-    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/security/user"
-    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/profile/base"
+    xmlns:ns28="http://www.vmware.com/darwin/schema/beans/security/user"
+    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/profile/base"
     xmlns:ns49="http://www.vmware.com/darwin/schema/beans/exim/vsxclient"
-    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/deployment/profile"
+    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/deployment/profile"
     xmlns:ns41="http://www.vmware.com/darwin/schema/beans/exim/marketplace"
-    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/blueprint"
-    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/scripts"
-    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/teardown/profile"
+    xmlns:ns12="http://www.vmware.com/darwin/schema/beans/blueprint"
+    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/scripts"
+    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/teardown/profile"
     xmlns:ns35="http://www.vmware.com/darwin/api/v2/beans/update/profile"
-    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/flow"
-    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/metatag"
+    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/flow"
+    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/metatag"
     xmlns:ns42="http://www.vmware.com/darwin/api/v2/beans/csp"
-    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/physical/template"
+    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/physical/template"
     xmlns:ns44="http://www.vmware.com/darwin/api/v2/beans/deployment"
-    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns40="http://www.vmware.com/darwin/schema/beans/license">
+    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns40="http://www.vmware.com/darwin/schema/beans/license">
     <errors>false</errors>
     <application-director-version>vCloud Application Director CLI BUILD [6.0.0-1413557]</application-director-version>
     <application-versions>
         <id>0</id>
         <inactive>false</inactive>
         <lock-version>0</lock-version>
-        <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+        <last-updated>2013-11-22T07:40:13+00:00</last-updated>
         <last-update-user>admin</last-update-user>
-        <created>2013-11-18T09:15:36+00:00</created>
+        <created>2013-11-22T07:40:13+00:00</created>
         <create-user>admin</create-user>
         <name>Oracle WebLogic Server 12c Non-Clustered</name>
         <description></description>
@@ -63,9 +63,9 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-11-18T09:15:34+00:00</created>
+            <created>2013-11-22T07:40:12+00:00</created>
             <create-user>admin</create-user>
             <owner-group>
                 <id>0</id>
@@ -94,9 +94,9 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-11-18T09:15:35+00:00</created>
+            <created>2013-11-22T07:40:13+00:00</created>
             <create-user>admin</create-user>
             <name>Oracle WebLogic Server 12c Non-Clustered</name>
             <description>This solution provides automated installation and configuration for WebLogic Server as a non clustered service. </description>
@@ -105,9 +105,9 @@
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
-                <created>2013-11-18T09:15:34+00:00</created>
+                <created>2013-11-22T07:40:12+00:00</created>
                 <create-user>admin</create-user>
                 <owner-group>
                     <id>0</id>
@@ -129,20 +129,20 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-11-18T09:15:35+00:00</created>
+            <created>2013-11-22T07:40:13+00:00</created>
             <create-user>admin</create-user>
             <name>Oracle WebLogic Server 12c Non-Clustered v12.0</name>
             <description></description>
             <revision>0</revision>
-            <nodes xsi:type="ns11:node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nodes xsi:type="ns12:node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
-                <created>2013-11-18T09:15:35+00:00</created>
+                <created>2013-11-22T07:40:13+00:00</created>
                 <create-user>admin</create-user>
                 <name>CentOS56_32bit_1.0.0_1.0</name>
                 <grid-row>0</grid-row>
@@ -151,7 +151,7 @@
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-11-18T09:15:31+00:00</last-updated>
+                    <last-updated>2013-11-22T07:40:11+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-11-18T09:15:31+00:00</created>
                     <create-user>admin</create-user>
@@ -191,7 +191,7 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-15T05:57:23+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:11+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-11-07T19:43:23+00:00</created>
                         <create-user>SYSTEM</create-user>
@@ -215,7 +215,7 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T08:44:05+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-11-18T04:32:06+00:00</created>
                         <create-user>admin</create-user>
@@ -340,269 +340,9 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
-                        <create-user>admin</create-user>
-                        <name></name>
-                        <description>URL to download Darwin global configuration for each node</description>
-                        <key>global_conf</key>
-                        <prop-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>Content</name>
-                            <description>Content (java.lang.String).</description>
-                        </prop-type>
-                        <required>true</required>
-                        <secured>false</secured>
-                        <prop-auto-bind-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>1</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>None</name>
-                            <description>Property will not participate in auto-binding.</description>
-                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                        </prop-auto-bind-type>
-                        <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
-                        <readonly>false</readonly>
-                        <overridable>true</overridable>
-                        <expression>false</expression>
-                        <ns3:bound-prop>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <bind-lifecycle-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Catalog</name>
-                                <description>Bindable at service/catalog level.</description>
-                                <lifecycle-order>1</lifecycle-order>
-                            </bind-lifecycle-type>
-                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                        </ns3:bound-prop>
-                    </props>
-                    <props>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                        <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
-                        <create-user>admin</create-user>
-                        <name></name>
-                        <description>The full pathname for the BEA Home directory of your choice.</description>
-                        <key>webLogic_home</key>
-                        <prop-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>String</name>
-                            <description>String (java.lang.String).</description>
-                        </prop-type>
-                        <required>true</required>
-                        <secured>false</secured>
-                        <prop-auto-bind-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>1</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>None</name>
-                            <description>Property will not participate in auto-binding.</description>
-                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                        </prop-auto-bind-type>
-                        <value><![CDATA[/opt/BEA]]></value>
-                        <readonly>false</readonly>
-                        <overridable>true</overridable>
-                        <expression>false</expression>
-                        <ns3:bound-prop>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <bind-lifecycle-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Catalog</name>
-                                <description>Bindable at service/catalog level.</description>
-                                <lifecycle-order>1</lifecycle-order>
-                            </bind-lifecycle-type>
-                            <value><![CDATA[/opt/BEA]]></value>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                        </ns3:bound-prop>
-                    </props>
-                    <props>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                        <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
-                        <create-user>admin</create-user>
-                        <name></name>
-                        <description>The OS group which contains the user for WebLogic server to install, configure and start.</description>
-                        <key>group_name</key>
-                        <prop-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>String</name>
-                            <description>String (java.lang.String).</description>
-                        </prop-type>
-                        <required>true</required>
-                        <secured>false</secured>
-                        <prop-auto-bind-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>1</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>None</name>
-                            <description>Property will not participate in auto-binding.</description>
-                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                        </prop-auto-bind-type>
-                        <value><![CDATA[gweblogic]]></value>
-                        <readonly>false</readonly>
-                        <overridable>true</overridable>
-                        <expression>false</expression>
-                        <ns3:bound-prop>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <bind-lifecycle-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Catalog</name>
-                                <description>Bindable at service/catalog level.</description>
-                                <lifecycle-order>1</lifecycle-order>
-                            </bind-lifecycle-type>
-                            <value><![CDATA[gweblogic]]></value>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                        </ns3:bound-prop>
-                    </props>
-                    <props>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                        <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
-                        <create-user>admin</create-user>
-                        <name></name>
-                        <description>The name of non-interactive OS user which is responsible to install, configure and start the WebLogic server on the VM.</description>
-                        <key>user_name</key>
-                        <prop-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>String</name>
-                            <description>String (java.lang.String).</description>
-                        </prop-type>
-                        <required>true</required>
-                        <secured>false</secured>
-                        <prop-auto-bind-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>1</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>None</name>
-                            <description>Property will not participate in auto-binding.</description>
-                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                        </prop-auto-bind-type>
-                        <value><![CDATA[weblogic]]></value>
-                        <readonly>false</readonly>
-                        <overridable>true</overridable>
-                        <expression>false</expression>
-                        <ns3:bound-prop>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <bind-lifecycle-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Catalog</name>
-                                <description>Bindable at service/catalog level.</description>
-                                <lifecycle-order>1</lifecycle-order>
-                            </bind-lifecycle-type>
-                            <value><![CDATA[weblogic]]></value>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                        </ns3:bound-prop>
-                    </props>
-                    <props>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                        <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>Name of the domain to create.</description>
@@ -636,13 +376,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -659,15 +399,15 @@
                             <value><![CDATA[mydomain]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>Name of the server to configure, used as the server name for stand-alone servers and as the Administration Server for domains with Managed Servers and clustered servers.</description>
@@ -701,13 +441,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -724,15 +464,15 @@
                             <value><![CDATA[myserver]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>An administrative user name to start the server and access the Administration Console. Do not use spaces or XML reserved characters.</description>
@@ -766,13 +506,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -789,15 +529,15 @@
                             <value><![CDATA[admin_user]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>A password for the administrative user. By default, it is assigned to 'vmware123'. It must contain at least eight characters but no more than 20 characters and must have atleast one numeric character. Do not use spaces or XML reserved characters.</description>
@@ -831,13 +571,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -854,15 +594,15 @@
                             <value><![CDATA[]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>WebLogic server IP. Typically it is assigned to self:ip.</description>
@@ -896,13 +636,13 @@
                         <readonly>false</readonly>
                         <overridable>false</overridable>
                         <expression>true</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -919,14 +659,14 @@
                             <value><![CDATA[]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
-                        <ns3:bound-prop>
+                        </ns4:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -943,15 +683,15 @@
                             <value><![CDATA[${['self']['host']['ip']}]]></value>
                             <overridable>false</overridable>
                             <expression>true</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>A dedicated TCP/IP port number for the Administration Server. This number specifies the port at which the server listens for connections. Typically, 7001. The port number can be any integer from 1 to 65535. </description>
@@ -985,13 +725,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -1008,15 +748,15 @@
                             <value><![CDATA[7001]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>A dedicated secure listen port number for the Administration Server. The secure listen port number is used for secure Web connections based on the secure sockets layer (SSL) protocol. Typically, 7002. The port number can be any integer from 1 to 65535 and cannot be the same port as the LISTENING_PORT.</description>
@@ -1050,13 +790,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -1073,15 +813,15 @@
                             <value><![CDATA[7002]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>NFS location of installer.</description>
@@ -1115,13 +855,13 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -1138,14 +878,14 @@
                             <value><![CDATA[]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
-                        <ns3:bound-prop>
+                        </ns4:bound-prop>
+                        <ns4:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
@@ -1162,15 +902,275 @@
                             <value><![CDATA[10.99.133.62:/var/www/html/www.appdcert.com/html/software/Deployment_Software/Clustered_Weblogic/webLogicInstaller.bin]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns4:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-20T06:16:02+00:00</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>URL to download Darwin global configuration for each node</description>
+                        <key>global_conf</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Content</name>
+                            <description>Content (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns4:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-22T07:40:12+00:00</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns4:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-20T06:16:02+00:00</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>The full pathname for the BEA Home directory of your choice.</description>
+                        <key>webLogic_home</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[/opt/BEA]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns4:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-22T07:40:12+00:00</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[/opt/BEA]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns4:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-20T06:16:02+00:00</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>The OS group which contains the user for WebLogic server to install, configure and start.</description>
+                        <key>group_name</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[gweblogic]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns4:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-22T07:40:12+00:00</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[gweblogic]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns4:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-20T06:16:02+00:00</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>The name of non-interactive OS user which is responsible to install, configure and start the WebLogic server on the VM.</description>
+                        <key>user_name</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[weblogic]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns4:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-22T07:40:12+00:00</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[weblogic]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns4:bound-prop>
                     </props>
                     <service-version>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:33+00:00</created>
+                        <created>2013-11-20T06:16:02+00:00</created>
                         <create-user>admin</create-user>
                         <name>Oracle WebLogic Server</name>
                         <description>Oracle WebLogic Server 12c (12.1.1) is the #1 application server across conventional and cloud environments. It is the cornerstone of Oracle cloud application foundation, the industry’s most complete, best-of-breed platform for developing cloud applications. </description>
@@ -1178,9 +1178,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-20T06:16:02+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T08:02:18+00:00</created>
+                            <created>2013-11-19T12:56:47+00:00</created>
                             <create-user>admin</create-user>
                             <owner-group>
                                 <id>0</id>
@@ -1209,269 +1209,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <name></name>
-                            <description>URL to download Darwin global configuration for each node</description>
-                            <key>global_conf</key>
-                            <prop-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Content</name>
-                                <description>Content (java.lang.String).</description>
-                            </prop-type>
-                            <required>true</required>
-                            <secured>false</secured>
-                            <prop-auto-bind-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>1</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>None</name>
-                                <description>Property will not participate in auto-binding.</description>
-                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                            </prop-auto-bind-type>
-                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
-                            <readonly>false</readonly>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                            <ns3:bound-prop>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                                <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
-                                <create-user>admin</create-user>
-                                <bind-lifecycle-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Catalog</name>
-                                    <description>Bindable at service/catalog level.</description>
-                                    <lifecycle-order>1</lifecycle-order>
-                                </bind-lifecycle-type>
-                                <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
-                                <overridable>true</overridable>
-                                <expression>false</expression>
-                            </ns3:bound-prop>
-                        </props>
-                        <props>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <name></name>
-                            <description>The full pathname for the BEA Home directory of your choice.</description>
-                            <key>webLogic_home</key>
-                            <prop-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>String</name>
-                                <description>String (java.lang.String).</description>
-                            </prop-type>
-                            <required>true</required>
-                            <secured>false</secured>
-                            <prop-auto-bind-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>1</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>None</name>
-                                <description>Property will not participate in auto-binding.</description>
-                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                            </prop-auto-bind-type>
-                            <value><![CDATA[/opt/BEA]]></value>
-                            <readonly>false</readonly>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                            <ns3:bound-prop>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                                <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
-                                <create-user>admin</create-user>
-                                <bind-lifecycle-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Catalog</name>
-                                    <description>Bindable at service/catalog level.</description>
-                                    <lifecycle-order>1</lifecycle-order>
-                                </bind-lifecycle-type>
-                                <value><![CDATA[/opt/BEA]]></value>
-                                <overridable>true</overridable>
-                                <expression>false</expression>
-                            </ns3:bound-prop>
-                        </props>
-                        <props>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <name></name>
-                            <description>The OS group which contains the user for WebLogic server to install, configure and start.</description>
-                            <key>group_name</key>
-                            <prop-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>String</name>
-                                <description>String (java.lang.String).</description>
-                            </prop-type>
-                            <required>true</required>
-                            <secured>false</secured>
-                            <prop-auto-bind-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>1</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>None</name>
-                                <description>Property will not participate in auto-binding.</description>
-                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                            </prop-auto-bind-type>
-                            <value><![CDATA[gweblogic]]></value>
-                            <readonly>false</readonly>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                            <ns3:bound-prop>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                                <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
-                                <create-user>admin</create-user>
-                                <bind-lifecycle-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Catalog</name>
-                                    <description>Bindable at service/catalog level.</description>
-                                    <lifecycle-order>1</lifecycle-order>
-                                </bind-lifecycle-type>
-                                <value><![CDATA[gweblogic]]></value>
-                                <overridable>true</overridable>
-                                <expression>false</expression>
-                            </ns3:bound-prop>
-                        </props>
-                        <props>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
-                            <create-user>admin</create-user>
-                            <name></name>
-                            <description>The name of non-interactive OS user which is responsible to install, configure and start the WebLogic server on the VM.</description>
-                            <key>user_name</key>
-                            <prop-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>String</name>
-                                <description>String (java.lang.String).</description>
-                            </prop-type>
-                            <required>true</required>
-                            <secured>false</secured>
-                            <prop-auto-bind-type>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>1</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>None</name>
-                                <description>Property will not participate in auto-binding.</description>
-                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-                            </prop-auto-bind-type>
-                            <value><![CDATA[weblogic]]></value>
-                            <readonly>false</readonly>
-                            <overridable>true</overridable>
-                            <expression>false</expression>
-                            <ns3:bound-prop>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                                <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
-                                <create-user>admin</create-user>
-                                <bind-lifecycle-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Catalog</name>
-                                    <description>Bindable at service/catalog level.</description>
-                                    <lifecycle-order>1</lifecycle-order>
-                                </bind-lifecycle-type>
-                                <value><![CDATA[weblogic]]></value>
-                                <overridable>true</overridable>
-                                <expression>false</expression>
-                            </ns3:bound-prop>
-                        </props>
-                        <props>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
-                            <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>Name of the domain to create.</description>
@@ -1505,13 +1245,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1528,15 +1268,15 @@
                                 <value><![CDATA[mydomain]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>Name of the server to configure, used as the server name for stand-alone servers and as the Administration Server for domains with Managed Servers and clustered servers.</description>
@@ -1570,13 +1310,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1593,15 +1333,15 @@
                                 <value><![CDATA[myserver]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>An administrative user name to start the server and access the Administration Console. Do not use spaces or XML reserved characters.</description>
@@ -1635,13 +1375,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1658,15 +1398,15 @@
                                 <value><![CDATA[admin_user]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>A password for the administrative user. By default, it is assigned to 'vmware123'. It must contain at least eight characters but no more than 20 characters and must have atleast one numeric character. Do not use spaces or XML reserved characters.</description>
@@ -1700,13 +1440,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1723,15 +1463,15 @@
                                 <value><![CDATA[]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>WebLogic server IP. Typically it is assigned to self:ip.</description>
@@ -1765,13 +1505,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1788,15 +1528,15 @@
                                 <value><![CDATA[]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>A dedicated TCP/IP port number for the Administration Server. This number specifies the port at which the server listens for connections. Typically, 7001. The port number can be any integer from 1 to 65535. </description>
@@ -1830,13 +1570,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1853,15 +1593,15 @@
                                 <value><![CDATA[7001]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>A dedicated secure listen port number for the Administration Server. The secure listen port number is used for secure Web connections based on the secure sockets layer (SSL) protocol. Typically, 7002. The port number can be any integer from 1 to 65535 and cannot be the same port as the LISTENING_PORT.</description>
@@ -1895,13 +1635,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1918,15 +1658,15 @@
                                 <value><![CDATA[7002]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-20T06:16:02+00:00</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>NFS location of installer.</description>
@@ -1960,13 +1700,13 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:33+00:00</created>
+                                <created>2013-11-22T07:40:12+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -1983,19 +1723,20 @@
                                 <value><![CDATA[]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
-                        <meta-tag>
+                        <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2013-11-07T19:43:23+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>Application Servers</name>
-                            <description>Application Servers</description>
-                            <meta-tag-type>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-20T06:16:02+00:00</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>URL to download Darwin global configuration for each node</description>
+                            <key>global_conf</key>
+                            <prop-type>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
@@ -2003,12 +1744,247 @@
                                 <last-update-user>SYSTEM</last-update-user>
                                 <created>2013-11-07T19:43:23+00:00</created>
                                 <create-user>SYSTEM</create-user>
-                                <name>Server Type</name>
-                                <description>Server type, primarily used for organizing data.</description>
-                                <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
-                                <user-managed-type>true</user-managed-type>
-                            </meta-tag-type>
-                        </meta-tag>
+                                <name>Content</name>
+                                <description>Content (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns4:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-22T07:40:12+00:00</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns4:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-20T06:16:02+00:00</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>The full pathname for the BEA Home directory of your choice.</description>
+                            <key>webLogic_home</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[/opt/BEA]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns4:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-22T07:40:12+00:00</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[/opt/BEA]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns4:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-20T06:16:02+00:00</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>The OS group which contains the user for WebLogic server to install, configure and start.</description>
+                            <key>group_name</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[gweblogic]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns4:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-22T07:40:12+00:00</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[gweblogic]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns4:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-20T06:16:02+00:00</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>The name of non-interactive OS user which is responsible to install, configure and start the WebLogic server on the VM.</description>
+                            <key>user_name</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[weblogic]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns4:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-22T07:40:12+00:00</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[weblogic]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns4:bound-prop>
+                        </props>
                         <meta-tag>
                             <id>0</id>
                             <inactive>false</inactive>
@@ -2081,13 +2057,37 @@
                                 <user-managed-type>false</user-managed-type>
                             </meta-tag-type>
                         </meta-tag>
+                        <meta-tag>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-07T19:43:23+00:00</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Application Servers</name>
+                            <description>Application Servers</description>
+                            <meta-tag-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Server Type</name>
+                                <description>Server type, primarily used for organizing data.</description>
+                                <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
+                                <user-managed-type>true</user-managed-type>
+                            </meta-tag-type>
+                        </meta-tag>
                         <service>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-20T06:16:02+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T08:02:18+00:00</created>
+                            <created>2013-11-19T12:56:47+00:00</created>
                             <create-user>admin</create-user>
                             <name>Oracle WebLogic Server</name>
                             <description>Oracle WebLogic Server 12c</description>
@@ -2096,9 +2096,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                                <last-updated>2013-11-20T06:16:02+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T08:02:18+00:00</created>
+                                <created>2013-11-19T12:56:47+00:00</created>
                                 <create-user>admin</create-user>
                                 <owner-group>
                                     <id>0</id>
@@ -2121,7 +2121,7 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T08:44:05+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
                             <created>2013-11-18T04:32:06+00:00</created>
                             <create-user>admin</create-user>
@@ -2198,13 +2198,13 @@
                                 </hardware-architecture-meta-tag>
                             </operating-system>
                         </os-versions>
-                        <ns8:component-version-script>
+                        <ns9:component-version-script>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <description>Script to install Weblogic Application Service 12c</description>
                             <script>#!/bin/bash
@@ -2756,14 +2756,14 @@ exit $APPDRETURNSTATUS
                                 <description-message-key>type.lifecycle.install.description</description-message-key>
                             </component-lifecycle-type>
                             <reboot-after>false</reboot-after>
-                        </ns8:component-version-script>
-                        <ns8:component-version-script>
+                        </ns9:component-version-script>
+                        <ns9:component-version-script>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <description>Script to configure Weblogic Application Service 12c</description>
                             <script>#!/bin/bash
@@ -3292,14 +3292,14 @@ exit $APPDRETURNSTATUS
                                 <description-message-key>type.lifecycle.configure.description</description-message-key>
                             </component-lifecycle-type>
                             <reboot-after>false</reboot-after>
-                        </ns8:component-version-script>
-                        <ns8:component-version-script>
+                        </ns9:component-version-script>
+                        <ns9:component-version-script>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:33+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:12+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:33+00:00</created>
+                            <created>2013-11-22T07:40:12+00:00</created>
                             <create-user>admin</create-user>
                             <description>Script to start Weblogic Application Service 12c</description>
                             <script>#!/bin/bash
@@ -3769,7 +3769,7 @@ exit $APPDRETURNSTATUS
                                 <description-message-key>type.lifecycle.start.description</description-message-key>
                             </component-lifecycle-type>
                             <reboot-after>false</reboot-after>
-                        </ns8:component-version-script>
+                        </ns9:component-version-script>
                     </service-version>
                     <application-node-component>
                         <id>0</id>
@@ -3782,9 +3782,9 @@ exit $APPDRETURNSTATUS
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <key>admin_password</key>
                             <prop-type>
@@ -3816,13 +3816,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -3839,15 +3839,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[welcome1]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <key>admin_http_port</key>
                             <prop-type>
@@ -3879,13 +3879,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>false</overridable>
                             <expression>true</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -3902,15 +3902,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[${['self']['WebLogic']['listening_port']}]]></value>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <key>admin_ip</key>
                             <prop-type>
@@ -3942,13 +3942,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>false</overridable>
                             <expression>true</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -3965,15 +3965,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[${['self']['host']['ip']}]]></value>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <key>wl_home</key>
                             <prop-type>
@@ -4005,13 +4005,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>false</overridable>
                             <expression>true</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -4028,15 +4028,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[${['self']['WebLogic']['webLogic_home']}]]></value>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <key>domain_name</key>
                             <prop-type>
@@ -4068,13 +4068,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>false</overridable>
                             <expression>true</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -4091,15 +4091,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[${['self']['WebLogic']['domain_name']}]]></value>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <description>URL to download application package</description>
                             <key>war_file</key>
@@ -4132,13 +4132,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -4155,15 +4155,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[http://10.99.133.62/software/Deployment_Software/Clustered_Weblogic/demoapp.war]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:36+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <description>webapps path from the install directory</description>
                             <key>webapps_dir</key>
@@ -4196,32 +4196,8 @@ exit $APPDRETURNSTATUS
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Servlet Container</name>
-                                <description>Servlet Container, server that supports web applications (WARs).</description>
-                                <meta-tag-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Property Descriptor</name>
-                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
-                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
-                                    <user-managed-type>true</user-managed-type>
-                                </meta-tag-type>
-                            </meta-tags>
-                            <meta-tags>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
                                 <created>2013-11-07T19:43:23+00:00</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>DIR</name>
@@ -4240,17 +4216,41 @@ exit $APPDRETURNSTATUS
                                     <user-managed-type>true</user-managed-type>
                                 </meta-tag-type>
                             </meta-tags>
+                            <meta-tags>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Servlet Container</name>
+                                <description>Servlet Container, server that supports web applications (WARs).</description>
+                                <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Property Descriptor</name>
+                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
+                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
+                                    <user-managed-type>true</user-managed-type>
+                                </meta-tag-type>
+                            </meta-tags>
                             <value><![CDATA[/tmp]]></value>
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -4267,15 +4267,15 @@ exit $APPDRETURNSTATUS
                                 <value><![CDATA[/tmp]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:36+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <description>Script command to start service</description>
                             <key>service_start</key>
@@ -4308,32 +4308,8 @@ exit $APPDRETURNSTATUS
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
-                                <created>2013-11-07T19:43:23+00:00</created>
-                                <create-user>SYSTEM</create-user>
-                                <name>Servlet Container</name>
-                                <description>Servlet Container, server that supports web applications (WARs).</description>
-                                <meta-tag-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Property Descriptor</name>
-                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
-                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
-                                    <user-managed-type>true</user-managed-type>
-                                </meta-tag-type>
-                            </meta-tags>
-                            <meta-tags>
-                                <id>0</id>
-                                <inactive>false</inactive>
-                                <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
                                 <created>2013-11-07T19:43:23+00:00</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Start</name>
@@ -4352,17 +4328,41 @@ exit $APPDRETURNSTATUS
                                     <user-managed-type>true</user-managed-type>
                                 </meta-tag-type>
                             </meta-tags>
+                            <meta-tags>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-07T19:43:23+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Servlet Container</name>
+                                <description>Servlet Container, server that supports web applications (WARs).</description>
+                                <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Property Descriptor</name>
+                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
+                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
+                                    <user-managed-type>true</user-managed-type>
+                                </meta-tag-type>
+                            </meta-tags>
                             <value><![CDATA[]]></value>
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -4378,15 +4378,15 @@ exit $APPDRETURNSTATUS
                                 </bind-lifecycle-type>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:36+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <description>Script command to stop service</description>
                             <key>service_stop</key>
@@ -4419,8 +4419,8 @@ exit $APPDRETURNSTATUS
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
                                 <created>2013-11-07T19:43:23+00:00</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Servlet Container</name>
@@ -4443,8 +4443,8 @@ exit $APPDRETURNSTATUS
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                <last-update-user>SYSTEM</last-update-user>
+                                <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                <last-update-user>admin</last-update-user>
                                 <created>2013-11-07T19:43:23+00:00</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Stop</name>
@@ -4467,13 +4467,13 @@ exit $APPDRETURNSTATUS
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns4:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
@@ -4489,15 +4489,15 @@ exit $APPDRETURNSTATUS
                                 </bind-lifecycle-type>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns4:bound-prop>
                         </props>
-                        <ns6:application-component-version>
+                        <ns7:application-component-version>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                            <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-11-18T09:15:35+00:00</created>
+                            <created>2013-11-22T07:40:13+00:00</created>
                             <create-user>admin</create-user>
                             <description>Linux WAR file</description>
                             <revision>0</revision>
@@ -4511,9 +4511,9 @@ exit $APPDRETURNSTATUS
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <key>admin_password</key>
                                 <prop-type>
@@ -4545,13 +4545,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4568,15 +4568,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[welcome1]]></value>
                                     <overridable>true</overridable>
                                     <expression>false</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <key>admin_http_port</key>
                                 <prop-type>
@@ -4608,13 +4608,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4631,15 +4631,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[${['self']['WebLogic']['listening_port']}]]></value>
                                     <overridable>false</overridable>
                                     <expression>true</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <key>admin_ip</key>
                                 <prop-type>
@@ -4671,13 +4671,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4694,15 +4694,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[${['self']['host']['ip']}]]></value>
                                     <overridable>false</overridable>
                                     <expression>true</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <key>wl_home</key>
                                 <prop-type>
@@ -4734,13 +4734,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4757,15 +4757,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[${['self']['WebLogic']['webLogic_home']}]]></value>
                                     <overridable>false</overridable>
                                     <expression>true</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <key>domain_name</key>
                                 <prop-type>
@@ -4797,13 +4797,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>false</overridable>
                                 <expression>true</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4820,15 +4820,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[${['self']['WebLogic']['domain_name']}]]></value>
                                     <overridable>false</overridable>
                                     <expression>true</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <description>URL to download application package</description>
                                 <key>war_file</key>
@@ -4861,13 +4861,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4884,15 +4884,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[http://10.99.133.62/software/Deployment_Software/Clustered_Weblogic/demoapp.war]]></value>
                                     <overridable>true</overridable>
                                     <expression>false</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <description>webapps path from the install directory</description>
                                 <key>webapps_dir</key>
@@ -4925,32 +4925,8 @@ exit $APPDRETURNSTATUS
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Servlet Container</name>
-                                    <description>Servlet Container, server that supports web applications (WARs).</description>
-                                    <meta-tag-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Property Descriptor</name>
-                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
-                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
-                                    <user-managed-type>true</user-managed-type>
-                                    </meta-tag-type>
-                                </meta-tags>
-                                <meta-tags>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
+                                    <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                    <last-update-user>admin</last-update-user>
                                     <created>2013-11-07T19:43:23+00:00</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>DIR</name>
@@ -4969,17 +4945,41 @@ exit $APPDRETURNSTATUS
                                     <user-managed-type>true</user-managed-type>
                                     </meta-tag-type>
                                 </meta-tags>
+                                <meta-tags>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                    <last-update-user>admin</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Servlet Container</name>
+                                    <description>Servlet Container, server that supports web applications (WARs).</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Property Descriptor</name>
+                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
+                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
+                                    <user-managed-type>true</user-managed-type>
+                                    </meta-tag-type>
+                                </meta-tags>
                                 <value><![CDATA[/tmp]]></value>
                                 <readonly>false</readonly>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -4996,15 +4996,15 @@ exit $APPDRETURNSTATUS
                                     <value><![CDATA[/tmp]]></value>
                                     <overridable>true</overridable>
                                     <expression>false</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <description>Script command to start service</description>
                                 <key>service_start</key>
@@ -5037,32 +5037,8 @@ exit $APPDRETURNSTATUS
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Servlet Container</name>
-                                    <description>Servlet Container, server that supports web applications (WARs).</description>
-                                    <meta-tag-type>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
-                                    <created>2013-11-07T19:43:23+00:00</created>
-                                    <create-user>SYSTEM</create-user>
-                                    <name>Property Descriptor</name>
-                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
-                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
-                                    <user-managed-type>true</user-managed-type>
-                                    </meta-tag-type>
-                                </meta-tags>
-                                <meta-tags>
-                                    <id>0</id>
-                                    <inactive>false</inactive>
-                                    <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
+                                    <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                    <last-update-user>admin</last-update-user>
                                     <created>2013-11-07T19:43:23+00:00</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Start</name>
@@ -5081,17 +5057,41 @@ exit $APPDRETURNSTATUS
                                     <user-managed-type>true</user-managed-type>
                                     </meta-tag-type>
                                 </meta-tags>
+                                <meta-tags>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                    <last-update-user>admin</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Servlet Container</name>
+                                    <description>Servlet Container, server that supports web applications (WARs).</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-07T19:43:23+00:00</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Property Descriptor</name>
+                                    <description>Auto-bind descriptors, used during for matching during property auto-binding.</description>
+                                    <meta-tag-enum>PROPERTY_DESCRIPTOR</meta-tag-enum>
+                                    <user-managed-type>true</user-managed-type>
+                                    </meta-tag-type>
+                                </meta-tags>
                                 <value><![CDATA[]]></value>
                                 <readonly>false</readonly>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -5107,15 +5107,15 @@ exit $APPDRETURNSTATUS
                                     </bind-lifecycle-type>
                                     <overridable>true</overridable>
                                     <expression>false</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <props>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <description>Script command to stop service</description>
                                 <key>service_stop</key>
@@ -5148,8 +5148,8 @@ exit $APPDRETURNSTATUS
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
+                                    <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                    <last-update-user>admin</last-update-user>
                                     <created>2013-11-07T19:43:23+00:00</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Servlet Container</name>
@@ -5172,8 +5172,8 @@ exit $APPDRETURNSTATUS
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-07T19:43:23+00:00</last-updated>
-                                    <last-update-user>SYSTEM</last-update-user>
+                                    <last-updated>2013-11-22T07:40:12+00:00</last-updated>
+                                    <last-update-user>admin</last-update-user>
                                     <created>2013-11-07T19:43:23+00:00</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Stop</name>
@@ -5196,13 +5196,13 @@ exit $APPDRETURNSTATUS
                                 <readonly>false</readonly>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                                <ns3:bound-prop>
+                                <ns4:bound-prop>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                     <last-update-user>admin</last-update-user>
-                                    <created>2013-11-18T09:15:36+00:00</created>
+                                    <created>2013-11-22T07:40:13+00:00</created>
                                     <create-user>admin</create-user>
                                     <bind-lifecycle-type>
                                     <id>0</id>
@@ -5218,7 +5218,7 @@ exit $APPDRETURNSTATUS
                                     </bind-lifecycle-type>
                                     <overridable>true</overridable>
                                     <expression>false</expression>
-                                </ns3:bound-prop>
+                                </ns4:bound-prop>
                             </props>
                             <meta-tag>
                                 <id>0</id>
@@ -5244,13 +5244,13 @@ exit $APPDRETURNSTATUS
                                     <user-managed-type>false</user-managed-type>
                                 </meta-tag-type>
                             </meta-tag>
-                            <ns6:application-component>
+                            <ns7:application-component>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:35+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <name>WAR</name>
                                 <description>Linux WAR file</description>
@@ -5280,14 +5280,14 @@ exit $APPDRETURNSTATUS
                                     </meta-tag-type>
                                     <os-family>LINUX</os-family>
                                 </os-family-type>
-                            </ns6:application-component>
-                            <ns8:component-version-script>
+                            </ns7:application-component>
+                            <ns9:component-version-script>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                                <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-11-18T09:15:36+00:00</created>
+                                <created>2013-11-22T07:40:13+00:00</created>
                                 <create-user>admin</create-user>
                                 <description>Script to install WAR file</description>
                                 <script>#!/bin/sh
@@ -5711,17 +5711,17 @@ exit $APPDRETURNSTATUS
                                     <description-message-key>type.lifecycle.install.description</description-message-key>
                                 </component-lifecycle-type>
                                 <reboot-after>false</reboot-after>
-                            </ns8:component-version-script>
-                        </ns6:application-component-version>
+                            </ns9:component-version-script>
+                        </ns7:application-component-version>
                     </application-node-component>
                 </service-node-component>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-11-18T09:15:35+00:00</created>
+                    <created>2013-11-22T07:40:13+00:00</created>
                     <create-user>admin</create-user>
                     <name>Memory(MB)</name>
                     <description>Virtual Memory in MB</description>
@@ -5755,13 +5755,13 @@ exit $APPDRETURNSTATUS
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns4:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:35+00:00</created>
+                        <created>2013-11-22T07:40:13+00:00</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
@@ -5778,15 +5778,15 @@ exit $APPDRETURNSTATUS
                         <value><![CDATA[2048]]></value>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns4:bound-prop>
                 </bindable-props>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-11-18T09:15:35+00:00</created>
+                    <created>2013-11-22T07:40:13+00:00</created>
                     <create-user>admin</create-user>
                     <name>vCPU</name>
                     <description>vCPU size</description>
@@ -5820,13 +5820,13 @@ exit $APPDRETURNSTATUS
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns4:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:35+00:00</created>
+                        <created>2013-11-22T07:40:13+00:00</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
@@ -5843,15 +5843,15 @@ exit $APPDRETURNSTATUS
                         <value><![CDATA[1]]></value>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns4:bound-prop>
                 </bindable-props>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-11-18T09:15:35+00:00</created>
+                    <created>2013-11-22T07:40:13+00:00</created>
                     <create-user>admin</create-user>
                     <name>ClusterSize</name>
                     <description>Number of nodes in the cluster</description>
@@ -5885,13 +5885,13 @@ exit $APPDRETURNSTATUS
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns4:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:35+00:00</created>
+                        <created>2013-11-22T07:40:13+00:00</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
@@ -5908,15 +5908,15 @@ exit $APPDRETURNSTATUS
                         <value><![CDATA[1]]></value>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns4:bound-prop>
                 </bindable-props>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                    <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-11-18T09:15:35+00:00</created>
+                    <created>2013-11-22T07:40:13+00:00</created>
                     <create-user>admin</create-user>
                     <name>Hostname</name>
                     <description>Add host name or computer name. Use ${random} expression as needed.</description>
@@ -5950,13 +5950,13 @@ exit $APPDRETURNSTATUS
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns4:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-11-18T09:15:37+00:00</last-updated>
+                        <last-updated>2013-11-22T07:40:13+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-11-18T09:15:35+00:00</created>
+                        <created>2013-11-22T07:40:13+00:00</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
@@ -5972,7 +5972,7 @@ exit $APPDRETURNSTATUS
                         </bind-lifecycle-type>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns4:bound-prop>
                 </bindable-props>
             </nodes>
         </blueprint>
