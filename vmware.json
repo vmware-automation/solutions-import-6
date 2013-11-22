@@ -8,7 +8,7 @@
                 "exportFileName":"BitNami-JasperReports-64bit-blueprint.xml",
                 "exportedFileReadme":"BitNami-JasperReports-64bit-blueprint.xml.readme",
                 "importSectionHeader":"BitNami JasperReports",
-                "exportedWithAppDVersion":5.0,
+                "exportedWithAppDVersion":6.0,
                 "optional":{
                     "nextStepsMarkdownFile":"BitNami-JasperReports-64bit-blueprint.xml.md",
                     "enableConsoleLogging":true,
