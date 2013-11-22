@@ -8,7 +8,7 @@
 				"exportFileName":"Clustered-Apache-Hadoop-0.20.203.xml",                
 				"exportedFileReadme":"appd-Clustere-Apache-Hadoop-0.20.203.xml.readme",                
 				"importSectionHeader":"appd-Clustere-Apache-Hadoop-0.20.203",                
-				"exportedWithAppDVersion":5.0,                
+				"exportedWithAppDVersion":6.0,                
 				"optional":{                    
 					"nextStepsMarkdownFile":"appd-Clustere-Apache-Hadoop-0.20.203.xml.md",                    
 					"enableConsoleLogging":true,                    
