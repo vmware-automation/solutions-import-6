@@ -5,7 +5,7 @@
         },
         "applications":{
             "applicationDirectorWebImport":{
-                "exportFileName":"BitNami-SugarCRM-64bit-blueprint.xml",
+                "exportFileName":"BitNami-SugarCRM-64bit-service.xml",
                 "exportedFileReadme":"BitNami-SugarCRM-64bit-blueprint.xml.readme",
                 "importSectionHeader":"BitNami SugarCRM",
                 "exportedWithAppDVersion":6.0,
