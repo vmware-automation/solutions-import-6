@@ -5,7 +5,7 @@
         },
         "applications":{
             "applicationDirectorWebImport":{
-                "exportFileName":"BitNami-phpBB-64bit-blueprint.xml",
+                "exportFileName":"BitNami-phpBB-64bit-service.xml",
                 "exportedFileReadme":"BitNami-phpBB-64bit-blueprint.xml.readme",
                 "importSectionHeader":"BitNami phpBB",
                 "exportedWithAppDVersion":6.0,
