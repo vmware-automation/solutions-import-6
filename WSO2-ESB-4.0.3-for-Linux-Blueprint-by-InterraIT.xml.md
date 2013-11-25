@@ -33,7 +33,7 @@ Step2: Application Properties -> Service tab
 
 ###Smoke test after deployment :
 
-Verify deployment by accessing URL http://WSO2_ESB_Machine_ip:port
+Verify deployment by accessing URL https://<Node IP>:9443
 
 
 
