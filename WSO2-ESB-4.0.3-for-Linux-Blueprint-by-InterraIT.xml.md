@@ -33,7 +33,7 @@ Step2: Application Properties -> Service tab
 
 ###Smoke test after deployment :
 
-Verify deployment by accessing URL https://<Node IP>:9443
+Verify deployment by accessing URL https://[node ip]:9443
 
 
 
