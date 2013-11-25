@@ -5,7 +5,7 @@
         },
         "applications":{
             "applicationDirectorWebImport":{
-                "exportFileName":BitNami-MediaWiki-64bit-blueprint.xml",
+                "exportFileName":"BitNami-MediaWiki-64bit-blueprint.xml",
                 "exportedFileReadme":"BitNami-MediaWiki-64bit-blueprint.xml.readme",
                 "importSectionHeader":"BitNami MediaWiki",
                 "exportedWithAppDVersion":6.0,
