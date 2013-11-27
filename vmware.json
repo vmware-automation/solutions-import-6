@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"Rails-4-Service-50.xml",                
+				"exportedFileReadme":"Rails-4-Service-50.xml.readme",                
+				"importSectionHeader":"Rails 4 Service",                
+				"exportedWithAppDVersion":5.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"Rails-4-Service-50.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"Rails-4-Service-50.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
