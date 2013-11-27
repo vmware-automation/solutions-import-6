@@ -5,7 +5,7 @@
 		},        
 		"applications":{            
 			"applicationDirectorWebImport":{                
-				"exportFileName":"JBoss-App-Server-7-DC-Configuration-50.xml",                
+				"exportFileName":"JBoss-App-Server-7-DC-Configuration-50-blueprint.xml",                
 				"exportedFileReadme":"JBoss-App-Server-7-DC-Configuration-50.xml.readme",                
 				"importSectionHeader":"JBoss-App-Server-7-DC-Configuration-Blueprint",                
 				"exportedWithAppDVersion":6.0,                
