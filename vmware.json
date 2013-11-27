@@ -1,0 +1,20 @@
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName":"ClusteredZendServer-6.xml",                
+				"exportedFileReadme":"ClusteredZendServer-6.xml.readme",                
+				"importSectionHeader":"Clustered Zend Server PHP Application Server 6 (Blueprint)",                
+				"exportedWithAppDVersion":6.0,                
+				"optional":{                    
+					"nextStepsMarkdownFile":"ClusteredZendServer-6.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"ClusteredZendServer-6.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
