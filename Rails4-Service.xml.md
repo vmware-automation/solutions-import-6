@@ -21,7 +21,7 @@ a. Application Properties -> Service tab -> Rails4Service
      ii.https_proxy: Enter the proxy URL e.g. https://x.x.x.x:portno
     iii.ftp_proxy  : Enter the proxy URL e.g. ftp://x.x.x.x:portno
 
-![alt tag]
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Rails-4-Service-v1.0.0/Service-Property.jpg)
 
 b. Application Properties -> Application Component -> Rails4SampleApp
 
@@ -29,11 +29,11 @@ b. Application Properties -> Application Component -> Rails4SampleApp
      ii.ruby_version    : 2.0.0
     iii.rails_version   : 4.0.0
 
-![alt tag] 
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Rails-4-Service-v1.0.0/Application-property.jpg) 
 
 ##Blueprint Canvas diagram for your reference: 
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/appd-Clustere-Apache-Hadoop-50-blueprint/Hadoop-Canvas-Diagram.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Rails-4-Service-v1.0.0/Rails-4-Service-Blueprint.jpg)
 	
 
 ###Ready to go for deployment
@@ -43,7 +43,7 @@ b. Application Properties -> Application Component -> Rails4SampleApp
 
 Verify deployment by accessing URL http://WebPortal_IP:80
 
-
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Rails-4-Service-v1.0.0/Smoke-test.jpg)
 
 
  
