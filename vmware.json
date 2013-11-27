@@ -8,7 +8,7 @@
 				"exportFileName":"Joomla-Blueprint.xml",                
 				"exportedFileReadme":"Joomla-Blueprint.xml.readme",                
 				"importSectionHeader":"Joomla-Blueprint",                
-				"exportedWithAppDVersion":5.0,                
+				"exportedWithAppDVersion":6.0,                
 				"optional":{                    
 					"nextStepsMarkdownFile":"Joomla-Blueprint.xml.md",                    
 					"enableConsoleLogging":true,                    
