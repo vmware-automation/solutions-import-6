@@ -26,16 +26,16 @@ Step2: Application Properties -> Service tab -> Lamp_Stack
 	
 		a. db_root_password : Enter the database root password
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Joomla-Blueprint-50t/Service-Property-LampStack.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Joomla-Blueprint-v1.0.0/Service-Property-LampStack.png)
 
 		b.  Application Properties -> Service tab -> Joomala
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Joomla-Blueprint-50/Service-Property-Joomla.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Joomla-Blueprint-v1.0.0/Service-Property-Joomla.png)
 	
 	
 ###Blueprint Canvas diagram for your reference: 
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Joomla-Blueprint-50/Joomla-Blueprint-50-Blueprint-Canvas.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Joomla-Blueprint-v1.0.0/Joomla-Blueprint-50-Blueprint-Canvas.png)
 
 ###Ready to go for deployment
 
@@ -43,7 +43,7 @@ Step2: Application Properties -> Service tab -> Lamp_Stack
 
 Verify deployment by accessing URL http://<IP of your deployed system>/phpmyadmin/index.php
 	
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Joomla-Blueprint-50t/Smoke Test.JPG)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Joomla-Blueprint-v1.0.0/Smoke%20Test.JPG)
 
 
  
