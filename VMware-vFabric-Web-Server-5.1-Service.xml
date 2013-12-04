@@ -1,0 +1,3041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns33:export-package
+    xmlns:ns48="http://www.vmware.com/darwin/api/v2/beans/properties"
+    xmlns:ns33="http://www.vmware.com/darwin/schema/beans/exim"
+    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/deployment"
+    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/security/ldap"
+    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/deployment/environment"
+    xmlns:ns38="http://www.vmware.com/darwin/api/v2/beans/cloud"
+    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/rollback/profile"
+    xmlns:ns46="http://www.vmware.com/darwin/schema/beans/storage"
+    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/security"
+    xmlns:ns30="http://www.vmware.com/darwin/schema/beans/ssl"
+    xmlns:ns47="http://www.vmware.com/darwin/schema/beans/monitor"
+    xmlns:ns29="http://www.vmware.com/darwin/schema/beans/networking"
+    xmlns:ns32="http://www.vmware.com/darwin/schema/beans/api"
+    xmlns:ns40="http://www.vmware.com/darwin/api/v2/beans/catalog"
+    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/policy"
+    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/csp/cafe"
+    xmlns:ns37="http://www.vmware.com/darwin/api/v2/beans/certificate"
+    xmlns:ns31="http://www.vmware.com/darwin/schema/beans/notification"
+    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/solution"
+    xmlns:ns2="http://www.vmware.com/darwin/schema/beans/response"
+    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/driver/location"
+    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
+    xmlns:ns39="http://www.vmware.com/darwin/api/v2/beans/deployment/profile"
+    xmlns:ns45="http://www.vmware.com/darwin/api/v2/beans/application"
+    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/application"
+    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/deployment/system"
+    xmlns:ns35="http://www.vmware.com/darwin/api/v2/beans"
+    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/props"
+    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/update/profile"
+    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/cloud/provider"
+    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/entity"
+    xmlns:ns44="http://www.vmware.com/darwin/api/v2/beans/security"
+    xmlns:ns28="http://www.vmware.com/darwin/schema/beans/security/user"
+    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/profile/base"
+    xmlns:ns49="http://www.vmware.com/darwin/schema/beans/exim/vsxclient"
+    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/deployment/profile"
+    xmlns:ns12="http://www.vmware.com/darwin/schema/beans/blueprint"
+    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/scripts"
+    xmlns:ns34="http://www.vmware.com/darwin/schema/beans/exim/marketplace"
+    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/teardown/profile"
+    xmlns:ns36="http://www.vmware.com/darwin/api/v2/beans/update/profile"
+    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/flow"
+    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/metatag"
+    xmlns:ns42="http://www.vmware.com/darwin/api/v2/beans/csp"
+    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/physical/template"
+    xmlns:ns43="http://www.vmware.com/darwin/api/v2/beans/deployment"
+    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns41="http://www.vmware.com/darwin/schema/beans/license">
+    <errors>false</errors>
+    <application-director-version>vCloud Application Director CLI BUILD [6.0.0-1446071]</application-director-version>
+    <application-versions>
+        <id>0</id>
+        <inactive>false</inactive>
+        <lock-version>0</lock-version>
+        <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+        <last-update-user>admin</last-update-user>
+        <created>2013-12-04T11:58:55+05:30</created>
+        <create-user>admin</create-user>
+        <name>VMware vFabric Web Server</name>
+        <description></description>
+        <group-membership>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-12-04T11:58:55+05:30</created>
+            <create-user>admin</create-user>
+            <owner-group>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-26T02:58:20+05:30</created>
+                <create-user>SYSTEM</create-user>
+                <name>Default</name>
+                <description>The Default vCloud Application Director group.</description>
+                <name-message-key>group.default.name</name-message-key>
+                <description-message-key>group.default.description</description-message-key>
+            </owner-group>
+            <global>false</global>
+        </group-membership>
+        <revision>0</revision>
+        <major>5</major>
+        <minor>1</minor>
+        <micro>0</micro>
+        <qualifier></qualifier>
+        <dynamically-installable>false</dynamically-installable>
+        <auto-bind-properties>false</auto-bind-properties>
+        <icon-name></icon-name>
+        <application>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-12-04T11:58:55+05:30</created>
+            <create-user>admin</create-user>
+            <name>VMware vFabric Web Server</name>
+            <description>VMware vFabric™ Web Server is the HTTP server and load- balancing component of the VMware vFabric Cloud Application Platform. vFabric Web Server provides excellent performance and security and improves service quality, reliability and scalability by uniquely enhancing Apache HTTP Server for enterprise use while reducing the costs and complexity of sophisticated Web tier infrastructures.</description>
+            <revision>0</revision>
+            <group-membership>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-12-04T11:58:55+05:30</created>
+                <create-user>admin</create-user>
+                <owner-group>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-26T02:58:20+05:30</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Default</name>
+                    <description>The Default vCloud Application Director group.</description>
+                    <name-message-key>group.default.name</name-message-key>
+                    <description-message-key>group.default.description</description-message-key>
+                </owner-group>
+                <global>false</global>
+            </group-membership>
+        </application>
+        <blueprint>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-12-04T11:58:55+05:30</created>
+            <create-user>admin</create-user>
+            <name>VMware vFabric Web Server 5.1 v1.0</name>
+            <description></description>
+            <revision>0</revision>
+            <nodes xsi:type="ns12:node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-12-04T11:58:55+05:30</created>
+                <create-user>admin</create-user>
+                <name>RHEL32_6.1_1.0</name>
+                <grid-row>0</grid-row>
+                <grid-column>1</grid-column>
+                <vm-template-version>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-03T13:46:38+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>RHEL32 6.1</name>
+                    <description></description>
+                    <group-membership>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-03T13:46:38+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-03T13:46:38+05:30</created>
+                        <create-user>admin</create-user>
+                        <owner-group>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:20+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Default</name>
+                            <description>The Default vCloud Application Director group.</description>
+                            <name-message-key>group.default.name</name-message-key>
+                            <description-message-key>group.default.description</description-message-key>
+                        </owner-group>
+                        <global>false</global>
+                    </group-membership>
+                    <revision>0</revision>
+                    <major>1</major>
+                    <minor>0</minor>
+                    <micro>0</micro>
+                    <qualifier></qualifier>
+                    <dynamically-installable>false</dynamically-installable>
+                    <auto-bind-properties>false</auto-bind-properties>
+                    <meta-tag>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:53+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>OS Templates</name>
+                        <description>OS Templates</description>
+                        <meta-tag-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Server Type</name>
+                            <description>Server type, primarily used for organizing data.</description>
+                            <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
+                            <user-managed-type>true</user-managed-type>
+                        </meta-tag-type>
+                    </meta-tag>
+                    <os-version>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2011-11-22T19:59:18+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>RHEL32</name>
+                        <description>RHEL 6.1 32bit</description>
+                        <revision>0</revision>
+                        <major>6</major>
+                        <minor>1</minor>
+                        <micro>0</micro>
+                        <qualifier></qualifier>
+                        <dynamically-installable>false</dynamically-installable>
+                        <auto-bind-properties>false</auto-bind-properties>
+                        <operating-system>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:21+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:21+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>RHEL32</name>
+                            <description>Red Hat Enterprise Linux 32bit</description>
+                            <revision>0</revision>
+                            <icon-name>redhat</icon-name>
+                            <os-family-meta-tag>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Linux</name>
+                                <description>Linux based operating systems.</description>
+                                <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                </meta-tag-type>
+                                <os-family>LINUX</os-family>
+                            </os-family-meta-tag>
+                            <hardware-architecture-meta-tag>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>x86_32</name>
+                                <description>x86_32</description>
+                                <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                </meta-tag-type>
+                                <hardware-architecture>X86_32</hardware-architecture>
+                            </hardware-architecture-meta-tag>
+                        </operating-system>
+                    </os-version>
+                    <vm-template>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-03T13:46:38+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-03T13:46:38+05:30</created>
+                        <create-user>admin</create-user>
+                        <name>RHEL32 6.1</name>
+                        <description></description>
+                        <revision>0</revision>
+                        <group-membership>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-03T13:46:38+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-03T13:46:38+05:30</created>
+                            <create-user>admin</create-user>
+                            <owner-group>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Default</name>
+                                <description>The Default vCloud Application Director group.</description>
+                                <name-message-key>group.default.name</name-message-key>
+                                <description-message-key>group.default.description</description-message-key>
+                            </owner-group>
+                            <global>false</global>
+                        </group-membership>
+                        <icon-name></icon-name>
+                    </vm-template>
+                </vm-template-version>
+                <service-node-component>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <name>vFabric_Web_Server_5.1</name>
+                    <grid-row>0</grid-row>
+                    <grid-column>0</grid-column>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:54+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description></description>
+                        <key>global_conf</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Content</name>
+                            <description>Content (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                        <readonly>true</readonly>
+                        <overridable>false</overridable>
+                        <expression>false</expression>
+                        <ns5:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                        </ns5:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:54+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description></description>
+                        <key>http_node_ips</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Array</name>
+                            <description>Array</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[]]></value>
+                        <readonly>true</readonly>
+                        <overridable>false</overridable>
+                        <expression>false</expression>
+                        <ns5:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                        </ns5:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:54+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description></description>
+                        <key>webserver_ip</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[]]></value>
+                        <readonly>true</readonly>
+                        <overridable>false</overridable>
+                        <expression>false</expression>
+                        <ns5:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                        </ns5:bound-prop>
+                    </props>
+                    <service-version>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:54+05:30</created>
+                        <create-user>admin</create-user>
+                        <name>vFabric Web Server 5.1</name>
+                        <description></description>
+                        <group-membership>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <owner-group>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Default</name>
+                                <description>The Default vCloud Application Director group.</description>
+                                <name-message-key>group.default.name</name-message-key>
+                                <description-message-key>group.default.description</description-message-key>
+                            </owner-group>
+                            <global>false</global>
+                        </group-membership>
+                        <revision>0</revision>
+                        <major>5</major>
+                        <minor>1</minor>
+                        <micro>0</micro>
+                        <qualifier></qualifier>
+                        <dynamically-installable>true</dynamically-installable>
+                        <auto-bind-properties>false</auto-bind-properties>
+                        <icon-name></icon-name>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description></description>
+                            <key>global_conf</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Content</name>
+                                <description>Content (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                            <readonly>false</readonly>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                            <ns5:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-04T11:58:54+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                                <overridable>false</overridable>
+                                <expression>false</expression>
+                            </ns5:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description></description>
+                            <key>http_node_ips</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Array</name>
+                                <description>Array</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[]]></value>
+                            <readonly>false</readonly>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                            <ns5:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-04T11:58:54+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <overridable>false</overridable>
+                                <expression>false</expression>
+                            </ns5:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description></description>
+                            <key>webserver_ip</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[]]></value>
+                            <readonly>false</readonly>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                            <ns5:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-04T11:58:54+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <overridable>false</overridable>
+                                <expression>false</expression>
+                            </ns5:bound-prop>
+                        </props>
+                        <meta-tag>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>SCRIPT</name>
+                            <description>SCRIPT</description>
+                            <meta-tag-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Application Component</name>
+                                <description>Application component, which is used to indicate what type of component is associated with an application or a service supports.</description>
+                                <meta-tag-enum>APPLICATION_COMPONENT</meta-tag-enum>
+                                <user-managed-type>false</user-managed-type>
+                            </meta-tag-type>
+                        </meta-tag>
+                        <meta-tag>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Other</name>
+                            <description>Generic other file</description>
+                            <meta-tag-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Application Component</name>
+                                <description>Application component, which is used to indicate what type of component is associated with an application or a service supports.</description>
+                                <meta-tag-enum>APPLICATION_COMPONENT</meta-tag-enum>
+                                <user-managed-type>false</user-managed-type>
+                            </meta-tag-type>
+                        </meta-tag>
+                        <meta-tag>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Web Servers</name>
+                            <description>Web Server</description>
+                            <meta-tag-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Server Type</name>
+                                <description>Server type, primarily used for organizing data.</description>
+                                <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
+                                <user-managed-type>true</user-managed-type>
+                            </meta-tag-type>
+                        </meta-tag>
+                        <service>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>vFabric Web Server 5.1</name>
+                            <description></description>
+                            <revision>0</revision>
+                            <group-membership>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-04T11:58:54+05:30</created>
+                                <create-user>admin</create-user>
+                                <owner-group>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Default</name>
+                                    <description>The Default vCloud Application Director group.</description>
+                                    <name-message-key>group.default.name</name-message-key>
+                                    <description-message-key>group.default.description</description-message-key>
+                                </owner-group>
+                                <global>false</global>
+                            </group-membership>
+                            <icon-name></icon-name>
+                        </service>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-03T13:28:39+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>CentOS32</name>
+                            <description>CentOS 5.6 32bit</description>
+                            <revision>0</revision>
+                            <major>5</major>
+                            <minor>6</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-03T13:28:39+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CentOS32</name>
+                                <description>CentOS 32bit</description>
+                                <revision>0</revision>
+                                <icon-name>centos</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_32</name>
+                                    <description>x86_32</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_32</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-03T13:28:39+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>CentOS64</name>
+                            <description>CentOS 6.0 64bit</description>
+                            <revision>0</revision>
+                            <major>6</major>
+                            <minor>0</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-03T13:28:39+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CentOS64</name>
+                                <description>CentOS 64bit</description>
+                                <revision>0</revision>
+                                <icon-name>centos</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_64</name>
+                                    <description>x86_64</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_64</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-03T13:28:38+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>CentOS64</name>
+                            <description>CentOS 5.6 64bit</description>
+                            <revision>0</revision>
+                            <major>5</major>
+                            <minor>6</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-03T13:28:39+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CentOS64</name>
+                                <description>CentOS 64bit</description>
+                                <revision>0</revision>
+                                <icon-name>centos</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_64</name>
+                                    <description>x86_64</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_64</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2011-11-22T19:59:18+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>RHEL32</name>
+                            <description>RHEL 6.1 32bit</description>
+                            <revision>0</revision>
+                            <major>6</major>
+                            <minor>1</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:21+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>RHEL32</name>
+                                <description>Red Hat Enterprise Linux 32bit</description>
+                                <revision>0</revision>
+                                <icon-name>redhat</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_32</name>
+                                    <description>x86_32</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_32</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2011-11-22T19:59:18+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>RHEL64</name>
+                            <description>RHEL 6.1 64bit</description>
+                            <revision>0</revision>
+                            <major>6</major>
+                            <minor>1</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:21+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>RHEL64</name>
+                                <description>Red Hat Enterprise Linux 64bit</description>
+                                <revision>0</revision>
+                                <icon-name>redhat</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_64</name>
+                                    <description>x86_64</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_64</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <ns9:component-version-script>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <description></description>
+                            <script>#!/bin/bash
+
+# vFabric ApplicationDirector Sample START script for vFabric 5.1 Web Server
+
+# This example uses the values posted below as defaults. To change any of these
+# values, add the Property Name as shown below as individual properties in your
+# service definition in the ApplicationDirector Catalog. The value specified after
+# the Property name is the Type to use for the property (i.e. String, Content, Array etc)
+# There are two types of properties for this script: Required and Optional. Both are
+# listed below.
+#
+# REQUIRED PROPERTIES:
+# These are the properties you must add in order for this sample script to work. The property
+# is added when you create your service definition in the ApplicationDirector Catalog.
+# Property Description: Property Value settable in blueprint [type]:
+# --------------------------------------------------------------------------------------------
+# Location of global configuration data global_conf [Content]
+# value: https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+# IP address of the webserver (to set in conf) webserver_ip [String]
+# value: self:ip
+#
+# OPTIONAL PROPERTIES:
+# Property Description: Property Name settable in blueprint:
+# --------------------------------------------------------------------------------------------
+# name of the new web server instance to be created INSTANCE_NAME [String]
+# The WebServer is will be listening on port 80 HTTP_PROXY_PORT [String]
+# The application to which we are proxying is
+# the Spring travel sample application which
+# is available from the ApplicationDirector server APPLICATION_NAME [String]
+
+# From ApplicationDirector - Import and source global configuration
+
+# From ApplicationDirector - Import global conf
+. $global_conf
+
+export PATH=$PATH:/usr/sbin:/sbin:/usr/bin:/bin
+export HOME=/root
+export WEBSERVER_HOME="/opt/vmware/vfabric-web-server"
+
+# Any of the following may be set as Properties in your service definition, and if enabled, may be overwritten
+# in your application blueprint.
+export INSTANCE_NAME=${INSTANCE_NAME:="vfabric-webserver-sample"}
+export HTTP_PROXY_PORT=${HTTP_PROXY_PORT:=80} # property value for virtual host listen port
+export APPLICATION_NAME=${APPLICATION_NAME:="travel"}
+
+if [ "${webserver_ip}" == "" ]; then
+webserver_ip=`ifconfig | grep 'inet addr:'| grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $1}'`
+fi
+
+if [[ ! -f ${WEBSERVER_HOME}/${INSTANCE_NAME}/bin/httpdctl ]]; then
+echo "ERROR: Unable to locate ${WEBSERVER_HOME}/${INSTANCE_NAME}/bin/httpdctl"
+    echo "Please create the instance ${WEBSERVER_HOME}/${INSTANCE_NAME} first. Exiting script"
+    exit
+fi
+
+IS_RUNNING=`netstat -apn | grep :::80 | grep httpd.worker`
+if [[ $? == 0 ]]; then
+echo "ERROR: The webserver instance ${WEBSERVER_HOME}/${INSTANCE_NAME} is already running. Exiting script"
+    exit
+fi
+
+# verify the configuration
+${WEBSERVER_HOME}/${INSTANCE_NAME}/bin/httpdctl configtest
+if [[ $? == 0 ]]; then
+    ${WEBSERVER_HOME}/${INSTANCE_NAME}/bin/httpdctl start
+else
+echo "ERROR: There's an issue with the configuration for ${WEBSERVER_HOME}/${INSTANCE_NAME}"
+    echo "Please verify the configuration. Exiting WebServer startup"
+    exit
+fi
+# verify we have a running server
+wget -O webserver_index.html http://${webserver_ip}:${HTTP_PROXY_PORT}
+SUCCESS=`cat webserver_index.html | grep "successfully setup and started vFabric Web Server"`
+if [[ "$SUCCESS" == "" ]]; then
+echo "ERROR: There was an error starting webserver instance ${WEBSERVER_HOME}/${INSTANCE_NAME}"
+    echo "Please see the log files in ${WEBSERVER_HOME}/${INSTANCE_NAME}/logs for more information"
+    exit
+else
+echo "COMPLETED: webserver instance ${WEBSERVER_HOME}/${INSTANCE_NAME} is RUNNING"
+    echo "View your app at: http://${webserver_ip}:${HTTP_PROXY_PORT}/${APPLICATION_NAME}"
+fi
+
+</script>
+                            <embedded>true</embedded>
+                            <script-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Bash Script</name>
+                                <description>Bash shell script.</description>
+                                <name-message-key>type.script.bash.name</name-message-key>
+                                <description-message-key>type.script.bash.description</description-message-key>
+                                <supported-os-details>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <os-family>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                    </os-family>
+                                    <supports-array-props>true</supports-array-props>
+                                    <supports-output-props>true</supports-output-props>
+                                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                                    <exec-script-extension>sh</exec-script-extension>
+                                    <file-extension>sh</file-extension>
+                                </supported-os-details>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>String</name>
+                                    <description>String (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Content</name>
+                                    <description>Content (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Array</name>
+                                    <description>Array</description>
+                                    </prop-type>
+                                    <expression>${&lt;property-name&gt;[@]}</expression>
+                                </script-type-expression>
+                            </script-type>
+                            <component-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>START</name>
+                                <description>Start lifecycle on a component.</description>
+                                <name-message-key>type.lifecycle.start.name</name-message-key>
+                                <description-message-key>type.lifecycle.start.description</description-message-key>
+                            </component-lifecycle-type>
+                            <reboot-after>false</reboot-after>
+                        </ns9:component-version-script>
+                        <ns9:component-version-script>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <description></description>
+                            <script>#!/bin/sh
+# vFabric ApplicationDirector Sample INSTALL script for vFabric 5.1 Web Server
+
+# This example uses the values posted below as defaults. To change any of these
+# values, add the Property Name as shown below as individual properties in your
+# service definition in the ApplicationDirector Catalog. The value specified after
+# the Property name is the Type to use for the property (i.e. String, Content, Array etc)
+#
+# REQUIRED PROPERTIES:
+# These are the properties you must add in order for this sample script to work. The property
+# is added when you create your service definition in the ApplicationDirector Catalog.
+# Property Description: Property Value settable in blueprint [type]:
+# --------------------------------------------------------------------------------------------
+# Location of global configuration data global_conf [Content]
+# value: https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+#
+
+# From ApplicationDirector - Import and source global configuration
+. $global_conf
+
+set -e
+
+export PATH=$PATH:/usr/sbin:/sbin:/usr/bin:/bin
+export HOME=/root
+export WEBSERVER_PACKAGE=${WEBSERVER_PACKAGE:="vfabric-web-server"}
+export EULA_LOCATION=${EULA_LOCATION:="http://www.vmware.com/download/eula/vfabric_app-platform_eula.html"}
+
+
+# pre-set the license agreement for rpm
+if [ ! -d "/etc/vmware/vfabric" ]; then
+mkdir -p /etc/vmware/vfabric
+fi
+echo "setting up vfabric repo"
+echo "I_ACCEPT_EULA_LOCATED_AT=${EULA_LOCATION}" &gt;&gt; /etc/vmware/vfabric/accept-vfabric-eula.txt
+echo "I_ACCEPT_EULA_LOCATED_AT=${EULA_LOCATION}" &gt;&gt; /etc/vmware/vfabric/accept-vfabric5.1-eula.txt
+
+if [ -f /etc/redhat-release ] ; then
+DistroBasedOn='RedHat'
+    DIST=`cat /etc/redhat-release |sed s/\ release.*//`
+    REV=`cat /etc/redhat-release | sed s/.*release\ // | sed s/\ .*// | awk -F. '{ print $1 }'`
+else
+echo "Installation only supported on RedHat and CentOS; exiting installation script"
+    exit
+fi
+
+# setup repo
+if [ -f /bin/rpm ]; then
+if [ "$REV" == "5" ]; then
+rpm --import http://repo.vmware.com/pub/rhel5/vfabric/5.1/RPM-GPG-KEY-VFABRIC-5.1-EL5
+      rpm -Uvh http://repo.vmware.com/pub/rhel5/vfabric/5.1/vfabric-5.1-repo-5.1-1.noarch.rpm
+   elif [ "$REV" == "6" ]; then
+rpm --import http://repo.vmware.com/pub/rhel6/vfabric/5.1/RPM-GPG-KEY-VFABRIC-5.1-EL6
+      rpm -Uvh --force http://repo.vmware.com/pub/rhel6/vfabric/5.1/vfabric-5.1-repo-5.1-1.noarch.rpm
+   else
+echo "Unsupported version: ${REV}; exiting installation"
+      exit
+fi
+else
+echo "RPM utility not available; exiting installation script"
+   exit
+fi
+
+if [ "$DistroBasedOn" == "RedHat" ]; then
+if [ "$DIST" == "CentOS" ]; then
+if [ -x /usr/sbin/selinuxenabled ] &amp;&amp; /usr/sbin/selinuxenabled; then
+echo 'SELinux is enabled. This may cause installation to fail.'
+      fi
+fi
+if [ -f /usr/bin/yum ]; then
+yum -y -v install ${WEBSERVER_PACKAGE}
+   elif [ -f /usr/bin/yast ]; then
+yast -i ${WEBSERVER_PACKAGE}
+   else
+echo "ERROR! Unable to locate yum or yast in ${PATH}; exiting installer"
+      exit
+fi
+fi
+
+if [ -f /opt/vmware/${WEBSERVER_PACKAGE}/newserver.pl ]; then
+echo "COMPLETED: ${WEBSERVER_PACKAGE} has been installed in /opt/vmware/${WEBSERVER_PACKAGE}"
+   echo "Please see https://www.vmware.com/support/pubs/vfabric-webserver.html for more information"
+fi</script>
+                            <embedded>true</embedded>
+                            <script-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Bash Script</name>
+                                <description>Bash shell script.</description>
+                                <name-message-key>type.script.bash.name</name-message-key>
+                                <description-message-key>type.script.bash.description</description-message-key>
+                                <supported-os-details>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <os-family>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                    </os-family>
+                                    <supports-array-props>true</supports-array-props>
+                                    <supports-output-props>true</supports-output-props>
+                                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                                    <exec-script-extension>sh</exec-script-extension>
+                                    <file-extension>sh</file-extension>
+                                </supported-os-details>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>String</name>
+                                    <description>String (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Content</name>
+                                    <description>Content (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Array</name>
+                                    <description>Array</description>
+                                    </prop-type>
+                                    <expression>${&lt;property-name&gt;[@]}</expression>
+                                </script-type-expression>
+                            </script-type>
+                            <component-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>INSTALL</name>
+                                <description>Install lifecycle on a component.</description>
+                                <name-message-key>type.lifecycle.install.name</name-message-key>
+                                <description-message-key>type.lifecycle.install.description</description-message-key>
+                            </component-lifecycle-type>
+                            <reboot-after>false</reboot-after>
+                        </ns9:component-version-script>
+                        <ns9:component-version-script>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-04T11:58:54+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-04T11:58:54+05:30</created>
+                            <create-user>admin</create-user>
+                            <description></description>
+                            <script>#!/bin/sh
+
+# vFabric ApplicationDirector Sample CONFIG script for vFabric 5.1 Web Server
+
+# This example uses the values posted below as defaults. To change any of these
+# values, add the Property Name as shown below as individual properties in your
+# service definition in the ApplicationDirector Catalog. The value specified after
+# the Property name is the Type to use for the property (i.e. String, Content, Array etc)
+# There are two types of properties for this script: Required and Optional. Both are
+# listed below.
+#
+# REQUIRED PROPERTIES:
+# These are the properties you must add in order for this sample script to work. The property
+# is added when you create your service definition in the ApplicationDirector Catalog.
+# Property Description: Property Value settable in blueprint [type]:
+# --------------------------------------------------------------------------------------------
+# Location of global configuration data global_conf [Content]
+# value: https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+# List of tc Server instances (IPs) to proxy to http_node_ips [Array]
+# value: all(tcServerInstance:NIC0_ip)
+# IP address of the webserver (to set in conf) webserver_ip [String]
+# value: self:ip
+#
+# OPTIONAL PROPERTIES:
+# Property Description: Property Name settable in blueprint:
+# --------------------------------------------------------------------------------------------
+# name of the new web server instance to be created INSTANCE_NAME [String]
+# The WebServer is will be listening on port 80 HTTP_PROXY_PORT [String]
+# The tc Server instances to which we are proxying
+# are listening on port 8080 HTTP_NODE_PORT [String]
+# The load balancer method to be used is byrequests LOAD_BALANCER_METHOD [String]
+# Virtual host information written to configuration
+# file httpd-vfabric-sample.conf WEBSERVER_CONF_FILE [String]
+# The application to which we are proxying is
+# the Spring travel sample application which
+# is available from the ApplicationDirector server APPLICATION_NAME [String]
+
+# From ApplicationDirector - Import and source global configuration
+. $global_conf
+
+set -e
+
+export PATH=$PATH:/usr/sbin:/sbin:/usr/bin:/bin
+export HOME=/root
+export WEBSERVER_HOME="/opt/vmware/vfabric-web-server"
+
+# Any of the following may be set as Properties in your service definition, and if enabled, may be overwritten
+# in your application blueprint.
+export INSTANCE_NAME=${INSTANCE_NAME:="vfabric-webserver-sample"}
+export WEBSERVER_CONF_FILE=${WEBSERVER_CONF_FILE:="httpd-vfabric-sample.conf"}
+export LOAD_BALANCER_METHOD=${LOAD_BALANCER_METHOD:="byrequests"} # options are: byrequests, bytraffic, bybusyness
+export HTTP_NODE_PORT=${HTTP_NODE_PORT:=8080} # property value for tc Server(s) listen port
+export HTTP_PROXY_PORT=${HTTP_PROXY_PORT:=80} # property value for virtual host listen port
+export APPLICATION_NAME=${APPLICATION_NAME:="travel"}
+
+# check to see if the webserver instance already exists. If so, we'll just exit
+if [[ -d ${WEBSERVER_HOME}/${INSTANCE_NAME} ]]; then
+echo "ERROR: The webserver instance ${WEBSERVER_HOME}/${INSTANCE_NAME} already exists, and will not be overwritten"
+    echo "Exiting script"
+    exit
+fi
+
+# determine the webserver VMs IP - this can either be a property specified in the service catalog (i.e."self:ip"),
+# or we can determine it here
+if [ "${webserver_ip}" == "" ]; then
+webserver_ip=`ifconfig | grep 'inet addr:'| grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $1}'`
+fi
+
+# create the new webserver instance
+cd ${WEBSERVER_HOME}
+${WEBSERVER_HOME}/newserver.pl --server=${INSTANCE_NAME} --rootdir=${WEBSERVER_HOME} --quiet
+
+# create and include configuration file for the example deployment (deploys ${APPLICATION_NAME)
+# http_node_ips is a property that will need to be set in the vFabric-web-server service catalog entry as follows:
+## name: http_node_ips
+## type: Array
+## blueprint value: all(tcServerInstances:NIC0_ip)
+### where 'tcServerInstances' is the name given to your tc Server blueprint component
+
+echo "Include conf/extra/${WEBSERVER_CONF_FILE}" &gt;&gt; ${WEBSERVER_HOME}/${INSTANCE_NAME}/conf/httpd.conf
+
+if [ ! "$http_node_ips" == "None" ]; then
+SUBSTR=""
+    for (( i = 0 ; i &lt; ${#http_node_ips[@]} ; i++ )); do
+SUBSTR="$SUBSTR"$'\n'"BalancerMember http://${http_node_ips[$i]}:${HTTP_NODE_PORT}"
+    done
+SUBSTR_REVERSE=""
+    for (( i = 0 ; i &lt; ${#http_node_ips[@]} ; i++ )); do
+SUBSTR_REVERSE="$SUBSTR_REVERSE"$'\n'"ProxyPassReverse /${APPLICATION_NAME} http://${http_node_ips[$i]}:${HTTP_NODE_PORT}/${APPLICATION_NAME}"
+    done
+cat &gt;&gt; ${WEBSERVER_HOME}/${INSTANCE_NAME}/conf/extra/${WEBSERVER_CONF_FILE} &lt;&lt; EOF
+&lt;VirtualHost *:${HTTP_PROXY_PORT}&gt;
+ServerName $webserver_ip:${HTTP_PROXY_PORT}
+
+&lt;Location /balancer-manager&gt;
+SetHandler balancer-manager
+Order Deny,Allow
+Deny from all
+Allow from $webserver_ip
+&lt;/Location&gt;
+
+&lt;Proxy balancer://samplecluster&gt;
+$SUBSTR
+ProxySet lbmethod=${LOAD_BALANCER_METHOD}
+&lt;/Proxy&gt;
+ProxyPass /${APPLICATION_NAME} balancer://samplecluster/${APPLICATION_NAME}
+$SUBSTR_REVERSE
+&lt;/VirtualHost&gt;
+EOF
+fi
+echo "COMPLETED: A new vfabric-web-server instance has been created in ${WEBSERVER_HOME}/${INSTANCE_NAME}"
+echo "You can view the configuration in ${WEBSERVER_HOME}/${INSTANCE_NAME}/conf/extra/${WEBSERVER_CONF_FILE}"
+
+
+</script>
+                            <embedded>true</embedded>
+                            <script-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Bash Script</name>
+                                <description>Bash shell script.</description>
+                                <name-message-key>type.script.bash.name</name-message-key>
+                                <description-message-key>type.script.bash.description</description-message-key>
+                                <supported-os-details>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <os-family>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                    </os-family>
+                                    <supports-array-props>true</supports-array-props>
+                                    <supports-output-props>true</supports-output-props>
+                                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                                    <exec-script-extension>sh</exec-script-extension>
+                                    <file-extension>sh</file-extension>
+                                </supported-os-details>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>String</name>
+                                    <description>String (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Content</name>
+                                    <description>Content (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Array</name>
+                                    <description>Array</description>
+                                    </prop-type>
+                                    <expression>${&lt;property-name&gt;[@]}</expression>
+                                </script-type-expression>
+                            </script-type>
+                            <component-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CONFIGURE</name>
+                                <description>Configure lifecycle on a component.</description>
+                                <name-message-key>type.lifecycle.configure.name</name-message-key>
+                                <description-message-key>type.lifecycle.configure.description</description-message-key>
+                            </component-lifecycle-type>
+                            <reboot-after>false</reboot-after>
+                        </ns9:component-version-script>
+                    </service-version>
+                </service-node-component>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-04T11:58:55+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>Memory(MB)</name>
+                    <description>Virtual Memory in MB</description>
+                    <key>Memory(MB)</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>true</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[2048]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns5:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:55+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <value><![CDATA[2048]]></value>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns5:bound-prop>
+                </bindable-props>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-04T11:58:55+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>vCPU</name>
+                    <description>vCPU size</description>
+                    <key>vCPU</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>true</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[1]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns5:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:55+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <value><![CDATA[1]]></value>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns5:bound-prop>
+                </bindable-props>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-04T11:58:55+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>ClusterSize</name>
+                    <description>Number of nodes in the cluster</description>
+                    <key>ClusterSize</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>true</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[1]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns5:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:55+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <value><![CDATA[1]]></value>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns5:bound-prop>
+                </bindable-props>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-04T11:58:55+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>Hostname</name>
+                    <description>Add host name or computer name. Use ${random} expression as needed.</description>
+                    <key>Hostname</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>false</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns5:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-04T11:58:55+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-04T11:58:55+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns5:bound-prop>
+                </bindable-props>
+            </nodes>
+        </blueprint>
+    </application-versions>
+</ns33:export-package>
