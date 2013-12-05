@@ -1,20 +1,26 @@
-{    
-	"vmware":{        
-		"config":{            
-			"version":1.0        
-		},        
-		"applications":{            
-			"applicationDirectorWebImport":{                
-				"exportFileName":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml",                
-				"exportedFileReadme":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.readme",                
-				"importSectionHeader":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service",                
-				"exportedWithAppDVersion":6.0,                
-				"optional":{                    
-					"nextStepsMarkdownFile":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.md",                    
-					"enableConsoleLogging":true,                    
-					"exportedFileErrorReadme":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.error.readme"                
-				}            
-			}        
-		}    
-	}
-} 
+{
+    "vmware": {
+        "config": {
+            "version": 1.0
+        },
+        "applications": {
+            "applicationDirectorWebImport": {
+                "exportFileName": "VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml",
+                "exportedFileReadme": "VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.readme",
+                "importSectionHeader": "VMware-vFabric-tc-Server-2.7-with-EM4J-Service",
+                "exportedWithAppDVersion": 6.0,
+                "optional": {
+                    "nextStepsMarkdownFile":"VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.md",
+		    "enableConsoleLogging": true,
+                    "exportedFileErrorReadme": "VMware-vFabric-tc-Server-2.7-with-EM4J-Service.xml.error.readme",
+                    "headerBulletPoints":[
+                        {"msg":  "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into <a href='http://vmware-applicationdirector.github.io/solutions-import-beta/exportimport-deploy/appdir/docs/index.html?uname=vmware-applicationdirector&repo=solutions-import-beta&branch=VMware-vFabric-tc-Server-2_7-EM4J-Service-50'>here</a>"},
+                        {"msg": "Your Application Director instance needs to be network accessible for the import utility to work"},
+                        {"msg": "You need to have Catalog Admin and Application Architect roles to use import the blueprint into your instance of Application Director"},
+                        {"msg": "If you do not have an instance of Application Director, contact us at <a href='mailto:app-mgmt-partner-support@vmware.com'>Marketplace Support</a>"}
+                    ]
+                }
+            }
+        }
+    }
+}
