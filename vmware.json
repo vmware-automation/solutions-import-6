@@ -5,7 +5,7 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "BitNami-Joomla-64bit-blueprint.xml",
+                "exportFileName": "BitNami-Joomla-64bit-service.xml",
                 "exportedFileReadme": "BitNami-Joomla-64bit-blueprint.xml.readme",
                 "importSectionHeader": "BitNami Joomla",
                 "exportedWithAppDVersion": 6.0,
