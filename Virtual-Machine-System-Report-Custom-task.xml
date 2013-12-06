@@ -1230,7 +1230,7 @@ MySQL is the most popular open-source database system.</description>
                             <last-update-user>admin</last-update-user>
                             <created>2013-12-04T15:06:48+05:30</created>
                             <create-user>admin</create-user>
-                            <name>CentOS64_Virtual_Machine_System_Report_Custom_task_AH</name>
+                            <name>CentOS64_Virtual_Machine_System_Report_Custom_task</name>
                             <description>CentOS 6.0 64bit</description>
                             <revision>0</revision>
                             <major>6</major>
@@ -1247,7 +1247,7 @@ MySQL is the most popular open-source database system.</description>
                                 <last-update-user>admin</last-update-user>
                                 <created>2013-12-04T15:06:47+05:30</created>
                                 <create-user>admin</create-user>
-                                <name>CentOS64_Virtual_Machine_System_Report_Custom_task_AH</name>
+                                <name>CentOS64_Virtual_Machine_System_Report_Custom_task</name>
                                 <description>CentOS 64bit</description>
                                 <revision>0</revision>
                                 <icon-name>centos</icon-name>
@@ -1311,7 +1311,7 @@ MySQL is the most popular open-source database system.</description>
                             <last-update-user>admin</last-update-user>
                             <created>2013-12-04T15:06:47+05:30</created>
                             <create-user>admin</create-user>
-                            <name>CentOS64_Virtual_Machine_System_Report_Custom_task_AH</name>
+                            <name>CentOS64_Virtual_Machine_System_Report_Custom_task</name>
                             <description>CentOS 5.6 64bit</description>
                             <revision>0</revision>
                             <major>5</major>
@@ -1328,7 +1328,7 @@ MySQL is the most popular open-source database system.</description>
                                 <last-update-user>admin</last-update-user>
                                 <created>2013-12-04T15:06:47+05:30</created>
                                 <create-user>admin</create-user>
-                                <name>CentOS64_Virtual_Machine_System_Report_Custom_task_AH</name>
+                                <name>CentOS64_Virtual_Machine_System_Report_Custom_task</name>
                                 <description>CentOS 64bit</description>
                                 <revision>0</revision>
                                 <icon-name>centos</icon-name>
@@ -1392,7 +1392,7 @@ MySQL is the most popular open-source database system.</description>
                             <last-update-user>admin</last-update-user>
                             <created>2013-12-04T15:06:48+05:30</created>
                             <create-user>admin</create-user>
-                            <name>CentOS64_Virtual_Machine_System_Report_AH</name>
+                            <name>CentOS64_Virtual_Machine_System_Report</name>
                             <description>CentOS 5.6 64bit</description>
                             <revision>0</revision>
                             <major>5</major>
@@ -1409,7 +1409,7 @@ MySQL is the most popular open-source database system.</description>
                                 <last-update-user>admin</last-update-user>
                                 <created>2013-12-04T15:06:48+05:30</created>
                                 <create-user>admin</create-user>
-                                <name>CentOS64_Virtual_Machine_System_Report_AH</name>
+                                <name>CentOS64_Virtual_Machine_System_Report</name>
                                 <description>CentOS 64bit</description>
                                 <revision>0</revision>
                                 <icon-name>centos</icon-name>
@@ -1473,7 +1473,7 @@ MySQL is the most popular open-source database system.</description>
                             <last-update-user>admin</last-update-user>
                             <created>2013-12-04T15:06:48+05:30</created>
                             <create-user>admin</create-user>
-                            <name>CentOS64_Virtual_Machine_System_Report_AH</name>
+                            <name>CentOS64_Virtual_Machine_System_Report</name>
                             <description>CentOS 6.0 64bit</description>
                             <revision>0</revision>
                             <major>6</major>
@@ -1490,7 +1490,7 @@ MySQL is the most popular open-source database system.</description>
                                 <last-update-user>admin</last-update-user>
                                 <created>2013-12-04T15:06:48+05:30</created>
                                 <create-user>admin</create-user>
-                                <name>CentOS64_Virtual_Machine_System_Report_AH</name>
+                                <name>CentOS64_Virtual_Machine_System_Report</name>
                                 <description>CentOS 64bit</description>
                                 <revision>0</revision>
                                 <icon-name>centos</icon-name>
