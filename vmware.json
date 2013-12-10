@@ -1,20 +1,27 @@
-{    
-	"vmware":{        
-		"config":{            
-			"version":1.0        
-		},        
-		"applications":{            
-			"applicationDirectorWebImport":{                
-				"exportFileName":"Liferay-OpenLDAP-Application-Blueprint.xml",                
-				"exportedFileReadme":"Liferay-OpenLDAP-Application-Blueprint.xml.readme",                
-				"importSectionHeader":"Liferay-OpenLDAP-Application-Blueprint",                
-				"exportedWithAppDVersion":6.0,                
-				"optional":{                    
-					"nextStepsMarkdownFile":"Liferay-OpenLDAP-Application-Blueprint.xml.md",                    
-					"enableConsoleLogging":true,                    
-					"exportedFileErrorReadme":"Liferay-OpenLDAP-Application-Blueprint.xml.error.readme"                
-				}            
-			}        
-		}    
-	}
-} 
+{
+    "vmware": {
+        "config": {
+            "version": 1.0
+        },
+        "applications": {
+            "applicationDirectorWebImport": {
+                "exportFileName": "Liferay-OpenLDAP-Application-Blueprint.xml",
+                "exportedFileReadme": "Liferay-OpenLDAP-Application-Blueprint.xml.readme",
+                "importSectionHeader": "Liferay-OpenLDAP-Application-Blueprint",
+                "exportedWithAppDVersion": 6.0,
+                "optional": {
+                    "nextStepsMarkdownFile":"Liferay-OpenLDAP-Application-Blueprint.xml.md",
+		    "enableConsoleLogging": true,
+                    "exportedFileErrorReadme": "Liferay-OpenLDAP-Application-Blueprint.xml.error.readme",
+                    "headerBulletPoints":[
+                        {"msg":  "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.0. If you need this solution for <a href='http://vmware-applicationdirector.github.io/solutions-import-beta/exportimport-deploy/appdir/docs/index.html?uname=vmware-applicationdirector&repo=solutions-import-beta&branch=Riverbed-Stingray-Traffic-Manager-9_0-Service-50'>here</a>"},
+                        {"msg": "Your Application Director instance needs to be network accessible for the import utility to work"},
+                        {"msg": "You need to have Catalog Admin and Application Architect roles to use import the blueprint into your instance of Application Director"},
+                        {"msg": "If you do not have an instance of Application Director, contact us at <a href='mailto:app-mgmt-partner-support@vmware.com'>Marketplace Support</a>"}
+                    ]
+                }
+            }
+        }
+    }
+}
+
