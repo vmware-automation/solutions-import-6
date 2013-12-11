@@ -1,0 +1,5 @@
+Active Directory (AD) is a directory service created by Microsoft for Windows domain networks. It is included in most of the Windows Server operating systems. Active Directory provides a central location for network administration and security.
+
+Active Directory Federation Services (AD FS for short) is a software component developed by Microsoft that can be installed on Windows Server Operating systems to provide users with Single Sign-On access to systems and applications located across organizational boundaries. It uses a Claims-based access control authorization model to maintain application security and implement federated identity. 
+
+Windows Identity Foundation (WIF) is a rich identity model framework designed for building claims-based applications and services and for supporting active and passive federated security scenarios. With WIF, you can enable passive federation for any ASP.NET application, and integrate claims-based authorization model into your ASP.NET applications.
