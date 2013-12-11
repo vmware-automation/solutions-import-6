@@ -1,0 +1,4 @@
+Couchbase Server is the simple, fast, and elastic NoSQL database solution easily managed.there is no need to create and manage schemas; and never a need to normalize, shard or tune the database.It is is a distributed NoSQL database optimized for the data management needs of interactive web applications.Transparently accelerating database reads and writes, Couchbase Server’s caching technology based on memcached is web-app hardened.Data is automatically re-distributed across the cluster, without impacting the performance of applications on top.
+
+    
+ 

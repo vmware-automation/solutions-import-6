@@ -1,0 +1,3279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns33:export-package
+    xmlns:ns48="http://www.vmware.com/darwin/api/v2/beans/properties"
+    xmlns:ns33="http://www.vmware.com/darwin/schema/beans/exim"
+    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/deployment"
+    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/security/ldap"
+    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/deployment/environment"
+    xmlns:ns38="http://www.vmware.com/darwin/api/v2/beans/cloud"
+    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/rollback/profile"
+    xmlns:ns46="http://www.vmware.com/darwin/schema/beans/storage"
+    xmlns:ns2="http://www.vmware.com/darwin/schema/beans/security"
+    xmlns:ns29="http://www.vmware.com/darwin/schema/beans/ssl"
+    xmlns:ns47="http://www.vmware.com/darwin/schema/beans/monitor"
+    xmlns:ns28="http://www.vmware.com/darwin/schema/beans/networking"
+    xmlns:ns32="http://www.vmware.com/darwin/schema/beans/api"
+    xmlns:ns40="http://www.vmware.com/darwin/api/v2/beans/catalog"
+    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/policy"
+    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/csp/cafe"
+    xmlns:ns37="http://www.vmware.com/darwin/api/v2/beans/certificate"
+    xmlns:ns31="http://www.vmware.com/darwin/schema/beans/notification"
+    xmlns:ns12="http://www.vmware.com/darwin/schema/beans/solution"
+    xmlns:ns30="http://www.vmware.com/darwin/schema/beans/response"
+    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/driver/location"
+    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
+    xmlns:ns39="http://www.vmware.com/darwin/api/v2/beans/deployment/profile"
+    xmlns:ns45="http://www.vmware.com/darwin/api/v2/beans/application"
+    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/application"
+    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/deployment/system"
+    xmlns:ns35="http://www.vmware.com/darwin/api/v2/beans"
+    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/props"
+    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/update/profile"
+    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/cloud/provider"
+    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/entity"
+    xmlns:ns44="http://www.vmware.com/darwin/api/v2/beans/security"
+    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/security/user"
+    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/profile/base"
+    xmlns:ns49="http://www.vmware.com/darwin/schema/beans/exim/vsxclient"
+    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/deployment/profile"
+    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/blueprint"
+    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/scripts"
+    xmlns:ns34="http://www.vmware.com/darwin/schema/beans/exim/marketplace"
+    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/teardown/profile"
+    xmlns:ns36="http://www.vmware.com/darwin/api/v2/beans/update/profile"
+    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/flow"
+    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/metatag"
+    xmlns:ns42="http://www.vmware.com/darwin/api/v2/beans/csp"
+    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/physical/template"
+    xmlns:ns43="http://www.vmware.com/darwin/api/v2/beans/deployment"
+    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns41="http://www.vmware.com/darwin/schema/beans/license">
+    <errors>false</errors>
+    <application-director-version>vCloud Application Director CLI BUILD [6.0.0-1446071]</application-director-version>
+    <application-versions>
+        <id>0</id>
+        <inactive>false</inactive>
+        <lock-version>0</lock-version>
+        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+        <last-update-user>admin</last-update-user>
+        <created>2013-12-10T11:00:22+05:30</created>
+        <create-user>admin</create-user>
+        <name>Couchbase NoSQL Database 1.8.1</name>
+        <description></description>
+        <group-membership>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-12-10T11:00:22+05:30</created>
+            <create-user>admin</create-user>
+            <owner-group>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-26T02:58:20+05:30</created>
+                <create-user>SYSTEM</create-user>
+                <name>Default</name>
+                <description>The Default vCloud Application Director group.</description>
+                <name-message-key>group.default.name</name-message-key>
+                <description-message-key>group.default.description</description-message-key>
+            </owner-group>
+            <global>false</global>
+        </group-membership>
+        <revision>0</revision>
+        <major>1</major>
+        <minor>8</minor>
+        <micro>1</micro>
+        <qualifier></qualifier>
+        <dynamically-installable>false</dynamically-installable>
+        <auto-bind-properties>false</auto-bind-properties>
+        <icon-name></icon-name>
+        <application>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-12-10T11:00:22+05:30</created>
+            <create-user>admin</create-user>
+            <name>Couchbase NoSQL Database 1.8.1</name>
+            <description>Couchbase Server is the simple, fast, and elastic NoSQL database solution easily managed and deployed on VMware vFabric Application Director.  Couchbase Server allows organizations to:
+Create massive multi-user web applications which scale-out to maintain high-performance, while using cost-effective cloud instances
+Quickly prototype and prove-out web applications without purchasing and implementing new IT infrastructure
+Offload expensive processing from overburdened relational databases and avoid manual sharding of datasets
+Achieve multi-tenancy, a critical feature for SaaS environments
+Deeper Dive</description>
+            <revision>0</revision>
+            <group-membership>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-12-10T11:00:22+05:30</created>
+                <create-user>admin</create-user>
+                <owner-group>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-26T02:58:20+05:30</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Default</name>
+                    <description>The Default vCloud Application Director group.</description>
+                    <name-message-key>group.default.name</name-message-key>
+                    <description-message-key>group.default.description</description-message-key>
+                </owner-group>
+                <global>false</global>
+            </group-membership>
+        </application>
+        <blueprint>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-12-10T11:00:22+05:30</created>
+            <create-user>admin</create-user>
+            <name>Couchbase NoSQL Database 1.8.1 v1.8</name>
+            <description></description>
+            <revision>0</revision>
+            <nodes xsi:type="ns11:node-array" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-12-10T11:00:22+05:30</created>
+                <create-user>admin</create-user>
+                <name>Couchbase_NoSQL_Database_1.8</name>
+                <grid-row>0</grid-row>
+                <grid-column>1</grid-column>
+                <vm-template-version>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-10T11:00:21+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-10T11:00:21+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>Couchbase NoSQL Database</name>
+                    <description></description>
+                    <group-membership>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:21+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:21+05:30</created>
+                        <create-user>admin</create-user>
+                        <owner-group>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:20+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Default</name>
+                            <description>The Default vCloud Application Director group.</description>
+                            <name-message-key>group.default.name</name-message-key>
+                            <description-message-key>group.default.description</description-message-key>
+                        </owner-group>
+                        <global>false</global>
+                    </group-membership>
+                    <revision>0</revision>
+                    <major>1</major>
+                    <minor>8</minor>
+                    <micro>1</micro>
+                    <qualifier></qualifier>
+                    <dynamically-installable>false</dynamically-installable>
+                    <auto-bind-properties>false</auto-bind-properties>
+                    <meta-tag>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:21+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>OS Templates</name>
+                        <description>OS Templates</description>
+                        <meta-tag-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Server Type</name>
+                            <description>Server type, primarily used for organizing data.</description>
+                            <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
+                            <user-managed-type>true</user-managed-type>
+                        </meta-tag-type>
+                    </meta-tag>
+                    <os-version>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-03T13:28:38+05:30</created>
+                        <create-user>admin</create-user>
+                        <name>CentOS64</name>
+                        <description>CentOS 5.6 64bit</description>
+                        <revision>0</revision>
+                        <major>5</major>
+                        <minor>6</minor>
+                        <micro>0</micro>
+                        <qualifier></qualifier>
+                        <dynamically-installable>false</dynamically-installable>
+                        <auto-bind-properties>false</auto-bind-properties>
+                        <operating-system>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-03T13:28:39+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-26T02:58:21+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>CentOS64</name>
+                            <description>CentOS 64bit</description>
+                            <revision>0</revision>
+                            <icon-name>centos</icon-name>
+                            <os-family-meta-tag>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Linux</name>
+                                <description>Linux based operating systems.</description>
+                                <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                </meta-tag-type>
+                                <os-family>LINUX</os-family>
+                            </os-family-meta-tag>
+                            <hardware-architecture-meta-tag>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>x86_64</name>
+                                <description>x86_64</description>
+                                <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                </meta-tag-type>
+                                <hardware-architecture>X86_64</hardware-architecture>
+                            </hardware-architecture-meta-tag>
+                        </operating-system>
+                    </os-version>
+                    <vm-template>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:21+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:21+05:30</created>
+                        <create-user>admin</create-user>
+                        <name>Couchbase NoSQL Database</name>
+                        <description>Couchbase NoSQL Database Template</description>
+                        <revision>0</revision>
+                        <group-membership>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:21+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:21+05:30</created>
+                            <create-user>admin</create-user>
+                            <owner-group>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Default</name>
+                                <description>The Default vCloud Application Director group.</description>
+                                <name-message-key>group.default.name</name-message-key>
+                                <description-message-key>group.default.description</description-message-key>
+                            </owner-group>
+                            <global>false</global>
+                        </group-membership>
+                        <icon-name></icon-name>
+                    </vm-template>
+                </vm-template-version>
+                <service-node-component>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <name>Couchbase_node</name>
+                    <grid-row>0</grid-row>
+                    <grid-column>0</grid-column>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description></description>
+                        <key>node_array_index</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[${['self']['host']['node_array_index']}]]></value>
+                        <readonly>false</readonly>
+                        <overridable>false</overridable>
+                        <expression>true</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Blueprint</name>
+                                <description>Bindable at blueprint level.</description>
+                                <lifecycle-order>2</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[${['self']['host']['node_array_index']}]]></value>
+                            <overridable>false</overridable>
+                            <expression>true</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Password for Couchbase web console</description>
+                        <key>ssh_password</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[couchbase123]]></value>
+                        <readonly>true</readonly>
+                        <overridable>false</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[couchbase123]]></value>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Type of bucket - Options are couchbsae or memcached</description>
+                        <key>bucket_type</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[couchbase]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[couchbase]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Name of bucket</description>
+                        <key>bucket_name</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[default]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[default]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Port for Couchbase rest api and admin interface to bind to</description>
+                        <key>couchbase_port</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[8080]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[8080]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description></description>
+                        <key>cluster_ips</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Array</name>
+                            <description>Array</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[${#util.all("['Couchbase_NoSQL_Database_1.8']['host']['ip']")}]]></value>
+                        <readonly>false</readonly>
+                        <overridable>false</overridable>
+                        <expression>true</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Blueprint</name>
+                                <description>Bindable at blueprint level.</description>
+                                <lifecycle-order>2</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[${#util.all("['Couchbase_NoSQL_Database_1.8']['host']['ip']")}]]></value>
+                            <overridable>false</overridable>
+                            <expression>true</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Number of replicas desired</description>
+                        <key>replica_count</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[1]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[1]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description></description>
+                        <key>global_conf</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Content</name>
+                            <description>Content (java.lang.String).</description>
+                        </prop-type>
+                        <required>true</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Port ssh would bind to </description>
+                        <key>ssh_port</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[80]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[80]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <props>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name></name>
+                        <description>Password for Couchbase Web Console</description>
+                        <key>console_passoword</key>
+                        <prop-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>String</name>
+                            <description>String (java.lang.String).</description>
+                        </prop-type>
+                        <required>false</required>
+                        <secured>false</secured>
+                        <prop-auto-bind-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>1</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>None</name>
+                            <description>Property will not participate in auto-binding.</description>
+                            <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                        </prop-auto-bind-type>
+                        <value><![CDATA[couchbase123]]></value>
+                        <readonly>false</readonly>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Catalog</name>
+                                <description>Bindable at service/catalog level.</description>
+                                <lifecycle-order>1</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[couchbase123]]></value>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </ns3:bound-prop>
+                    </props>
+                    <service-version>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <name>Couchbase node</name>
+                        <description>Couchbase Server database service</description>
+                        <group-membership>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <owner-group>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Default</name>
+                                <description>The Default vCloud Application Director group.</description>
+                                <name-message-key>group.default.name</name-message-key>
+                                <description-message-key>group.default.description</description-message-key>
+                            </owner-group>
+                            <global>false</global>
+                        </group-membership>
+                        <revision>0</revision>
+                        <major>1</major>
+                        <minor>8</minor>
+                        <micro>1</micro>
+                        <qualifier></qualifier>
+                        <dynamically-installable>true</dynamically-installable>
+                        <auto-bind-properties>false</auto-bind-properties>
+                        <icon-name></icon-name>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description></description>
+                            <key>node_array_index</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Password for Couchbase web console</description>
+                            <key>ssh_password</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[couchbase123]]></value>
+                            <readonly>false</readonly>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[couchbase123]]></value>
+                                <overridable>false</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Type of bucket - Options are couchbsae or memcached</description>
+                            <key>bucket_type</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[couchbase]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[couchbase]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Name of bucket</description>
+                            <key>bucket_name</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[default]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[default]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Port for Couchbase rest api and admin interface to bind to</description>
+                            <key>couchbase_port</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[8080]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[8080]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description></description>
+                            <key>cluster_ips</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Array</name>
+                                <description>Array</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Number of replicas desired</description>
+                            <key>replica_count</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[1]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[1]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description></description>
+                            <key>global_conf</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Content</name>
+                                <description>Content (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Port ssh would bind to </description>
+                            <key>ssh_port</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[80]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[80]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name></name>
+                            <description>Password for Couchbase Web Console</description>
+                            <key>console_passoword</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>false</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[couchbase123]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                            <ns3:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Catalog</name>
+                                    <description>Bindable at service/catalog level.</description>
+                                    <lifecycle-order>1</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[couchbase123]]></value>
+                                <overridable>true</overridable>
+                                <expression>false</expression>
+                            </ns3:bound-prop>
+                        </props>
+                        <meta-tag>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Database Servers</name>
+                            <description>Database servers</description>
+                            <meta-tag-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Server Type</name>
+                                <description>Server type, primarily used for organizing data.</description>
+                                <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
+                                <user-managed-type>true</user-managed-type>
+                            </meta-tag-type>
+                        </meta-tag>
+                        <service>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>Couchbase node</name>
+                            <description></description>
+                            <revision>0</revision>
+                            <group-membership>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <owner-group>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Default</name>
+                                    <description>The Default vCloud Application Director group.</description>
+                                    <name-message-key>group.default.name</name-message-key>
+                                    <description-message-key>group.default.description</description-message-key>
+                                </owner-group>
+                                <global>false</global>
+                            </group-membership>
+                            <icon-name></icon-name>
+                        </service>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>RHEL64_New</name>
+                            <description>RHEL 6.1 64bit</description>
+                            <revision>0</revision>
+                            <major>6</major>
+                            <minor>1</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-12-10T11:00:22+05:30</created>
+                                <create-user>admin</create-user>
+                                <name>RHEL64_New</name>
+                                <description>Red Hat Enterprise Linux 64bit</description>
+                                <revision>0</revision>
+                                <icon-name>redhat</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_64</name>
+                                    <description>x86_64</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_64</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-03T13:28:39+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>CentOS64</name>
+                            <description>CentOS 6.0 64bit</description>
+                            <revision>0</revision>
+                            <major>6</major>
+                            <minor>0</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-03T13:28:39+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CentOS64</name>
+                                <description>CentOS 64bit</description>
+                                <revision>0</revision>
+                                <icon-name>centos</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_64</name>
+                                    <description>x86_64</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_64</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <os-versions>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-03T13:28:38+05:30</created>
+                            <create-user>admin</create-user>
+                            <name>CentOS64</name>
+                            <description>CentOS 5.6 64bit</description>
+                            <revision>0</revision>
+                            <major>5</major>
+                            <minor>6</minor>
+                            <micro>0</micro>
+                            <qualifier></qualifier>
+                            <dynamically-installable>false</dynamically-installable>
+                            <auto-bind-properties>false</auto-bind-properties>
+                            <operating-system>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-12-03T13:28:39+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2013-11-26T02:58:21+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CentOS64</name>
+                                <description>CentOS 64bit</description>
+                                <revision>0</revision>
+                                <icon-name>centos</icon-name>
+                                <os-family-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                </os-family-meta-tag>
+                                <hardware-architecture-meta-tag>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>x86_64</name>
+                                    <description>x86_64</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Hardware Architecture</name>
+                                    <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
+                                    <meta-tag-enum>HARDWARE_ARCHITECTURE</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <hardware-architecture>X86_64</hardware-architecture>
+                                </hardware-architecture-meta-tag>
+                            </operating-system>
+                        </os-versions>
+                        <ns8:component-version-script>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <description></description>
+                            <script>#!/bin/sh
+. $global_conf
+date
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/vmware/bin:/opt/vmware/bin:/root/bin:$PATH
+
+cb_package_url="http://packages.couchbase.com/releases/1.8.1/couchbase-server-enterprise_x86_64_1.8.1.rpm"
+cb_package="couchbase-server-enterprise_x86_64_1.8.1.rpm"
+if [ "${ssh_password}" = "" ]
+then
+	password="couchbase123"
+else
+	password="${ssh_password}"
+fi
+arch=".x86_64"
+user="cb"
+
+
+echo "Checking for packages"
+rpm -qa|grep -i curl
+if [ $? -ne 0 ] 
+then
+    echo "Package curl not installed - installing...."
+    yum -y install curl${arch}
+    if [ $? -ne 0 ] 
+    then
+        echo "Package curl not installed and install of curl${arch} failed"
+        exit 1
+    fi  
+fi
+
+rpm -qa|grep -i openssl
+if [ $? -ne 0 ] 
+then
+    echo "Package openssql not installed - installing...."
+    yum -y install openssl${arch}
+    if [ $? -ne 0 ] 
+    then
+        echo "Package openssl not installed and install of openssl${arch} failed"
+        exit 1
+    fi  
+fi
+
+rpm -qa|grep -i shadow-utils
+if [ $? -ne 0 ] 
+then
+    echo "Package shadow-utils not installed - installing...."
+    yum -y install shadow-utils${arch}
+    if [ $? -ne 0 ] 
+    then
+        echo "Package shadow-utils not installed and install of shadow-utils${arch} failed"
+        exit 1
+    fi  
+fi
+
+
+yum -y install bc${arch}
+if [$? -ne 0 ]
+then
+	echo "Package bc install failed"
+	exit 1
+fi
+
+echo "Downloading Couchbase package..."
+curl -On ${cb_package_url}
+if [ $? -ne 0 ] 
+then
+    echo "Error downloading: ${cb_package_url}"
+    exit 1
+fi
+
+rpm -Uvh ${cb_package}
+if [ $? -ne 0 ] 
+then
+    echo "RPM install of ${cb_package} failed"
+    exit 1
+fi
+
+echo "Setting up password hash with openssl..."
+user_pass="`openssl passwd -crypt ${password}`"
+if [ $? -ne 0 ] 
+then
+    echo "Password hashing for ${user} with openssl failed"
+    exit 1
+fi
+
+echo "Creating User with..."
+useradd ${user} --password ${user_pass}
+if [ $? -ne 0 ]
+then 
+    echo "Could not add user ${user}"
+    exit 1
+fi
+
+echo "Adding User to sudoers..."
+echo "${user}  ALL=(ALL) ALL" &gt;&gt; /etc/sudoers
+if [ $? -ne 0 ] 
+then
+    echo "Could not add user ${user} to sudoers list"
+    exit 1
+fi
+
+date</script>
+                            <embedded>true</embedded>
+                            <script-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Bash Script</name>
+                                <description>Bash shell script.</description>
+                                <name-message-key>type.script.bash.name</name-message-key>
+                                <description-message-key>type.script.bash.description</description-message-key>
+                                <supported-os-details>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <os-family>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                    </os-family>
+                                    <supports-array-props>true</supports-array-props>
+                                    <supports-output-props>true</supports-output-props>
+                                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                                    <exec-script-extension>sh</exec-script-extension>
+                                    <file-extension>sh</file-extension>
+                                </supported-os-details>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>String</name>
+                                    <description>String (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Content</name>
+                                    <description>Content (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Array</name>
+                                    <description>Array</description>
+                                    </prop-type>
+                                    <expression>${&lt;property-name&gt;[@]}</expression>
+                                </script-type-expression>
+                            </script-type>
+                            <component-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>INSTALL</name>
+                                <description>Install lifecycle on a component.</description>
+                                <name-message-key>type.lifecycle.install.name</name-message-key>
+                                <description-message-key>type.lifecycle.install.description</description-message-key>
+                            </component-lifecycle-type>
+                            <reboot-after>false</reboot-after>
+                        </ns8:component-version-script>
+                        <ns8:component-version-script>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-12-10T11:00:22+05:30</created>
+                            <create-user>admin</create-user>
+                            <description></description>
+                            <script>#!/bin/sh
+. $global_conf
+
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/vmware/bin:/opt/vmware/bin:/root/bin:$PATH
+
+echo "Port ${ssh_port}" &gt;&gt; /etc/ssh/sshd_config
+/etc/init.d/sshd restart
+
+if [ ${node_array_index} -eq 0 ]
+then
+echo "I am node ${node_array_index} - running through configuration"
+	sleep 60
+	if [ "${console_password}" = "" ]
+	then
+		password="couchbase123"
+	else
+		password="${console_password}"
+	fi
+
+	# bucket_name
+	# bucket_type
+	# replica_count
+	# couchbase_port
+
+	cli="/opt/couchbase/bin/couchbase-cli"
+	memory_bytes=`cat /proc/meminfo |grep -i memtotal |awk '{print $2;}'`
+	memory_mb=`echo "scale=4; ${memory_bytes}/1024" | bc`
+	memory_allocation=`echo "scale=4; ${memory_mb}*.79" | bc|cut -d . -f1`
+	local_ip="`ifconfig|grep -A 1 eth0|grep inet|cut -d ':' -f2|cut -d ' ' -f1`"
+	echo "Memory bytes: ${memory_bytes}"
+	echo "Memory MB: ${memory_mb}"
+	echo "Memory Allocation: ${memory_allocation}"
+	echo "Local IP: ${local_ip}"
+
+	echo "Setting cluster ramsize to: ${memory_allocation}"
+	${cli} cluster-init -u Administrator -p ${password} -c localhost:8091 --cluster-init-username=Administrator --cluster-init-password=${password} --cluster-init-port=8091 --cluster-init-ramsize=${memory_allocation}
+
+	echo "Creating bucket: ${bucket}"
+	${cli} bucket-create -u Administrator -p ${password} -c localhost:8091 --bucket=${bucket_name} --bucket-type=${bucket_type} --bucket-ramsize=${memory_allocation} --bucket-replica=${replica_count}
+
+
+	echo "Adding nodes to cluster..."
+	for ip in ${cluster_ips[@]}
+	do
+		if [ "$ip" != "${local_ip}" ]
+		then
+			echo "Adding ${ip} to cluster list"
+			${cli} server-add -u Administrator -p ${password} -c localhost:8091  --server-add=${ip}:8091
+		else
+			echo "Skpping add of ${ip} to cluster"
+		fi
+	done
+
+	echo "Server list:"
+	${cli} server-list -u Administrator -p ${password} -c localhost:8091
+
+	echo "Rebalancing cluster..."	
+	${cli} rebalance  -u Administrator -p ${password} -c localhost:8091
+
+	echo "Changing cluster to listen on port ${couchbase_port}..."
+	${cli} cluster-init -u Administrator -p ${password} -c localhost:8091 --cluster-init-port=${couchbase_port}
+
+else
+	echo "Skipping configure since I am node: ${node_array_index}"
+fi </script>
+                            <embedded>true</embedded>
+                            <script-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Bash Script</name>
+                                <description>Bash shell script.</description>
+                                <name-message-key>type.script.bash.name</name-message-key>
+                                <description-message-key>type.script.bash.description</description-message-key>
+                                <supported-os-details>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <os-family>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Linux</name>
+                                    <description>Linux based operating systems.</description>
+                                    <meta-tag-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>OS Family</name>
+                                    <description>Operating System (OS) Family.</description>
+                                    <meta-tag-enum>OS_FAMILY</meta-tag-enum>
+                                    <user-managed-type>false</user-managed-type>
+                                    </meta-tag-type>
+                                    <os-family>LINUX</os-family>
+                                    </os-family>
+                                    <supports-array-props>true</supports-array-props>
+                                    <supports-output-props>true</supports-output-props>
+                                    <exec-command>source &lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt;</exec-command>
+                                    <exec-script>trap "APPDEXITSTATUS=\$?;printenv &gt; $2;exit $APPDEXITSTATUS" EXIT
+#Start of Json Parser
+
+#result of getValueFromJson is saved in global variable $JSONVALUE
+JSONVALUE=""
+
+#use 2 arrays to simulate associate array in Bash 3.x
+declare -a pathArray
+declare -a valueArray
+
+function _appd_pathMap_add () {
+    local path
+    local value
+    path=$1
+    value=$2
+    pathArray=("${pathArray[@]}" "$path")
+    valueArray=("${valueArray[@]}" "$value")
+}
+
+function _appd_pathMap_init () {
+    unset pathArray
+    unset valueArray
+    declare -a pathArray
+    declare -a valueArray
+}
+
+function _appd_pathMap_get () {
+    local path=$1
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        if [ "${pathArray[$i]}" == "$path" ];
+            then echo "${valueArray[$i]}"; return;
+        fi
+    done;
+    _appd_throw_error "Key path $path not found"
+}
+
+function _appd_pathMap_output () {
+    local length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+    do
+        echo "${pathArray[$i]} values ${valueArray[$i]}"
+    done;
+}
+
+function _appd_throw_error () {
+    echo "$*" &gt;&amp;2
+    exit 1
+}
+
+function _appd_awk_egrep () {
+    local pattern_string=$1
+
+    gawk '{
+        while ($0) {
+            start=match($0, pattern);
+            token=substr($0, start, RLENGTH);
+            print token;
+            $0=substr($0, start+RLENGTH);
+        }
+    }' pattern=$pattern_string
+}
+
+function _appd_tokenize () {
+    local GREP
+    local ESCAPE
+    local CHAR
+
+    if echo "test string" | egrep -ao --color=never "test" &amp;&gt;/dev/null
+    then
+        GREP='egrep -ao --color=never'
+    else
+        GREP='egrep -ao'
+    fi
+
+    if echo "test string" | egrep -o "test" &amp;&gt;/dev/null
+    then
+        ESCAPE='(\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\]'
+    else
+        GREP=_appd_awk_egrep
+        ESCAPE='(\\\\[^u[:cntrl:]]|\\u[0-9a-fA-F]{4})'
+        CHAR='[^[:cntrl:]"\\\\]'
+    fi
+
+
+    local STRING="\"$CHAR*($ESCAPE$CHAR*)*\""
+    local NUMBER='-?(0|[1-9][0-9]*)([.][0-9]*)?([eE][+-]?[0-9]*)?'
+    local KEYWORD='null|false|true'
+    local SPACE='[[:space:]]+'
+    $GREP "$STRING|$NUMBER|$KEYWORD|$SPACE|."  | egrep -v "^$SPACE$"
+}
+
+function _appd_parse_array () {
+    local index=0
+    local ary=''
+    read -r token
+    case "$token" in
+        ']');;
+        *)
+            while :
+            do
+                _appd_parse_value "$1" "[$index]"
+                index=$((index+1))
+                ary="$ary""$value"
+                read -r token
+                case "$token" in
+                    ']') break ;;
+                    ',') ary="$ary," ;;
+                    *) _appd_throw_error "EXPECTED , or ] GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '[%s]' "$ary"`
+    :
+}
+
+function _appd_parse_object () {
+    local key
+    local obj=''
+    read -r token
+    case "$token" in
+        '}') ;;
+        *)
+            while :
+            do
+                case "$token" in
+                    '"'*'"') key=$token ;;
+                    *) _appd_throw_error "EXPECTED string GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                case "$token" in
+                    ':') ;;
+                    *) _appd_throw_error "EXPECTED : GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+                _appd_parse_value "$1" "${key:1:$((${#key}-2))}"
+                obj="$obj$key:$value"
+                read -r token
+                case "$token" in
+                    '}') break ;;
+                    ',') obj="$obj," ;;
+                    *) _appd_throw_error "EXPECTED , or } GOT ${token:-EOF}" ;;
+                esac
+                read -r token
+            done
+    esac
+    value=`printf '{%s}' "$obj"`
+    :
+}
+
+function _appd_parse_value () {
+    local jpath
+    [[ "$2" == \[* ]] &amp;&amp; jpath="${1:+$1}$2" || jpath="${1:+$1.}$2"
+    case "$token" in
+        '{') _appd_parse_object "$jpath" ;;
+        '[') _appd_parse_array  "$jpath" ;;
+        # At this point, the only valid single-character tokens are digits.
+        ''|[!0-9]) _appd_throw_error "EXPECTED value GOT ${token:-EOF}" ;;
+        *) value=$token
+            ;;
+    esac
+    [ "$value" = '' ] &amp;&amp; return
+    _appd_pathMap_add "$jpath" "$value"
+    :
+}
+
+function _appd_parse () {
+    read -r token
+    _appd_parse_value
+    read -r token
+    case "$token" in
+        '') ;;
+        *) _appd_throw_error "EXPECTED EOF GOT $token" ;;
+    esac
+}
+
+function _appd_convert_to_script_string () {
+    case `echo "$1" | tr A-Z a-z` in
+        "true") echo true ;;
+        "false") echo false ;;
+        "null") echo "" ;;
+        \"*\") echo "${1:1:$((${#1}-2))}" ;;
+        *) echo "$1" 
+    ;;
+    esac
+}
+
+#
+# This method will parse JSON String, get value of given JSON keypath.
+# The result will saved in variable $JSONVALUE
+# The returned value type will be:
+#     String: whenever (1) the value of given JSON keypath is a JSON string (enclosed by double quotation)
+#                   or (2) the value of given JSON keypath is a JSON object (enclosed by brace)
+#     Number:  whenever the value of given JSON keypath is a number
+#     Keyword: whenever the value of given JSON keypath is true/false/null
+#     Array: whenever the value of given JSON keypath is a JSON array (enclosed by square)
+#
+# This method will automatically remove enclosing double quotation when return String or Array of String
+#
+# Example:
+#     getValueFromJson '{"key1":"value1", "key2":{"subkey1":"subValue1"}}' 'key2.subkey1'
+#     $JSONVALUE will be "subValue1"
+# Example:
+#     getValueFromJson '{"key1":["value1","value2"]}' 'key1[1]'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' '[1].key1'
+#     $JSONVALUE will be "value2"
+# Example:
+#     getValueFromJson '[{"key1":"value1"}, {"key1":"value2"}]' ''
+#     $JSONVALUE will be an array with 2 elements.
+#     first element is  '{"key1":"value1"}'
+#     second element is '{"key1":"value2"}'
+# Example:
+#     getValueFromJson '{"key1":"value1"}' ''
+#     $JSONVALUE will be same as input string.
+#
+function getValueFromJson () {
+    local JSONSTRING=$1
+    local JSONPATH=$2
+    local tokenTmp
+    local stringValue
+
+    _appd_pathMap_init
+    tokenTmp=`mktemp`
+    echo "$JSONSTRING" | _appd_tokenize &gt; $tokenTmp
+    _appd_parse &lt; $tokenTmp
+    rm -rf tokenTmp
+    stringValue=`_appd_pathMap_get $JSONPATH`
+    if [[ $stringValue == \[* ]] ;
+    then
+        local length
+        JSONVALUE=()
+    length=$((${#pathArray[@]}-1))
+    for i in `eval echo "{0..$length}"`;
+        do
+        if [[ "${pathArray[$i]}" =~ "$JSONPATH" ]];
+        then
+                local subPath=${pathArray[$i]:${#JSONPATH}}
+                if [[ "$subPath" =~ ^\[[0-9]+\]$ ]];
+                then
+                    local elementValue
+                    elementValue=`_appd_convert_to_script_string "${valueArray[i]}"`
+                    JSONVALUE=("${JSONVALUE[@]}" "$elementValue")
+                fi
+            fi
+    done
+    else
+        JSONVALUE=`_appd_convert_to_script_string "$stringValue"`
+    fi
+}
+#End of Json Parser
+
+
+# Execute action script
+source $1
+APPDRETURNSTATUS=$?
+# Unset trap
+trap - EXIT
+# Save env variables in output properties file
+printenv &gt; $2
+exit $APPDRETURNSTATUS
+</exec-script>
+                                    <exec-script-extension>sh</exec-script-extension>
+                                    <file-extension>sh</file-extension>
+                                </supported-os-details>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>String</name>
+                                    <description>String (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Content</name>
+                                    <description>Content (java.lang.String).</description>
+                                    </prop-type>
+                                    <expression>$&lt;property-name&gt;</expression>
+                                </script-type-expression>
+                                <script-type-expression>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <prop-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Array</name>
+                                    <description>Array</description>
+                                    </prop-type>
+                                    <expression>${&lt;property-name&gt;[@]}</expression>
+                                </script-type-expression>
+                            </script-type>
+                            <component-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>CONFIGURE</name>
+                                <description>Configure lifecycle on a component.</description>
+                                <name-message-key>type.lifecycle.configure.name</name-message-key>
+                                <description-message-key>type.lifecycle.configure.description</description-message-key>
+                            </component-lifecycle-type>
+                            <reboot-after>false</reboot-after>
+                        </ns8:component-version-script>
+                    </service-version>
+                </service-node-component>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-10T11:00:22+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>Memory(MB)</name>
+                    <description>Virtual Memory in MB</description>
+                    <key>Memory(MB)</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>true</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[2048]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns3:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <value><![CDATA[2048]]></value>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns3:bound-prop>
+                </bindable-props>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-10T11:00:22+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>vCPU</name>
+                    <description>vCPU size</description>
+                    <key>vCPU</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>true</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[1]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns3:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <value><![CDATA[1]]></value>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns3:bound-prop>
+                </bindable-props>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-10T11:00:22+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>ClusterSize</name>
+                    <description>Number of nodes in the cluster</description>
+                    <key>ClusterSize</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>true</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[5]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns3:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <value><![CDATA[5]]></value>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns3:bound-prop>
+                </bindable-props>
+                <bindable-props>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                    <last-update-user>admin</last-update-user>
+                    <created>2013-12-10T11:00:22+05:30</created>
+                    <create-user>admin</create-user>
+                    <name>Hostname</name>
+                    <description>Add host name or computer name. Use ${random} expression as needed.</description>
+                    <key>Hostname</key>
+                    <prop-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>String</name>
+                        <description>String (java.lang.String).</description>
+                    </prop-type>
+                    <required>false</required>
+                    <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
+                    <value><![CDATA[]]></value>
+                    <readonly>false</readonly>
+                    <overridable>true</overridable>
+                    <expression>false</expression>
+                    <ns3:bound-prop>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-12-10T11:00:22+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-12-10T11:00:22+05:30</created>
+                        <create-user>admin</create-user>
+                        <bind-lifecycle-type>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Blueprint</name>
+                            <description>Bindable at blueprint level.</description>
+                            <lifecycle-order>2</lifecycle-order>
+                        </bind-lifecycle-type>
+                        <overridable>true</overridable>
+                        <expression>false</expression>
+                    </ns3:bound-prop>
+                </bindable-props>
+            </nodes>
+        </blueprint>
+    </application-versions>
+</ns33:export-package>
