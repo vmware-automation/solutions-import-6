@@ -1,10 +1,10 @@
-[wl]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/AD-ADFS-Blueprint.png
-[w2]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/AD-ADFS-Blueprint_ActiveDirectory.png
-[w3]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/AD-ADFS-Blueprint-ADFS.png
-[w4]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/AD-ADFS-Blueprint-Deploy.png
-[w5]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/AD-ADFS-Blueprint-ExecutionPlan.png
-[w6]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/ActiveDirectoryUsersandComputers.png
-[w7]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint/AD-ADFS-Console.png
+[wl]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/AD-ADFS-Blueprint.png
+[w2]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/AD-ADFS-Blueprint_ActiveDirectory.png
+[w3]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/AD-ADFS-Blueprint-ADFS.png
+[w4]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/AD-ADFS-Blueprint-Deploy.png
+[w5]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/AD-ADFS-Blueprint-ExecutionPlan.png
+[w6]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/ActiveDirectoryUsersandComputers.png
+[w7]: https://raw.github.com/vmware-applicationdirector/solutions-import-6/AD-ADFS-Blueprint-v1.0.0/AD-ADFS-Console.png
 
 ## Success
 Your application has been successfully imported and ready to go but first there are a few final steps you need to follow before you can perform a deployment.
