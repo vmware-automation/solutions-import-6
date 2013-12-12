@@ -5,7 +5,7 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "Liferay-OpenLDAP-MySql-Alfresco-Appl-BP-v1.0.0.xml",
+                "exportFileName": "Liferay-OpenLDAP-MySql-Alfresco-Application-Blueprint.xml",
                 "exportedFileReadme": "Liferay-OpenLDAP-MySql-Alfresco-Application-Blueprint.xml.readme",
                 "importSectionHeader": "Liferay-OpenLDAP-MySql-Alfresco-Application-Blueprint",
                 "exportedWithAppDVersion": 6.0,
