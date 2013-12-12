@@ -5,7 +5,7 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "Jira-5.1-for-ssue-Tracking-by-Fluent-Soft-Blueprint.xml",
+                "exportFileName": "Jira-5.1-for-issue-Tracking-by-Fluent-Soft-Blueprint.xml",
                 "exportedFileReadme": "Jira-5.1-for-ssue-Tracking-by-Fluent-Soft-Blueprint.xml.readme",
                 "importSectionHeader": "Jira-5.1-for-ssue-Tracking-by-Fluent-Soft-Blueprint",
                 "exportedWithAppDVersion": 6.0,
