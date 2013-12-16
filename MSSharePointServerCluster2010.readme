@@ -1,0 +1,3 @@
+Enterprise Version of SharePoint Server 2010 to demonstrate how to set up a multi-server SharePoint farm. The setup of this version of Sharepoint Server 2010 takes advantage of the AutoSPInstaller code for Sharepoint Server 2010 installation (http://autospinstaller.codeplex.com). With its help, we have a fully automated setup for Clustered Sharepoint Server 2010.
+
+For detailed description of this implementation and prerequisites, please see the User Documentation.
