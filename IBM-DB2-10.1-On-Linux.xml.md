@@ -23,12 +23,12 @@ Step2: Application Properties -> Service tab
 			b. database_password: Enter the database password
 			c. instance_password: Enter the password of the DB2 instance name
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/IBM-DB2-10_1-Linux-Blueprint-50/IBM-DB2-10.1-On-Linux-Blueprint_properties.jpg)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBMDB2-Linux-BP-v1.0.0/IBM-DB2-10.1-On-Linux-Blueprint_properties.jpg)
 
 		
 ###Blueprint Canvas diagram for your reference: 
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-nitro/IBM-DB2-10_1-Linux-Blueprint-50/IBM-DB2-10.1-On-Linux-Blueprint_Canvas.jpg)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBMDB2-Linux-BP-v1.0.0/IBM-DB2-10.1-On-Linux-Blueprint_Canvas.jpg)
 
 ###Ready to go for deployment
 
