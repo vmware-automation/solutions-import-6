@@ -5,7 +5,7 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": Clustered_Oracle_Weblogic_Server12c_Windows2k8R2.xml",
+                "exportFileName": "Clustered_Oracle_Weblogic_Server12c_Windows2k8R2.xml",
                 "exportedFileReadme": "weblogic12c_cluster_Windows-dukebank-1.0.0.readme",
                 "importSectionHeader": "Clustered Oracle Weblogic Application Server 12c for Windows 2k8R2",
                 "exportedWithAppDVersion": 6.0,
