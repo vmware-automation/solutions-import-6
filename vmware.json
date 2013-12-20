@@ -5,7 +5,7 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "SharepointServer2010.xml",
+                "exportFileName": "SharepointStdServer2010.xml",
                 "exportedFileReadme": "SharepointServer2010.readme",
                 "importSectionHeader": "Sharepoint Server 2010",
                 "exportedWithAppDVersion": 6.0,
