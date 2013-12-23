@@ -10,7 +10,7 @@
                 "importSectionHeader": "Rails 4 Service",
                 "exportedWithAppDVersion": 6.0,
                 "optional": {
-                    "nextStepsMarkdownFile":"Rails-4-Service-50.xml.md",
+                    "nextStepsMarkdownFile":"Rails4-Service.xml.md",
 		    "enableConsoleLogging": true,
                     "exportedFileErrorReadme": "Rails-4-Service-50.xml.error.readme",
                     "headerBulletPoints":[
