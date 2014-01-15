@@ -46,7 +46,8 @@
     xmlns:ns42="http://www.vmware.com/darwin/api/v2/beans/csp"
     xmlns:ns11="http://www.vmware.com/darwin/schema/beans/physical/template"
     xmlns:ns43="http://www.vmware.com/darwin/api/v2/beans/deployment"
-    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns41="http://www.vmware.com/darwin/schema/beans/license">
+    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/catalog/component" 
+    xmlns:ns41="http://www.vmware.com/darwin/schema/beans/license">
     <errors>false</errors>
     <application-director-version>vCloud Application Director CLI BUILD [6.0.0-1446071]</application-director-version>
     <application-versions>
