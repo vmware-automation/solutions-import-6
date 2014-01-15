@@ -1,0 +1,6 @@
+Microsoft Exchange Server is a mail server, calendaring software and contact manager developed by Microsoft. It is a server program that runs on Windows Server and is part of the Microsoft Servers line of products
+AppDirector will download the exchange and filter package from URLs respectively:
+http://download.microsoft.com/download/6/9/6/69671032-4540-4E20-B56F-50E6E5D14073/Exchange2010-SP1-x64.exe
+http://download.microsoft.com/download/0/A/2/0A28BBFA-CBFA-4C03-A739-30CCA5E21659/FilterPack64bit.exe
+
+
