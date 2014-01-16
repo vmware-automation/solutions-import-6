@@ -8,7 +8,7 @@
                 "exportFileName":"MSExchange.xml",
                 "exportedFileReadme":"MSExchange.readme",
                 "importSectionHeader":"MS Exchange 2010",
-                "exportedWithAppDVersion":6.0
+                "exportedWithAppDVersion":6.0,
                 "optional": {
                 	"headerBulletPoints":[
                 		{"msg": "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.0."},
