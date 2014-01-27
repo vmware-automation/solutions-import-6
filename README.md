@@ -1,2 +1,2 @@
-solutions-import-beta
+solutions-import-nitro
 =====================
