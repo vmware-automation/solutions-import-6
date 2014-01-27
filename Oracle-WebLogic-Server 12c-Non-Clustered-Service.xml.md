@@ -1,5 +1,5 @@
 #Success
-Service has been successfully imported in your local vFabric Application Director. 
+Service has been successfully imported in your local vCloud Application Director. 
 
 There are few final steps you need to follow before performing deployment.
 
