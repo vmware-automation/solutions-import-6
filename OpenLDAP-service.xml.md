@@ -1,5 +1,5 @@
 #Success
-Service with sample blueprint have been successfully imported in vFabric Application Director. 
+Service with sample blueprint have been successfully imported in vCloud Application Director. 
 
 Sample Blueprint is with Service and one of the supported operating system. User can use any of supported Operating Systems listed in Service. 
 
@@ -11,7 +11,7 @@ Download the "OpenLDAP Directory Server 2.3.43 installer" and keep it in local w
 
 ###Deployment steps:
 
-After importing Blueprint in vFabric Application Director, you can proceed with application deployment. The basic steps are as follows:
+After importing Blueprint in vCloud Application Director, you can proceed with application deployment. The basic steps are as follows:
 
 Step 1: Map the logical template with Cloud template (Physical Template).
 
