@@ -1,5 +1,5 @@
 #Success
-Blueprint has been successfully imported in  vFabric Application Director. 
+Blueprint has been successfully imported in  vCloud Application Director. 
 
 There are  few final steps you need to follow before performing this deployment.
 
