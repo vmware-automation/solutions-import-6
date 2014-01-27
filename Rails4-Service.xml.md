@@ -1,5 +1,5 @@
 #Success
-Blueprint has been successfully imported in your local vFabric Application Director. 
+Blueprint has been successfully imported in your local vCloud Application Director. 
 
 There are few final steps you need to follow before performing this deployment.
 
@@ -7,7 +7,7 @@ There are few final steps you need to follow before performing this deployment.
 N/A
 
 ###Deployment steps:
-After importing Blueprint in vFabric Application Director, you can proceed with application deployment. The basic steps are as follows:
+After importing Blueprint in vCloud Application Director, you can proceed with application deployment. The basic steps are as follows:
 
 Step 1: Map the logical template with Cloud template (Physical Template).
 
