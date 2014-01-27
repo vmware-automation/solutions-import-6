@@ -1,2 +1,2 @@
-solutions-import-6
+solutions-import-nitro
 ==================
