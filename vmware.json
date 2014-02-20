@@ -5,7 +5,7 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "Microsoft AD Federation Service.xml",
+                "exportFileName": "Microsoft_AD_Federation_Service.xml",
                 "exportedFileReadme": "ADFS-Service-1.0.0.xml.readme",
                 "importSectionHeader": "MS-ADFS-Service",
                 "exportedWithAppDVersion": 6.0,
