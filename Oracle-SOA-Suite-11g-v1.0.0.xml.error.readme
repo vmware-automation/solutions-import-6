@@ -1,0 +1,9 @@
+An error occurred when this page attempted to import the solution. This may have been caused by common issues such as:
+
+(1) Using an unsupported web browser. Only Chrome and Firefox have the required features for this page to work.
+(2) Network access issues. This page needs to be able to access the public internet and also the vCloud Application Director server.
+(3) Browser security settings. This page uses javascript heavily and will not work without it.
+
+To manually import the solution, click on the "Download File" button, and save the solution XML. Use the vCloud Application Director darwin-cli.jar to import the solution XML with the "import-package" command. See the vCloud Application Director (https://www.vmware.com/support/pubs/appdirector-pubs.html) user guide for more help.
+
+If you still run into issues, please contact the developer Sunil Wadhwa at sunil@trymaran.com.
