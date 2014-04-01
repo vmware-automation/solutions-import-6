@@ -11,7 +11,7 @@
                 "exportedWithAppDVersion": 6.0,
                 "optional": {
                     "nextStepsMarkdownFile": "Oracle-SOA-Suite-11g-v1.0.0.xml.md",
-	            	"enableConsoleLogging": true,
+	            "enableConsoleLogging": true,
                     "exportedFileErrorReadme": "Oracle-SOA-Suite-11g-v1.0.0.xml.error.readme",
                     "headerBulletPoints":[
                         {"msg": "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.0. If you need this solution for <a href='http://www.vmware.com/files/pdf/vfabric/VMware-vFabric-Application-Director-Datasheet.pdf'> vFabric Application Director</a> 5.x please contact the developer <a href='mailto:sunil@trymaran.com'>here</a>"},
