@@ -32,11 +32,11 @@ Step2: Application Properties -> Service tab
 			d. admin_password: Enter the admin password		
 
 
-###Websphere-C-Server-AppServer-Blueprint_properties diagram for your reference:
+###AppServer properties for your reference:
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBM-Websphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-AppServer-Blueprint_properties.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBM-WebSphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-AppServer-Blueprint_properties.png)
 
-###Websphere-C-Server-Development-Manager-Blueprint_properties diagram for your reference:
+###Development Manager properties for your reference:
 
 ![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBM-WebSphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-Development-Manager-Blueprint_properties.png)
 
