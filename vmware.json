@@ -1,26 +1,20 @@
-{
-    "vmware": {
-        "config": {
-            "version": 1.0
-        },
-        "applications": {
-            "applicationDirectorWebImport": {
-                "exportFileName": "IBM-DB2-10.1-On-Linux.xml",
-                "exportedFileReadme": "IBM-DB2-10.1-On-Linux.xml.readme",
-                "importSectionHeader": "IBM-DB2-10.1-On-Linux",
-                "exportedWithAppDVersion": 6.0,
-                "optional": {
-                    "nextStepsMarkdownFile":"IBM-DB2-10.1-On-Linux.xml.md",
-		    "enableConsoleLogging": true,
-                    "exportedFileErrorReadme": "IBM-DB2-10.1-On-Linux.xml.error.readme",
-                    "headerBulletPoints":[
-                        {"msg":  "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.0. If you need this solution for <a href='http://www.vmware.com/files/pdf/vfabric/VMware-vFabric-Application-Director-Datasheet.pdf'> vFabric Application Director</a> 5.x please click <a href='http://vmware-applicationdirector.github.io/solutions-import-beta/exportimport-deploy/appdir/docs/index.html?uname=vmware-applicationdirector&repo=solutions-import-beta&branch=IBM-DB2-10_1-Linux-Blueprint-50'>here</a>"},
-                        {"msg": "Your Application Director instance needs to be network accessible for the import utility to work"},
-                        {"msg": "You need to have Catalog Admin and Application Architect roles to use import the blueprint into your instance of Application Director"},
-                        {"msg": "If you do not have an instance of Application Director, contact us at <a href='mailto:app-mgmt-partner-support@vmware.com'>Marketplace Support</a>"}
-                    ]
-                }
-            }
-        }
-    }
-}
+{    
+	"vmware":{        
+		"config":{            
+			"version":1.0        
+		},        
+		"applications":{            
+			"applicationDirectorWebImport":{                
+				"exportFileName": "WebSphere_Clustered_8.0.xml",
+                "exportedFileReadme": "WebSphere_Clustered_8.0.readme",
+                "importSectionHeader": "IBM-Websphere-Application-Server-8.0-Clustered-Service",
+                "exportedWithAppDVersion": 6.0,     
+				"optional":{                    
+					"nextStepsMarkdownFile":"IBM-Websphere-Application-Server-8.0-Clustered-Service.xml.md",                    
+					"enableConsoleLogging":true,                    
+					"exportedFileErrorReadme":"IBM-Websphere-Application-Server-8.0-Clustered-Service.xml.error.readme"                
+				}            
+			}        
+		}    
+	}
+} 
