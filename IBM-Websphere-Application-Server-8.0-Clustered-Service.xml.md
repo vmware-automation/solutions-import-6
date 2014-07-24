@@ -31,8 +31,10 @@ Step2: Application Properties -> Service tab
 			c. ibm_password: Enter the password for ibm download center
 			d. admin_password: Enter the admin password		
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/IBM-Websphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-AppServer-Blueprint_properties.png)
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/IBM-WebSphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-Development-Manager-Blueprint_properties.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBM-Websphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-AppServer-Blueprint_properties.png)
+
+
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/IBM-WebSphere-App-Server-8_0-Clustered-Service/IBM-Websphere-C-Server-Development-Manager-Blueprint_properties.png)
 
 		
 ###Blueprint Canvas diagram for your reference: 
