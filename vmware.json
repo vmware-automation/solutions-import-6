@@ -5,8 +5,8 @@
 		},        
 		"applications":{            
 			"applicationDirectorWebImport":{                
-				"exportFileName": "WebSphere_Clustered_8.0.xml",
-                "exportedFileReadme": "WebSphere_Clustered_8.0.readme",
+				"exportFileName": "IBM-Websphere-Application-Server-8.0-Clustered-Service.xml",
+                "exportedFileReadme": "IBM-Websphere-Application-Server-8.0-Clustered-Service.readme",
                 "importSectionHeader": "IBM-Websphere-Application-Server-8.0-Clustered-Service",
                 "exportedWithAppDVersion": 6.0,     
 				"optional":{                    
