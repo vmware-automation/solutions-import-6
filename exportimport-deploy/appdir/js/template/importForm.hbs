@@ -3,54 +3,107 @@
   model: model/importForm
 }}
 <div class="offset1 span6">
-    <form class="form-horizontal" id="importForm">
-        <div class="control-group">
+    <form class="form-horizontal container-fluid" id="importForm">
+
+        <div id="bgGroup" class="control-group control-group-pad row">
             <div class="x-form-item">
-                <label class="x-form-item-label-top" for="appDirHost">
-                    {{hostLabel}}
+                <label class="x-form-item-label-top col-md-4" for="appDirBusinessGroups">
+                    {{businessGroupLabel}}
                     <span class="x-darwin-required-field">*</span>
                 </label>
 
-                <div>
-                    <input id="appDirHost" class="required hostOrIP" style="width: 380px;"
-                           type="text"
-                           placeholder="{{hostPlaceHolderValue}}"
-                           data-validation-regex-regex="{{hostValidationRegex}}"
-                           data-validation-regex-message="{{hostValidationRegexErrorMsg}}"
-                            />
+                <div class="col-md-4">
+                    <select id="appDirBusinessGroups">
+                        {{#businessGroupCollection}}
+                            <option value="{{name}}" {{selected}}>{{name}}</option>
+                        {{/businessGroupCollection}}
+                    </select>
                 </div>
             </div>
         </div>
-        <div class="control-group">
+
+        <div class="control-group control-group-pad row">
             <div class="x-form-item">
-                <label class="x-form-item-label-top" for="bpExportFN">
+                <label class="x-form-item-label-top col-md-4" for="bpExportFN">
                     {{fileLabel}}
                     <span class="x-darwin-required-field">*</span>
                 </label>
 
-                <div class="x-form-item-body">
+                <div class="col-md-4">
                     <input type="text" id="bpExportFN" disabled="" class="x-form-text"
                            style="width: 380px;">
                 </div>
             </div>
         </div>
-                <div id="bottomWrapper">
-                    <hr style="border-width:2px" />
-                    <p class="text-info text-left">
-                        {{authPromptText}}
-                    </p>
 
-                    <div id="actionButtons" class="control-group" style="margin-top: 30px;">
-                        <div class="slanted-button-bar">
-                            <div id="importButton" class="is-last is-default x-btn-slanted-medium">
-                                <button type="submit">{{importButtonText}}</button>
-                            </div>
-                            <div id="viewImportFileButton" class="x-btn-slanted-medium">
-                                <button>{{downloadButtonText}}</button>
-                            </div>
-                        </div>
-                    </div>
+        <div class="x-form-item row control-group-pad">
+            <label id="conflictLabel" class="col-md-4">
+                {{conflictResolutionLabel}}
+            </label>
+
+            <div class="col-md-4" data-container="body" data-toggle="tooltip"
+                 data-original-title="{{overwriteTT}}">
+                <input type="radio" name="importOptionsRadio"
+                       id="importOverwrite"
+                       value="OVERWRITE"
+                       checked="">
+                {{overwriteLabel}}
+            </div>
+        </div>
+
+        <div class="x-form-item row control-group-pad">
+            <div class="col-md-4 col-md-offset-4" data-container="body" data-toggle="tooltip"
+                 data-original-title="{{skipTT}}">
+                <input type="radio" name="importOptionsRadio"
+                       id="importSkip"
+                       value="SKIP">
+                {{skipLabel}}
+            </div>
+        </div>
+
+        <div class="x-form-item row control-group-pad">
+            <div class="col-md-4 col-md-offset-4" data-container="body" data-toggle="tooltip"
+                 data-original-title="{{importAsNewTT}}">
+                <input type="radio" name="importOptionsRadio"
+                       id="importNew"
+                       value="IMPORTASNEW">
+                {{newLabel}}
+            </div>
+        </div>
+
+        <div class="x-form-item row control-group-pad">
+            <label for="importAsNewSuffix" class="col-md-2 col-md-offset-4">
+                {{importAsNewLabel}}
+            </label>
+
+            <div class="col-md-4" data-container="body" data-toggle="tooltip"
+                 data-original-title="{{importSuffixTT}}">
+                <input id="importAsNewSuffix" type="text"
+                       placeholder="_new"
+                       class="x-form-text" disabled=""
+                       style="width: 100px;">
+            </div>
+        </div>
+
+        <hr class="col-md-4 col-md-offset-4" />
+        <div id="sharedOption" class="x-form-item row control-group-pad">
+            <div class="col-md-4 col-md-offset-4" data-container="body" data-toggle="tooltip"
+                 data-original-title="{{sharedTT}}">
+                <input id="shared" type="checkbox"/>
+                {{sharedLabel}}
+            </div>
+        </div>
+
+        <div id="bottomWrapper" class="x-form-item row control-group-pad">
+            <div id="actionButtons" class="control-group col-md-4 col-md-offset-6">
+                <div id="importButton">
+                    <button type="submit" class="btn btn-primary btn-lg" >
+                        {{importButtonText}}
+                    </button>
                 </div>
+            </div>
+        </div>
+
     </form>
 </div>
 <!--    <div id="eximData" class="hidden">
