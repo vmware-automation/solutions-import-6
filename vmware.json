@@ -5,20 +5,30 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "Clustered-Apache-Hadoop-0.20.203.xml",
+                "exportFileName": "Clustered-Apache-Hadoop-0.20.203-61.xml",
                 "exportedFileReadme": "appd-Clustere-Apache-Hadoop-0.20.203.xml.readme",
                 "importSectionHeader": "appd-Clustere-Apache-Hadoop-0.20.203",
-                "exportedWithAppDVersion": 6.0,
+                "exportedWithAppDVersion": 6.1,
                 "optional": {
                     "nextStepsMarkdownFile":"appd-Clustere-Apache-Hadoop-0.20.203.xml.md",
-		    "enableConsoleLogging": true,
+		     "enableConsoleLogging": true,
                     "exportedFileErrorReadme": "appd-Clustere-Apache-Hadoop-0.20.203.xml.error.readme",
-                    "headerBulletPoints":[
-                        {"msg":  "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.0. If you need this solution for <a href='http://www.vmware.com/files/pdf/vfabric/VMware-vFabric-Application-Director-Datasheet.pdf'> vFabric Application Director</a> 5.x please click <a href='http://vmware-applicationdirector.github.io/solutions-import-beta/exportimport-deploy/appdir/docs/index.html?uname=vmware-applicationdirector&repo=solutions-import-beta&branch=appd-Clustere-Apache-Hadoop-50-blueprint'>here</a>"},
-                        {"msg": "Your Application Director instance needs to be network accessible for the import utility to work"},
-                        {"msg": "You need to have Catalog Admin and Application Architect roles to use import the blueprint into your instance of Application Director"},
-                        {"msg": "If you do not have an instance of Application Director, contact us at <a href='mailto:app-mgmt-partner-support@vmware.com'>Marketplace Support</a>"}
-                    ]
+                    "appdVersions": [{
+                        "name": "5.x",
+                        "version": "5.2",
+                        "exportFileName": "appd-Clustere-Apache-Hadoop-0.20.203-5x.xml",
+                        "nextStepsMarkdownFile": "appd-Clustere-Apache-Hadoop-0.20.203-5x.xml.md"
+                    }, {
+                        "name": "6.0",
+                        "version": "6.0",
+                        "exportFileName": "Clustered-Apache-Hadoop-0.20.203-60.xml",
+                        "nextStepsMarkdownFile": "appd-Clustere-Apache-Hadoop-0.20.203.xml.md"
+                    }, {
+                        "name": "6.1",
+                        "version": "6.1",
+                        "exportFileName": "Clustered-Apache-Hadoop-0.20.203-61.xml",
+                        "nextStepsMarkdownFile": "appd-Clustere-Apache-Hadoop-0.20.203.xml.md"
+                    }]
                 }
             }
         }
