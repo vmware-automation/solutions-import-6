@@ -1,1 +1,5 @@
-Spring Trader is a reference application provided by Pivotal Labs for use with Cloud Foundry.  It simulates a stock trader applicaion, and is an example of how to model a Cloud Foundry application in vRealize Automation Application Services, and then deploy that application to a running Cloud Foundry instance.  The solution is provided as a reference example for developers interested in exploring the integration between Cloud Foundry and vRA (vRealize Automation).  This solution is nearly self contained; it only requires a running Cloud Foundry instance, or an account on run.pivotal.io, to be successfully deployed.
+Spring Trader is a reference application provided by Pivotal Labs for use with Cloud Foundry.  
+
+It simulates a stock trader application, and is an example of how to model a Cloud Foundry application in vRealize Automation Application Services, and then deploy that application to a running Cloud Foundry instance.  The solution is provided as a reference example for developers interested in exploring the integration between Cloud Foundry and vRA (vRealize Automation).  
+
+This solution is nearly self contained; it only requires a running Cloud Foundry instance, or an account on <a href="https://run.pivotal.io/">run.pivotal.io</a>, to be successfully deployed.
