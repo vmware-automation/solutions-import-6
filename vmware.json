@@ -24,7 +24,14 @@
                         "version": "6.1",
                         "exportFileName": "SpringTrader-v1.0.0.xml",
                         "nextStepsMarkdownFile": "SpringTrader-v1.0.0.xml.md"
-                    }]
+                    },
+					{
+                        "name": "6.0",
+                        "version": "6.0",
+                        "exportFileName": "SpringTrader-v1.0.0.xml",
+                        "nextStepsMarkdownFile": "SpringTrader-v1.0.0.xml.md"
+                    }
+                    ]
                 }
             }
         }
