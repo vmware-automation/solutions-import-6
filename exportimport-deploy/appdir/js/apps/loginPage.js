@@ -409,6 +409,11 @@ define(function (require) {
                     }
                 }, this)
             });
+
+            var currentVersion = cp.get('appDirVersion').val() ? parseFloat(cp.get('appDirVersion').val()) : undefined;
+            uiUtils.appdVersionChangeUpdateTenant({
+                appdVersion:currentVersion
+            });
         }
     });
 

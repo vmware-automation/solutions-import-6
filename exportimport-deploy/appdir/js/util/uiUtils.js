@@ -135,6 +135,28 @@ define(function (require) {
         $targetIframe.appendTo($target).show("highlight", 1000);
     }
 
+    // For changes needed to tenant related elements on appd version change, this should be tied to a custom event
+    // but the validation rules make it a bit trickier since it is coupled to the validation plugin
+    function appdVersionChangeUpdateTenant(options) {
+        var version = parseFloat(options.appdVersion);
+        if (version >= 6.1) {
+            cp.get("appDirTenantGroup").show();
+            cp.get("continueButton").hide();
+            cp.get("loginButton").show();
+            cp.get("authPromptInfo").show();
+            $("input[name='tenant']").rules("add", {
+                required: true,
+                tenant: true
+            });
+        } else {
+            cp.get("appDirTenantGroup").hide();
+            cp.get("continueButton").show();
+            cp.get("loginButton").hide();
+            cp.get("authPromptInfo").hide();
+            $("input[name='tenant']").rules("remove");
+        }
+    }
+
     return {
         noticeModal:function (values) {
             return noticeModal(values);
@@ -153,6 +175,9 @@ define(function (require) {
         },
         generateEmailTemplate:function(options) {
             return generateEmailTemplate(options);
+        },
+        appdVersionChangeUpdateTenant: function (options) {
+            return appdVersionChangeUpdateTenant(options);
         }
     }
 
