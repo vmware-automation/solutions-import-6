@@ -1,77 +1,26 @@
 #Success
-Blueprint has been successfully imported in  vCloud Application Director. 
+Blueprint has been successfully imported in vRealize Automation Application Services. 
 
 There are  few final steps you need to follow before performing this deployment.
 
-###Prerequisites:
+###Setup External Service Instances:
 
-Download the following files and keep it in local web server folder. 
+Create three "External Service Instances" in your Deployment Environment.  One External Service Instance is required per type of external instance.  
 
-	1. ZeusTM_93_Linux-x86_64
-	2. Jboss-5.1-0.GA.zip
-	
-###Deployment steps:
-1.Now click on deploy to deploy the application.
+This blueprint only uses three of the four available (the fourth is a "User-Provided Service" and is not needed for this blueprint).
 
-2.Enter name for deployment profile.
+See the example below.  If the "space" property value is available for the External Service Instance, please provide your Cloud Foundry space.  See the example below.
 
-Step1: Deployment Environment tab will be displayed. Enter proper values as per your environment and click next.
-
-Step2: Application Properties -> Service tab -> Stingray_traffic_Manager:
-
-	        a.  No changes in value
-
-
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/Service-Property-Stingray.png)
-
-
-		ii. Application Properties -> Service tab -> MySQL
-	
-	        a. db_root_password : Enter the database root password
-
-
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/Service-Property-MySql.png)
-	
-		iii.  Application Properties -> Service tab -> JbossAppServer 
-
-			a. JBOSS_JMX_PWD   : Enter the jboss JMX password
-
-
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/Service-Property-JBossAppServer.png)
-
-      
-      
-Step3: Application Properties -> Application Component tab
-
-       i. Application Properties -> Application tab -> initialize_db_script 
-
-	    a. db_password : Enter database password 
-    
-    
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/Application-Property-initialize-db-script.png)
-
-	ii. Application Properties -> Application tab ->Dukes_Bank_App
-		
-		 No changes in value
-
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/Application-Property-Dukes-Bank-App.png)
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Spring-Trader-BP-v1.0.0/screen1.png)
 
 	
-###Blueprint Canvas diagram for your reference: 
+###Update Credentials:
 
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/Blueprint-Canvas.png)
+Open the blueprint, click on the "Endpoint" node, and update the credentials to contain your Cloud Foundry credentials.  See example below.
+
+![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-6/Spring-Trader-BP-v1.0.0/screen2.png)
 
 ###Ready to go for deployment
-
-###Smoke test after deployment:
-
-Verify deployment by accessing URL http://WebPortal_IP/bank/main.faces
-
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/DukesBankSmoke1.png)
-
-![alt tag](https://raw.github.com/vmware-applicationdirector/solutions-import-beta/Clustered-Duke-Bank-Application-Blueprint-50/DukesBankSmoke2.png)
-
-
 
 
 
