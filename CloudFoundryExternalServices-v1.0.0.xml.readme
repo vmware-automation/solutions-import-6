@@ -1,0 +1,1 @@
+This solution contains only the External Services required to connect to a running Cloud Foundry instance.  For an example implementation blueprint, please search the marketplace for "Spring Trader", which includes not only these services but also a blueprint.

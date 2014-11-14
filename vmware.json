@@ -5,19 +5,26 @@
         },
         "applications": {
             "applicationDirectorWebImport": {
-                "exportFileName": "Oracle-SOA-Suite-11g-v1.0.0.xml",
-                "exportedFileReadme": "Oracle-SOA-Suite-11g-v1.0.0.xml.readme",
-                "importSectionHeader": "Oracle SOA Suite 11g",
-                "exportedWithAppDVersion": 6.0,
+                "exportFileName":"CloudFoundryExternalServices-v1.0.0.xml",
+                "exportedFileReadme":"CloudFoundryExternalServices-v1.0.0.xml.readme",
+                "importSectionHeader":"Cloud Foundry External Services",
+                "exportedWithAppDVersion": 6.1,
                 "optional": {
-                    "nextStepsMarkdownFile": "Oracle-SOA-Suite-11g-v1.0.0.xml.md",
-	            	"enableConsoleLogging": true,
-                    "exportedFileErrorReadme": "Oracle-SOA-Suite-11g-v1.0.0.xml.error.readme",
+                    "nextStepsMarkdownFile":"CloudFoundryExternalServices-v1.0.0.xml.md",
+		     "enableConsoleLogging":true,
+                    "exportedFileErrorReadme":"CloudFoundryExternalServices-v1.0.0.xml.error.readme",
                     "headerBulletPoints":[
-                        {"msg": "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.0. If you need this solution for <a href='http://www.vmware.com/files/pdf/vfabric/VMware-vFabric-Application-Director-Datasheet.pdf'> vFabric Application Director</a> 5.x please contact the developer <a href='mailto:sunil@trymaran.com'>here</a>"},
+                        {"msg": "A blueprint is a visual model for deployment topology. This page has an import utility that allows you to automatically render the selected application blueprint into vCloud Application Director 6.1. Previous versions are NOT supported"},
                         {"msg": "Your Application Director instance needs to be network accessible for the import utility to work"},
                         {"msg": "You need to have Catalog Admin and Application Architect roles to use import the blueprint into your instance of Application Director"},
                         {"msg": "If you do not have an instance of Application Director, contact us at <a href='mailto:app-mgmt-partner-support@vmware.com'>Marketplace Support</a>"}
+                    ],                    
+                    "appdVersions": [{
+                        "name": "6.1",
+                        "version": "6.1",
+                        "exportFileName": "CloudFoundryExternalServices-v1.0.0.xml",
+                        "nextStepsMarkdownFile": "CloudFoundryExternalServices-v1.0.0.xml.md"
+                    }
                     ]
                 }
             }
